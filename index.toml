@@ -5314,6 +5314,11 @@ hash = "7bf44be8e11afaabe88ddc1d079436398530f33296081a70dfcd243448fda01a"
 metafile = true
 
 [[files]]
+file = "mods/advanced-core-info.pw.toml"
+hash = "260d28d035348500a3d54830170a0db5250834b7b3ec33d80e084b797b608eba"
+metafile = true
+
+[[files]]
 file = "mods/advanced-loot-info.pw.toml"
 hash = "8b504bd29dd249ad39ad27177c91e652a4aea8e75db3e98abd23fecd9ae021b6"
 metafile = true
