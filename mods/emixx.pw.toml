@@ -1,13 +1,13 @@
 name = "EMI++"
-filename = "emixx-2.0.0.jar"
+filename = "emixx-2.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "cbf70eed52009ce3bfd33eaa30e057055062aba7"
+hash = "e7b9188675a1acfe6b7132cab2f941a3f2766208"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8225184
+file-id = 8465046
 project-id = 1335150

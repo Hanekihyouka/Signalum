@@ -1,12 +1,12 @@
 name = "imc-12th"
 author = "haneki"
-version = "1.9.11"
+version = "1.9.12"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "8224fad594ba3984dd3e999ebe6016c0d21183649d0fb0cd665602b6d66eaa55"
+hash = "bd6b3f5363bfb113cd8e20944b031514ecd67033cf1d9a210e32cf5f2b8b4d76"
 
 [versions]
 minecraft = "1.21.1"

@@ -1,13 +1,13 @@
 name = "ViScriptShop Market"
-filename = "vss_market-1.0.2.jar"
+filename = "vss_market-1.0.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8b0939114444afb88ad7e0891a657185e2cc67fd"
+hash = "60b78300a69f2574bca88097cdf3ca4981ce6b3a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8211595
+file-id = 8818519
 project-id = 1535493

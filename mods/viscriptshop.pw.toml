@@ -1,13 +1,13 @@
 name = "ViScriptShop"
-filename = "ViScriptShop-neoforge-1.21.1-1.1.8.jar"
+filename = "ViScriptShop-neoforge-1.21.1-1.2.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b1c564f0a52573579262eefdfb50f66a8fe42fd0"
+hash = "af8352ca375aa57a2b051796f36aa78c97111280"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8318336
+file-id = 8813605
 project-id = 1408178
