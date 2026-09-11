@@ -6213,6 +6213,11 @@ hash = "5d5b144eb42a6a6d505c720a3f04c6b84be39165ccf08c3f1a01dabf0e75b2ac"
 metafile = true
 
 [[files]]
+file = "mods/watermedia.pw.toml"
+hash = "0528731743be7df4ba5a8952264861920f90475ed333f914fddea75473cd6012"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "c7f4b4f9de801780ebe4a79ad468bec6febd8239796ef84e6d8dab905384ca73"
 metafile = true
