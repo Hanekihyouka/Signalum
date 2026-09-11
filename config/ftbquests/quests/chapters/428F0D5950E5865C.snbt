@@ -1,0 +1,635 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "428F0D5950E5865C"
+	group: "0402D7EC2A2A605C"
+	icon: {
+		id: "twilightforest:magic_map_focus"
+	}
+	id: "428F0D5950E5865C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "supplementaries:textures/map/decorations/twilight_portal.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7D2DE7CC1D8A3F96"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "4B4B2F81D1D3E376"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7940E079036B7662"]
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/naga_courtyard.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "70C747AEC7DFFA46"
+			tasks: [{
+				id: "68BFDE5CE9D54A8B"
+				item: { count: 1, id: "twilightforest:naga_trophy" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70C747AEC7DFFA46"]
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/lich_tower.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "37834EEFD0DD7534"
+			tasks: [{
+				id: "18289641F60284F5"
+				item: { count: 1, id: "twilightforest:lich_trophy" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37834EEFD0DD7534"]
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/labyrinth.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "373A92AAFFBFC712"
+			tasks: [{
+				id: "733DB5935B563883"
+				item: { count: 1, id: "twilightforest:minoshroom_trophy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["373A92AAFFBFC712"]
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/hydra_lair.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "114647EAC99817C9"
+			tasks: [{
+				id: "22910D53BFC14E3C"
+				item: { count: 1, id: "twilightforest:hydra_trophy" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37834EEFD0DD7534"]
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/knight_stronghold.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0CDEDE0822BF870F"
+			tasks: [{
+				id: "637CE50C6A280F52"
+				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CDEDE0822BF870F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/dark_tower.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2292B99F7D4E5E82"
+			tasks: [{
+				id: "3BA3BADD920B67CE"
+				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37834EEFD0DD7534"]
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/yeti_lair.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "54C16092AAC70725"
+			tasks: [{
+				id: "57D393AFE212921A"
+				item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54C16092AAC70725"]
+			icon: {
+				components: {
+					"ftbquests:icon": "twilightforest:textures/map/decorations/aurora_palace.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0CC7DD581F902F23"
+			tasks: [{
+				id: "257EEDBA44E10C66"
+				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2292B99F7D4E5E82"
+				"114647EAC99817C9"
+				"0CC7DD581F902F23"
+			]
+			id: "2D7E9708C7CE1B16"
+			tasks: [{
+				id: "0BCD063504E58A64"
+				item: { count: 1, id: "twilightforest:lamp_of_cinders" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:hydra_trophy"
+			}
+			id: "6B2D9CED2D217C7A"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 128
+				id: "316C22A4A8F36A01"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "51D1651CDAD44D3E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:ur_ghast_trophy"
+			}
+			id: "71270B2C1746FDB6"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 128
+				id: "6C882890982B0F11"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "11DA23417D492D4D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:snow_queen_trophy"
+			}
+			id: "34737C00054BDA7E"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 128
+				id: "3884FCD5FD1FDCC9"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "3DF7979A7CFE24BD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:knight_phantom_trophy"
+			}
+			id: "4845F5047131E920"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 64
+				id: "3461043C748D974F"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "56A40816B2C722D8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:minoshroom_trophy"
+			}
+			id: "7ECF99FF68DFAECC"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 64
+				id: "434C2844756A0D18"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "37B96DC8EFA91CB8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:alpha_yeti_trophy"
+			}
+			id: "34906B4B8648DAB3"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 64
+				id: "50795CADC87D146D"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "70566C10A84BCBDF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:lich_trophy"
+			}
+			id: "639B184D9F0C1C8A"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 32
+				id: "5188BE9C672691A0"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "7EB903B25234D7D2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:naga_trophy"
+			}
+			id: "4FC5CD54E7F21A0A"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 16
+				id: "13C20C5A55AB91EE"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "69A04933643D279A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			id: "5F5A3E6A1147AC2D"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 144
+				id: "4D80D689BDA69E7F"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "13F3F43B4A0582D8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			id: "5C3DF06EA42FC78D"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 144
+				id: "371DE5622866FF3D"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "1DA5A58FE8158F75"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			id: "781E64E1FB7D784B"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 144
+				id: "0A62B38BBD8AB0A5"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "57FDBC03706FDD58"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			id: "41123687AF5AAB88"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 144
+				id: "671FF3A31D723CF5"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "22C8C6E81D860CE9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			id: "3E22C9A2D374833A"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 144
+				id: "27DC76E06BBFBE3D"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "1392CE103B7908E7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			id: "630F5AD7F954AE32"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 144
+				id: "0F319B50A5BBEAD4"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "3300B21E2F7D014F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			id: "4A2E641143C26B31"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 144
+				id: "73803571AFFA98C3"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "678078AA096E719D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			id: "3B2BC3190D6159B7"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 144
+				id: "65638240BB3A9C75"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "019CFA2ED4188864"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "433A68A8D9E7535A"
+			repeat_cooldown: 43200
+			shape: "diamond"
+			size: 1.75d
+			tasks: [{
+				id: "4A6F239D37C198FB"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["7D2DE7CC1D8A3F96"]
+			id: "7940E079036B7662"
+			tasks: [{
+				id: "7499620A0DAB800F"
+				item: { count: 1, id: "twilightforest:magic_map_focus" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D7E9708C7CE1B16"]
+			id: "34D845BB6CAD4961"
+			tasks: [{
+				id: "4F7E07A4C7F89E74"
+				item: { count: 1, id: "create:creative_blaze_cake" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:ender_dragon"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6CE0DADA3E7D1A98"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 64
+				id: "5706C5282ECE167D"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "2C88B428A3FBDD9C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:wither"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "15A45CDACA08E17E"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 32
+				id: "44DEEE0D6FB51128"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "7E4FA36B4F7FF55A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:guardian"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4AC750E732162F56"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 32
+				id: "5827E18B254DC94B"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "4F79494737FBBEC3"
+				type: "kill"
+				value: 2L
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "24E70042AC6BCA86"
+			repeat_cooldown: 43200
+			rewards: [{
+				amount: 128
+				id: "78340429DF052E1F"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:warden"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "72E27E4821AE8366"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+	]
+}

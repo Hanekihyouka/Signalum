@@ -1,0 +1,276 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_0_welcome"
+	group: "0402D7EC2A2A605C"
+	icon: {
+		components: {
+			"ftbquests:icon": "ftbquests:textures/gui/info.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "53CF799A560D1DCB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59181B3A9EBB2A6E"
+			tasks: [{
+				id: "007752F93A5886E0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1563BA4372A40098"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/friends"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3F811D67E695372F"
+			rewards: [{
+				command: "/ftbranks add @p nick_team"
+				id: "7071A717431F68A4"
+				permission_level: 4
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "65664799172969C6"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1563BA4372A40098"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/player_gray"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0CF87C6443DED1E7"
+			rewards: [{
+				command: "/ftbranks add @p nick_team"
+				id: "68581A20196003D2"
+				permission_level: 4
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "68F5D758ED6B117E"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "viscript_shop:textures/coin.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7E50478F44580718"
+			rewards: [{
+				id: "366B262BB4B6270D"
+				item: {
+					count: 1
+					id: "farmersdelight:melon_popsicle"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "73A46BE40AB2FF43"
+					item: { count: 1, id: "magic_coins:crystal_coin" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C744AFBDD509672"
+					item: { count: 1, id: "magic_coins:gold_coin" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7154792B36C89BCA"
+					item: { count: 1, id: "magic_coins:silver_coin" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "viscript_shop:textures/shop.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "312C2F4E547D7DFE"
+			rewards: [{
+				command: "/viscript_shop open common"
+				icon: {
+					components: {
+						"ftbquests:icon": "viscript_shop:textures/shop.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "7AAECC6D25FA1473"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1075602DBC1E3D4D"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/shop.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1A3F5609B3310C5A"
+			rewards: [{
+				command: "/vss_market open"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftbquests:textures/gui/shop.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "2C0A3B0EADA97278"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2BF9E437F621AB01"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/nether_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "09ACA72665464E49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55E7363594A64463"
+				table_id: 3988067556676276284L
+				type: "choice"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "154879DC234A017D"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/decoration/command.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "12AFC0CC115196DA"
+			tasks: [{
+				id: "22981F0C87157892"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/friends_group"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1563BA4372A40098"
+			shape: "gear"
+			tasks: [{
+				id: "6BF3C222020BA90D"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "supplementaries:globe"
+			}
+			id: "1A98867915170F5E"
+			rewards: [{
+				id: "5EA5197052016D81"
+				item: {
+					components: {
+						"minecraft:lore": [
+							"{\"extra\":[{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"感谢您分享精美截图\",\"underlined\":false}],\"text\":\"\"}"
+							"{\"extra\":[{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"玩家交流论坛 \",\"underlined\":false},{\"bold\":false,\"color\":\"dark_aqua\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"imc.moe\",\"underlined\":false}],\"text\":\"\"}"
+							"{\"extra\":[{\"bold\":false,\"color\":\"gray\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"邀请码 KFCVW50\",\"underlined\":false}],\"text\":\"\"}"
+						]
+					}
+					count: 1
+					id: "worldcomment:comment_tool"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "10A0DA25018DAA26"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"59181B3A9EBB2A6E"
+				"7E50478F44580718"
+				"1563BA4372A40098"
+				"12AFC0CC115196DA"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1A0D09496C6194BD"
+			shape: "none"
+			tasks: [{
+				id: "15938248E1D1D0B5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "Kaleidoscope Twilight"
+filename = "kaleidoscope_twilight-1.0.5-neoforge+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9920a176abb7ccc24df994361557061ba23d9d04"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8285296
+project-id = 1525243

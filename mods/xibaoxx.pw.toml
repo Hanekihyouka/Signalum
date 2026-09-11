@@ -1,0 +1,13 @@
+name = "XiBaoXX"
+filename = "xibaoxx-neoforge-1.2.3 (1).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cd74659018c0da9071861626c08839959c763b94"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5827474
+project-id = 1125053

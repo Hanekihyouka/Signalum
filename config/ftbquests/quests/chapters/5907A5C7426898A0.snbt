@@ -1,0 +1,1019 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "5907A5C7426898A0"
+	group: "3BA1895201BB8DA0"
+	icon: {
+		id: "create:cardboard_chestplate"
+	}
+	id: "5907A5C7426898A0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6FCF02C6B43F87E4"
+			tasks: [{
+				id: "0E3BDA5583B9A4CF"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FCF02C6B43F87E4"]
+			id: "6C1EEA16803CAA3D"
+			tasks: [{
+				id: "2CAEEEB07E7B80C9"
+				item: { count: 1, id: "apothic_enchanting:hellshelf" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C1EEA16803CAA3D"]
+			id: "6F2615C4E0D393D7"
+			tasks: [{
+				id: "50F2CD75B2328FB6"
+				item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F2615C4E0D393D7"]
+			id: "30D29C2070B14E98"
+			tasks: [{
+				id: "21CC2A41A9586F35"
+				item: { count: 1, id: "apothic_enchanting:deepshelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30D29C2070B14E98"]
+			id: "5D9CAEAD43B8D020"
+			tasks: [{
+				id: "715BA1CDD3FD916F"
+				item: { count: 1, id: "apothic_enchanting:endshelf" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "2E768C4EE6C7FFD4"
+			tasks: [{
+				id: "5774CD47103DA9EC"
+				item: { count: 1, id: "apothic_enchanting:library" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E768C4EE6C7FFD4"]
+			id: "378E0D071CD301C1"
+			tasks: [{
+				id: "67085A2F43DA19B9"
+				item: { count: 1, id: "apothic_enchanting:ender_library" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "6A25ADFE0E76A4B9"
+			rewards: [{
+				id: "4DA0D0BC6F9A9C09"
+				item: {
+					count: 1
+					id: "minecraft:smithing_table"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DC6F078F2A6E9BA"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(apothic_enchanting:cannot_be_converted_to_xp)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A25ADFE0E76A4B9"]
+			id: "1BBF6B7E0EE12DE3"
+			tasks: [{
+				id: "790928156946E91C"
+				item: { count: 1, id: "apotheosis:gem_dust" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BBF6B7E0EE12DE3"]
+			id: "3CF40D6875B7CA3D"
+			tasks: [{
+				id: "3AA7A290FB361B12"
+				item: { count: 1, id: "apotheosis:simple_reforging_table" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CF40D6875B7CA3D"]
+			id: "40FD06546518B8A3"
+			tasks: [{
+				id: "2856D2739B8152C2"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "4A8C41833B456797"
+			tasks: [{
+				id: "1E29D3BBCFB07EC3"
+				item: { count: 1, id: "apotheosis:gem_case" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A8C41833B456797"]
+			id: "36E4171E1B2B96F9"
+			tasks: [{
+				id: "36F7B5A7A5F267F7"
+				item: { count: 1, id: "apotheosis:ender_gem_case" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56C2ACC01012B61F"]
+			id: "2C926E56A2B6C041"
+			tasks: [{
+				id: "5DCB521C69C227EB"
+				item: { count: 1, id: "apotheosis:augmenting_table" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BBF6B7E0EE12DE3"]
+			id: "56C2ACC01012B61F"
+			tasks: [{
+				id: "0EB9D14DBF28CB6F"
+				item: { count: 1, id: "apotheosis:salvaging_table" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BBF6B7E0EE12DE3"]
+			id: "2A54F4DC8F06D269"
+			tasks: [{
+				id: "6C86E2C993BE85D4"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "apotheosis:textures/gui/book/haven_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3D6B6F3F895A49B7"
+			rewards: [{
+				id: "42A469D60B2F28BC"
+				item: {
+					components: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "6642268DA7298FF9"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5098C6CB1F828013"]
+			id: "424515E632315A7C"
+			shape: "diamond"
+			tasks: [{
+				id: "12AE754988C7A3BD"
+				item: { count: 1, id: "apotheosis:sigil_of_socketing" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5098C6CB1F828013"]
+			id: "3DF7603B85420E09"
+			shape: "diamond"
+			tasks: [{
+				id: "223707A6EFAD6B0B"
+				item: { count: 1, id: "apotheosis:sigil_of_withdrawal" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5098C6CB1F828013"]
+			id: "4A51C2E87007DF4E"
+			shape: "diamond"
+			tasks: [{
+				id: "52B377C80A10C4AE"
+				item: { count: 1, id: "apotheosis:sigil_of_rebirth" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5098C6CB1F828013"]
+			id: "6FC7BDE9DFA7547F"
+			shape: "diamond"
+			tasks: [{
+				id: "501A155FFEEB0E46"
+				item: { count: 1, id: "apotheosis:sigil_of_enhancement" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5098C6CB1F828013"]
+			id: "2FB0478E0EB05DD3"
+			shape: "diamond"
+			tasks: [{
+				id: "14A1A931B9B23032"
+				item: { count: 1, id: "apotheosis:sigil_of_unnaming" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5098C6CB1F828013"]
+			id: "1D2BB6B1FEFE969B"
+			shape: "diamond"
+			tasks: [{
+				id: "56CC515C4F743261"
+				item: { count: 1, id: "apotheosis:sigil_of_malice" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5098C6CB1F828013"]
+			id: "52CC73E9DF52035C"
+			shape: "diamond"
+			tasks: [{
+				id: "48DE2B094B9EAD02"
+				item: { count: 1, id: "apotheosis:sigil_of_supremacy" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BBF6B7E0EE12DE3"]
+			id: "5098C6CB1F828013"
+			rewards: [{
+				count: 32
+				id: "556EC58993B48630"
+				item: {
+					count: 1
+					id: "apotheosis:gem_fused_slate"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "78B3D0FCCEC24AAE"
+				item: { count: 1, id: "apotheosis:gem_fused_slate" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D6B6F3F895A49B7"]
+			id: "7B7E99D25AABC59F"
+			tasks: [{
+				id: "46CB128218D62DF9"
+				item: { components: { "gateways:gateway": "apotheosis:tiered/pinnacle" }, count: 1, id: "gateways:gate_pearl" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "0458D88B9FFB254E"
+			shape: "none"
+			tasks: [{
+				id: "158721CCCF427D41"
+				item: { count: 1, id: "mekanism:mekasuit_helmet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "2D6774893A4A08F9"
+			shape: "none"
+			tasks: [{
+				id: "21BE84A6D13DE34F"
+				item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "7A3B0A62175151A5"
+			shape: "none"
+			tasks: [{
+				id: "3668D867B310F83B"
+				item: { count: 1, id: "mekanism:mekasuit_pants" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			id: "33717C2DF740103B"
+			shape: "none"
+			tasks: [{
+				id: "400E79BEE703EA25"
+				item: { count: 1, id: "mekanism:mekasuit_boots" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0458D88B9FFB254E"
+				"2D6774893A4A08F9"
+				"7A3B0A62175151A5"
+				"33717C2DF740103B"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0AE7C93B69FBF413"
+			rewards: [{
+				id: "6ED8D193D60F213F"
+				item: {
+					count: 1
+					id: "transmog:void_fragment"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1E3ED8E56692CBAB"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3702C108014106E6"
+				"5D5FE59A9E1312CF"
+				"2C48E074B8332695"
+				"2BBA192739C8ECB3"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3DDCB68496F3E297"
+			rewards: [{
+				id: "2688F793FAF50624"
+				item: {
+					count: 1
+					id: "transmog:void_fragment"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "73131D8833B27216"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "3702C108014106E6"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "189FF10D37D69DE5"
+				item: { count: 1, id: "advanced_ae:quantum_helmet" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "5D5FE59A9E1312CF"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "27C4F901F617333D"
+				item: { count: 1, id: "advanced_ae:quantum_chestplate" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "2C48E074B8332695"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "20EAB6EC8934F562"
+				item: { count: 1, id: "advanced_ae:quantum_leggings" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "2BBA192739C8ECB3"
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				id: "12D3844573CC10D1"
+				item: { count: 1, id: "advanced_ae:quantum_boots" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"29B0F59FBC85CED7"
+				"6BD83CF523A14DEA"
+				"66B622542A951F24"
+				"13D8C583137EADFF"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3C6EB139A898E5F4"
+			rewards: [{
+				id: "1FD9D2F56A61B395"
+				item: {
+					count: 1
+					id: "transmog:void_fragment"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "02DFB53030041BF3"
+					type: "checkmark"
+				}
+				{
+					id: "39FB601C23476350"
+					item: { count: 1, id: "justdirethings:upgrade_blank" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "29B0F59FBC85CED7"
+			shape: "none"
+			tasks: [{
+				id: "1E8FC2CFEAC0005E"
+				item: { count: 1, id: "justdirethings:eclipsealloy_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "6BD83CF523A14DEA"
+			shape: "none"
+			tasks: [{
+				id: "3D2C1812DF9105B4"
+				item: { count: 1, id: "justdirethings:eclipsealloy_chestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "66B622542A951F24"
+			shape: "none"
+			tasks: [{
+				id: "0F4DAF1FF62BBA26"
+				item: { count: 1, id: "justdirethings:eclipsealloy_leggings" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			id: "13D8C583137EADFF"
+			shape: "none"
+			tasks: [{
+				id: "0042D5E4D1F21A83"
+				item: { count: 1, id: "justdirethings:eclipsealloy_boots" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"013B4DCF9CDF9403"
+				"48195ED2A1ADB80A"
+				"7DB9C660D1B78345"
+				"374A3D7447000DF9"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5EBDE5A3E782920F"
+			shape: "diamond"
+			tasks: [{
+				id: "5C954E21D133E50A"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "013B4DCF9CDF9403"
+			shape: "none"
+			tasks: [{
+				id: "4EE90A48536B3C90"
+				item: { count: 1, id: "create:cardboard_helmet" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			id: "7DB9C660D1B78345"
+			shape: "none"
+			tasks: [{
+				id: "14D376221DA8D563"
+				item: { count: 1, id: "create:cardboard_chestplate" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "48195ED2A1ADB80A"
+			shape: "none"
+			tasks: [{
+				id: "60787A0F05C9214E"
+				item: { count: 1, id: "create:cardboard_leggings" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			id: "374A3D7447000DF9"
+			shape: "none"
+			tasks: [{
+				id: "3C5A871FB19FFC7A"
+				item: { count: 1, id: "create:cardboard_boots" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			id: "722A8EA331A67EF0"
+			shape: "none"
+			tasks: [{
+				id: "7226E4DF7DA309EB"
+				item: { count: 1, id: "mekanismtools:osmium_helmet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "2D339060DCC8CB37"
+			shape: "none"
+			tasks: [{
+				id: "0CD4FB90B7EC5070"
+				item: { count: 1, id: "mekanismtools:osmium_chestplate" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "35E95044A98BB688"
+			shape: "none"
+			tasks: [{
+				id: "01686A2F858B17CA"
+				item: { count: 1, id: "mekanismtools:osmium_leggings" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "7167E4A7A50CDC0A"
+			shape: "none"
+			tasks: [{
+				id: "77CDD9B8516295DE"
+				item: { count: 1, id: "mekanismtools:osmium_boots" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"722A8EA331A67EF0"
+				"2D339060DCC8CB37"
+				"35E95044A98BB688"
+				"7167E4A7A50CDC0A"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7122452EEAA10B83"
+			rewards: [{
+				id: "27CD9B49327B41E8"
+				item: {
+					count: 1
+					id: "transmog:void_fragment"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5A1759A4A29A577F"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "329F3A3605F21B1B"
+			shape: "none"
+			tasks: [{
+				id: "2843F61BF7E6A80D"
+				item: { count: 1, id: "mekanism:hazmat_mask" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "5A72F69A3FB68D3C"
+			shape: "none"
+			tasks: [{
+				id: "32414E85B9751965"
+				item: { count: 1, id: "mekanism:hazmat_gown" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "28196FDF734CD89C"
+			shape: "none"
+			tasks: [{
+				id: "68BC84A5A1403CF9"
+				item: { count: 1, id: "mekanism:hazmat_pants" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "00D61FE5AD1F6436"
+			shape: "none"
+			tasks: [{
+				id: "2DE6BAA921B436F0"
+				item: { count: 1, id: "mekanism:hazmat_boots" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"329F3A3605F21B1B"
+				"5A72F69A3FB68D3C"
+				"28196FDF734CD89C"
+				"00D61FE5AD1F6436"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info_gray"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6753E127E276E686"
+			rewards: [{
+				id: "11E8BAC0AA11FA93"
+				item: {
+					count: 1
+					id: "mekanism:geiger_counter"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "123A6FC6D66AA662"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "457B21B960C35C3F"
+			shape: "none"
+			tasks: [{
+				id: "58F8B1642D70CDF3"
+				item: { count: 1, id: "cataclysm:ignitium_helmet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:ignitium_elytra_chestplate"
+			}
+			id: "4A0D5DC568F94AF5"
+			shape: "none"
+			tasks: [
+				{
+					id: "6EE1B2FF999AC864"
+					item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1EA990878A62EDB8"
+					item: { count: 1, id: "cataclysm:ignitium_elytra_chestplate" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			id: "00827F1E38184613"
+			shape: "none"
+			tasks: [{
+				id: "3ED69D661AD75058"
+				item: { count: 1, id: "cataclysm:ignitium_leggings" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			id: "0E914EDA1912C168"
+			shape: "none"
+			tasks: [{
+				id: "556E1591294EF606"
+				item: { count: 1, id: "cataclysm:ignitium_boots" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"457B21B960C35C3F"
+				"4A0D5DC568F94AF5"
+				"00827F1E38184613"
+				"0E914EDA1912C168"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "676897D686227F92"
+			shape: "diamond"
+			tasks: [{
+				id: "072711FDB1D3F9C9"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0A3AC8564A3F6E0A"
+				"3812852851BB7FF4"
+				"4D1413D35B49B6FD"
+				"549BE52817DB4215"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4CC06254B7FC69E4"
+			shape: "diamond"
+			tasks: [{
+				id: "3C1EC2BBB42C7F67"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "0A3AC8564A3F6E0A"
+			shape: "none"
+			tasks: [{
+				id: "334A2A6680B7C075"
+				item: { count: 1, id: "cataclysm:cursium_helmet" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			id: "3812852851BB7FF4"
+			shape: "none"
+			tasks: [{
+				id: "7033406E578E1C7F"
+				item: { count: 1, id: "cataclysm:cursium_chestplate" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "4D1413D35B49B6FD"
+			shape: "none"
+			tasks: [{
+				id: "24B89D1615B9F6F2"
+				item: { count: 1, id: "cataclysm:cursium_leggings" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			id: "549BE52817DB4215"
+			shape: "none"
+			tasks: [{
+				id: "729FC0E07B676D9A"
+				item: { count: 1, id: "cataclysm:cursium_boots" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5A7899A859630707"
+				"31F7D02AF1CF2D3B"
+				"7EEC8FB226A0767B"
+				"264A68EB31394907"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3FC47616D7F70EF7"
+			shape: "diamond"
+			tasks: [{
+				id: "055D67FDC1E85FEE"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			id: "5A7899A859630707"
+			shape: "none"
+			tasks: [{
+				id: "169B0C4CF7CCF5C2"
+				item: { count: 1, id: "twilightforest:travellers_goggles" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			id: "264A68EB31394907"
+			shape: "none"
+			tasks: [{
+				id: "4BF88EE0B7622796"
+				item: { count: 1, id: "twilightforest:travellers_vest" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			id: "7EEC8FB226A0767B"
+			shape: "none"
+			tasks: [{
+				id: "22DED017A1459C7B"
+				item: { count: 1, id: "twilightforest:travellers_boots" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			id: "31F7D02AF1CF2D3B"
+			shape: "none"
+			tasks: [
+				{
+					id: "06D5AE3927EB5C79"
+					item: { count: 1, id: "twilightforest:travellers_belt" }
+					type: "item"
+				}
+				{
+					id: "618195DDFC947B1E"
+					item: { count: 1, id: "twilightforest:travellers_wings" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 5.5d
+		}
+	]
+}

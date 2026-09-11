@@ -1,0 +1,13 @@
+name = "Silent Screenshots"
+filename = "silentscreenshots-2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa71105b9d61fec2f0c79cad4c82fa7635a4b5e7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6182220
+project-id = 955236

@@ -1,0 +1,634 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "452EFD912A5B1560"
+	group: "3BA1895201BB8DA0"
+	icon: {
+		id: "laserio:laser_wrench"
+	}
+	id: "452EFD912A5B1560"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3CDB9194CF533B7B"]
+			id: "576FBD3CFDC1E659"
+			rewards: [{
+				count: 2
+				id: "50763E1C8422D39E"
+				item: {
+					count: 1
+					id: "laserio:card_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60E2E7737C1999D7"
+				item: { count: 1, id: "laserio:laser_node" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "3CDB9194CF533B7B"
+			rewards: [{
+				count: 4
+				id: "796BC26A66BE0C6F"
+				item: {
+					count: 1
+					id: "laserio:laser_node"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F6F4606D80F60ED"
+				item: { count: 1, id: "laserio:laser_connector" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CDB9194CF533B7B"]
+			id: "2869B59F7DF667E5"
+			rewards: [{
+				count: 4
+				id: "75F42ECA081D9C5F"
+				item: {
+					count: 1
+					id: "laserio:card_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AF190CA3F3AD50A"
+				item: { count: 1, id: "laserio:card_item" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3CDB9194CF533B7B"]
+			id: "3E6B81C6A1AFFD74"
+			tasks: [{
+				id: "450DD5BF75A9BD30"
+				item: { count: 1, id: "laserio:card_fluid" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CDB9194CF533B7B"]
+			id: "4859E4C617EED0FC"
+			tasks: [{
+				id: "38CEBF4AC88FFDFB"
+				item: { count: 1, id: "laserio:card_energy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3CDB9194CF533B7B"]
+			id: "6FAD06528DAB5697"
+			tasks: [{
+				id: "0D8264749CECC90A"
+				item: { count: 1, id: "laserio:card_redstone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CDB9194CF533B7B"]
+			id: "5CF3CE58B928095B"
+			tasks: [{
+				id: "0AFC96F59EA6C2AF"
+				item: { count: 1, id: "laserio:card_chemical" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CDB9194CF533B7B"]
+			id: "77D716FF251CEC7C"
+			tasks: [{
+				id: "1E409F47F0E42A51"
+				item: { count: 1, id: "laserio:overclocker_node" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CDB9194CF533B7B"]
+			id: "56A399CC5F302E55"
+			tasks: [{
+				id: "7602EBA8337B2396"
+				item: { count: 1, id: "laserio:overclocker_card" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3CDB9194CF533B7B"]
+			id: "1326B2A2B2372AC9"
+			tasks: [{
+				id: "20A082E76F6EFB28"
+				item: { count: 1, id: "laserio:filter_basic" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CDB9194CF533B7B"]
+			id: "3E8DEFB7BA79F4EE"
+			rewards: [{
+				id: "7E95111D8BC41826"
+				item: {
+					count: 1
+					id: "laserio:laser_wrench"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "48F0192DD8FE26A7"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "6F3C26AC2192E4D5"
+			rewards: [
+				{
+					id: "3307C1F312D19FD4"
+					item: {
+						count: 1
+						id: "functionalstorage:linking_tool"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "2CBFC3136301E7E2"
+					item: {
+						count: 1
+						id: "functionalstorage:configuration_tool"
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "6CEA37A6BFFE2949"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F3C26AC2192E4D5"]
+			id: "64E209D4D8158C25"
+			tasks: [{
+				id: "256AA0130FC1B588"
+				item: { count: 1, id: "functionalstorage:storage_controller" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "0CF214C7DFBE4AA4"
+			rewards: [{
+				id: "5F1477015C1153EB"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:feeding_upgrade"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "19752846C1A112CF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(accessories:back)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F3C26AC2192E4D5"]
+			icon: {
+				id: "functionalstorage:oak_1"
+			}
+			id: "49DB5F43ACDBA838"
+			tasks: [{
+				id: "3C3E328C615AA952"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F3C26AC2192E4D5"]
+			id: "5B017371EEDE087A"
+			tasks: [{
+				id: "3853B4A340313EAA"
+				item: { count: 1, id: "functionalstorage:ender_drawer" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F3C26AC2192E4D5"]
+			id: "52740893CCFE1228"
+			tasks: [{
+				id: "66E30646C29C345E"
+				item: { count: 1, id: "functionalstorage:armory_cabinet" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F3C26AC2192E4D5"]
+			icon: {
+				id: "functionalstorage:compacting_drawer"
+			}
+			id: "2D6464B77E4DDAB1"
+			tasks: [
+				{
+					id: "6A8FF5ADBAC32AFF"
+					item: { count: 1, id: "functionalstorage:compacting_drawer" }
+					type: "item"
+				}
+				{
+					id: "18039C8735BF0600"
+					item: { count: 1, id: "functionalstorage:simple_compacting_drawer" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6F3C26AC2192E4D5"]
+			id: "559C4E4AB3D591C4"
+			rewards: [{
+				count: 4
+				id: "14AB972C57BAE399"
+				item: {
+					count: 1
+					id: "functionalstorage:void_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BF9134FA915E26A"
+				item: { count: 1, id: "functionalstorage:void_upgrade" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6F3C26AC2192E4D5"]
+			icon: {
+				id: "functionalstorage:fluid_1"
+			}
+			id: "57610767B85D8547"
+			tasks: [{
+				id: "20E8F402DD286A4E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:fluid_drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "2BD5F5FC06C726B1"
+			tasks: [{
+				id: "21E0CD646EE03EEB"
+				item: { count: 1, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "0C0FF174A231BEA2"
+			tasks: [{
+				id: "650E284CA06EBF23"
+				item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "76A9336D2F74717C"
+			tasks: [{
+				id: "45238542762BDA39"
+				item: { count: 1, id: "industrialforegoing:conveyor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "3E85FA9A31A314D5"
+			tasks: [{
+				id: "7F7236C956295A12"
+				item: { count: 1, id: "mob_grinding_utils:entity_conveyor" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "4C63C1A869C3E65F"
+			tasks: [{
+				id: "40D3DAC91E2459FF"
+				item: { count: 1, id: "darkutils:vector_plate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "37472F878F078D7D"
+			tasks: [{
+				id: "7A83DAA00F09FAA6"
+				item: { count: 1, id: "darkutils:vector_plate_ultra" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "5B4DDFED3D1676D6"
+			tasks: [{
+				id: "43EB5103501BE8B2"
+				item: { count: 1, id: "industrialforegoing:item_transporter_type" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "54CE4E103CB1B01A"
+			tasks: [{
+				id: "36B80E66B418DDC6"
+				item: { count: 1, id: "industrialforegoing:fluid_transporter_type" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "6EB5377D9D0072F2"
+			shape: "diamond"
+			tasks: [{
+				id: "67844E55927A26F2"
+				item: { count: 1, id: "mekanism:basic_logistical_transporter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "4178998D550FD284"
+			shape: "diamond"
+			tasks: [{
+				id: "77219698B66E7F13"
+				item: { count: 1, id: "mekanism:basic_mechanical_pipe" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "14B38D2FA48FEE6B"
+			shape: "diamond"
+			tasks: [{
+				id: "6078AC05682C450B"
+				item: { count: 1, id: "mekanism:basic_pressurized_tube" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "05983612ED8CC570"
+			shape: "diamond"
+			tasks: [{
+				id: "0B65D6E00CF2E21B"
+				item: { count: 1, id: "mekanism:basic_universal_cable" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "59FEFC3BDFD591FC"
+			rewards: [{
+				count: 16
+				id: "20EE49FCD063C136"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_dust"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D72B5AD6D6ECC77"
+				item: { count: 1, id: "fluxnetworks:flux_dust" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "4F52C4C88E1C4B4E"
+			tasks: [{
+				id: "6F16C28EB14C6F22"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "541B337E349AABAD"
+			shape: "diamond"
+			tasks: [{
+				id: "4522AAFF67F993C4"
+				item: { count: 1, id: "trashcans:item_trash_can" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			id: "771F05A1EBB2ACEF"
+			shape: "diamond"
+			tasks: [{
+				id: "18253C9F0A3CBA90"
+				item: { count: 1, id: "trashcans:ultimate_trash_can" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			id: "60E0D64A24FD2F8E"
+			shape: "diamond"
+			tasks: [{
+				id: "140B8789DCE61BE6"
+				item: { count: 1, id: "justdynathings:blackhole" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			id: "6253CB4318AB0FED"
+			shape: "diamond"
+			tasks: [{
+				id: "169E64C6FD661D5A"
+				item: { count: 1, id: "ae2:condenser" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "sophisticatedbackpacks:upgrade_base"
+			}
+			id: "55D4ACE5D2D1F722"
+			rewards: [{
+				count: 4
+				id: "5BAAC87F34FAE30E"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4B4A8E0869655A80"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedbackpacks:upgrade)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			icon: {
+				id: "sophisticatedstorage:upgrade_base"
+			}
+			id: "3252EDFAA159EDB8"
+			rewards: [{
+				count: 4
+				id: "1657945C4119619A"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:upgrade_base"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "66EE115496DC0650"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:upgrade)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			id: "03CDD3DE6C714579"
+			rewards: [{
+				count: 4
+				id: "164910CF049489EA"
+				item: {
+					count: 1
+					id: "functionalstorage:void_upgrade"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5B50E07B5305508E"
+				item: { count: 1, id: "functionalstorage:copper_upgrade" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			id: "41566F27598265AF"
+			tasks: [{
+				id: "4BF50D0F92381014"
+				item: { count: 1, id: "entangled:block" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "47170A22CABA5D79"
+			shape: "diamond"
+			tasks: [{
+				id: "76659D0FFD8A951D"
+				item: { count: 1, id: "justdirethings:creaturecatcher" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "2C12A6D42A1625FF"
+			shape: "diamond"
+			tasks: [{
+				id: "1FD0AE548A06FB64"
+				item: { count: 1, id: "supplementaries:cage" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "7354366A697BBE2C"
+			shape: "diamond"
+			tasks: [{
+				id: "5FD95265822510E1"
+				item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+	]
+}

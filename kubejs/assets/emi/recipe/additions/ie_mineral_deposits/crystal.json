@@ -1,0 +1,16 @@
+{
+  "type": "emi:info",
+  "text": "emi.info.immersiveengineering.mineral.crystal",
+  "stacks": [
+    "item:immersiveengineering:sample_drill",
+    "item:immersiveengineering:bucket_wheel",
+    "item:immersiveengineering:excavator",
+    "item:minecraft:tuff",
+    "item:minecraft:calcite",
+    "item:ae2:sky_stone_block",
+    "item:ae2:certus_quartz_crystal",
+    "item:minecraft:quartz",
+    "item:minecraft:amethyst_shard",
+    "item:ae2:fluix_crystal"
+  ]
+}

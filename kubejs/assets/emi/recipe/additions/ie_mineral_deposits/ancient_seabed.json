@@ -1,0 +1,15 @@
+{
+  "type": "emi:info",
+  "text": "emi.info.immersiveengineering.mineral.ancient_seabed",
+  "stacks": [
+    "item:immersiveengineering:sample_drill",
+    "item:immersiveengineering:bucket_wheel",
+    "item:immersiveengineering:excavator",
+    "item:minecraft:sandstone",
+    "item:minecraft:gravel",
+    "item:minecraft:sand",
+    "item:minecraft:calcite",
+    "item:minecraft:dripstone_block",
+    "item:minecraft:bone_block"
+  ]
+}

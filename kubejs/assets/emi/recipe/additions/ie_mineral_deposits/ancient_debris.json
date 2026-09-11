@@ -1,0 +1,16 @@
+{
+  "type": "emi:info",
+  "text": "emi.info.immersiveengineering.mineral.ancient_debris",
+  "stacks": [
+    "item:immersiveengineering:sample_drill",
+    "item:immersiveengineering:bucket_wheel",
+    "item:immersiveengineering:excavator",
+    "item:minecraft:netherrack",
+    "item:minecraft:basalt",
+    "item:minecraft:gravel",
+    "item:minecraft:polished_blackstone_bricks",
+    "item:minecraft:polished_blackstone",
+    "item:minecraft:ancient_debris",
+    "item:minecraft:gilded_blackstone"
+  ]
+}

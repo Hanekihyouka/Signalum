@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "070E1BB077E49C93"
+	group: "3BA1895201BB8DA0"
+	icon: {
+		id: "farmersdelight:skillet"
+	}
+	id: "070E1BB077E49C93"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/info"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "334DADEDBD084D33"
+			rewards: [{
+				id: "587AF3A0C7F0D5E5"
+				item: {
+					count: 1
+					id: "solcarrot:food_book"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "055D49546082D62F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "52F77CBFD925B304"
+			tasks: [{
+				id: "4F4EACD1529BAE27"
+				item: { count: 1, id: "kaleidoscope_cookery:stove" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "2CBB208B5367DCDF"
+			rewards: [{
+				count: 4
+				id: "0593CE330B206432"
+				item: {
+					count: 1
+					id: "minecraft:stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "21ED0D67AA85CCDD"
+				item: { count: 1, id: "kaleidoscope_cookery:shawarma_spit" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"52F77CBFD925B304"
+				"08B4BDBD41ACA8EF"
+				"764E6B832B478E3D"
+			]
+			dependency_requirement: "one_completed"
+			id: "7F47E58E8D94439D"
+			rewards: [{
+				count: 8
+				id: "002353E4EA47522A"
+				item: {
+					count: 1
+					id: "kaleidoscope_cookery:oil"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "0426B45108A88A95"
+				item: { count: 1, id: "kaleidoscope_cookery:pot" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "3834CD6FC36F0FAB"
+			tasks: [{
+				id: "326035BDA182741E"
+				item: { count: 1, id: "kaleidoscope_cookery:stockpot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "537B7FC1DEE618C2"
+			tasks: [{
+				id: "6280055096873C36"
+				item: { count: 1, id: "kaleidoscope_cookery:stockpot_lid" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "08B4BDBD41ACA8EF"
+			rewards: [{
+				count: 8
+				id: "1290BA03D14C9ADB"
+				item: {
+					count: 1
+					id: "kaleidoscope_cookery:oil"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EE692A5E6956A60"
+				item: { count: 1, id: "kaleidoscope_cookery:kitchen_shovel" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["334DADEDBD084D33"]
+			id: "43149715676F93FB"
+			rewards: [{
+				id: "2656C3F5ADDCD787"
+				item: {
+					count: 1
+					id: "someassemblyrequired:golden_apple_slices"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "632E295416769EA0"
+				item: { count: 1, id: "kaleidoscope_cookery:transmutation_lunch_bag" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "kaleidoscope_cookery:iron_kitchen_knife"
+			}
+			id: "764E6B832B478E3D"
+			rewards: [{
+				count: 8
+				id: "39FD5592D08BF4EC"
+				item: {
+					count: 1
+					id: "kaleidoscope_cookery:oil"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "4542457574C2A458"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(kaleidoscope_cookery:kitchen_knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "2F3EBB44F8911864"
+			tasks: [{
+				id: "7DC7A0F17A62EB9F"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cutting_board"
+			}
+			id: "764E9F22AB026DA8"
+			tasks: [
+				{
+					id: "0E06AF73B1B79769"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "433839CC4EF51277"
+					item: { count: 1, id: "kaleidoscope_cookery:chopping_board" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "0CC516FA786B2094"
+			rewards: [{
+				count: 2
+				id: "467D35A2EEFCF558"
+				item: {
+					count: 1
+					id: "someassemblyrequired:bread_slice"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "34287D34E3ABD22B"
+				item: { count: 1, id: "someassemblyrequired:sandwiching_station" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+}

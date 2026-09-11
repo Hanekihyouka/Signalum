@@ -1,0 +1,15 @@
+{
+  "type": "emi:info",
+  "text": "emi.info.immersiveengineering.mineral.lazulitic_intrusion",
+  "stacks": [
+    "item:immersiveengineering:sample_drill",
+    "item:immersiveengineering:bucket_wheel",
+    "item:immersiveengineering:excavator",
+    "item:minecraft:gravel",
+    "item:minecraft:cobblestone",
+    "item:minecraft:cobbled_deepslate",
+    "item:minecraft:lapis_ore",
+    "item:minecraft:gold_ore",
+    "item:immersiveengineering:dust_sulfur"
+  ]
+}

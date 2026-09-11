@@ -1,0 +1,16 @@
+{
+  "type": "emi:info",
+  "text": "emi.info.immersiveengineering.mineral.igneous_rock",
+  "stacks": [
+    "item:immersiveengineering:sample_drill",
+    "item:immersiveengineering:bucket_wheel",
+    "item:immersiveengineering:excavator",
+    "item:minecraft:gravel",
+    "item:minecraft:cobblestone",
+    "item:minecraft:cobbled_deepslate",
+    "item:minecraft:granite",
+    "item:minecraft:diorite",
+    "item:minecraft:andesite",
+    "item:minecraft:obsidian"
+  ]
+}

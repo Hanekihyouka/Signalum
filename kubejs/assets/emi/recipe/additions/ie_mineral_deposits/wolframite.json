@@ -1,0 +1,14 @@
+{
+  "type": "emi:info",
+  "text": "emi.info.immersiveengineering.mineral.wolframite",
+  "stacks": [
+    "item:immersiveengineering:sample_drill",
+    "item:immersiveengineering:bucket_wheel",
+    "item:immersiveengineering:excavator",
+    "item:minecraft:gravel",
+    "item:minecraft:cobblestone",
+    "item:minecraft:cobbled_deepslate",
+    "item:minecraft:iron_ore",
+    "item:create:zinc_ore"
+  ]
+}

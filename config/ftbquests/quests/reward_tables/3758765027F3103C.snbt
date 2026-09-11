@@ -1,0 +1,27 @@
+{
+	id: "3758765027F3103C"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			command: "/resourceworld tp overworld"
+			id: "7F4818195971BD14"
+			type: "command"
+		}
+		{
+			command: "/resourceworld tp nether"
+			id: "30F841F7DAF7C97A"
+			type: "command"
+		}
+		{
+			command: "/resourceworld tp end"
+			id: "75FBF7C37ADD1E78"
+			type: "command"
+		}
+		{
+			command: "/resourceworld tp twilight"
+			id: "4D3171B8B0F15C77"
+			type: "command"
+		}
+	]
+}

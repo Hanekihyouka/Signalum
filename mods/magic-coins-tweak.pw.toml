@@ -1,0 +1,13 @@
+name = "Magic Coins Tweak"
+filename = "magiccoinstweak-1.0-SNAPSHOT.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f2529faa451b40bca6f7cd0ab36894f791ab494f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6995921
+project-id = 1346939

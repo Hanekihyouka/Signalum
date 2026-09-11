@@ -1,0 +1,857 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4BFF8EE3F588E006"
+	group: "3BA1895201BB8DA0"
+	icon: {
+		id: "artifacts:cross_necklace"
+	}
+	id: "1E9C671E78CE3A78"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "48911B7FB8E7F01C"
+			tasks: [{
+				id: "0197148BCA71777F"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "440181B9AB2701EC"
+			shape: "circle"
+			tasks: [{
+				id: "4C3220660B400E16"
+				item: { count: 1, id: "artifacts:shock_pendant" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "0E9E2F6DA3AB789E"
+			shape: "circle"
+			tasks: [{
+				id: "7D891290A1973150"
+				item: { count: 1, id: "artifacts:flame_pendant" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "21F6DD7C38571EE2"
+			shape: "circle"
+			tasks: [{
+				id: "38531644513767A6"
+				item: { count: 1, id: "artifacts:thorn_pendant" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "6853E203FE50D6C4"
+			tasks: [{
+				id: "0E66F4517DB2F14D"
+				item: { count: 1, id: "artifacts:cross_necklace" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "3029D9E33D87A003"
+			tasks: [{
+				id: "018AF66D11C34D5E"
+				item: { count: 1, id: "artifacts:panic_necklace" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "4DF16C48C77028D5"
+			tasks: [{
+				id: "59B2DC9E2835F057"
+				item: { count: 1, id: "artifacts:lucky_scarf" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "6154E7B6AD0E6E97"
+			tasks: [{
+				id: "05745F797B8D31A0"
+				item: { count: 1, id: "artifacts:scarf_of_invisibility" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "1C92ED7F0682805A"
+			tasks: [{
+				id: "7643B1120E03C766"
+				item: { count: 1, id: "artifacts:charm_of_shrinking" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "78CDF841CA72E6B6"
+			tasks: [{
+				id: "6727200F6FD4F55D"
+				item: { count: 1, id: "artifacts:charm_of_sinking" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "09B7465E823E81BB"
+			tasks: [{
+				id: "46BB588D7DA7D503"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "4453A31FBB376099"
+			shape: "diamond"
+			tasks: [{
+				id: "62F81D4526DDB6E7"
+				item: { count: 1, id: "artifacts:feral_claws" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "42BDEDD148A57D27"
+			shape: "diamond"
+			tasks: [{
+				id: "0C4B34B9E0E40839"
+				item: { count: 1, id: "artifacts:pocket_piston" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "6B9C076F1488A24E"
+			shape: "diamond"
+			tasks: [{
+				id: "15E8FE91A54F3123"
+				item: { count: 1, id: "artifacts:power_glove" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "37BA95A3B298EDAA"
+			shape: "diamond"
+			tasks: [{
+				id: "06E1743D8C028146"
+				item: { count: 1, id: "artifacts:fire_gauntlet" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "33AAC477E37B771C"
+			shape: "diamond"
+			tasks: [{
+				id: "14709652536D3A0C"
+				item: { count: 1, id: "artifacts:vampiric_glove" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "33B262F543323B15"
+			shape: "diamond"
+			tasks: [{
+				id: "3197AB77FB2B198C"
+				item: { count: 1, id: "artifacts:pickaxe_heater" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "0A8E05C077F047D7"
+			shape: "diamond"
+			tasks: [{
+				id: "124825BA44AF6ED2"
+				item: { count: 1, id: "artifacts:digging_claws" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "21372D1663E851C2"
+			shape: "diamond"
+			tasks: [{
+				id: "2CF8ACAF8FDC062D"
+				item: { count: 1, id: "artifacts:golden_hook" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "418AB17811E33FA3"
+			shape: "diamond"
+			tasks: [{
+				id: "5F4D6C10AEFAFE2B"
+				item: { count: 1, id: "artifacts:withered_bracelet" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "5593C189A0E7FFD9"
+			shape: "diamond"
+			tasks: [{
+				id: "0C59B7FF016D9A02"
+				item: { count: 1, id: "artifacts:onion_ring" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "5679CAB42D6B5AE5"
+			tasks: [{
+				id: "446E4E44679F40C6"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "483F6C7F2C89AA05"
+			shape: "square"
+			tasks: [{
+				id: "5B14C0DD846F29E2"
+				item: { count: 1, id: "artifacts:night_vision_goggles" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "123D0F471F87D888"
+			shape: "square"
+			tasks: [{
+				id: "4B5D7E321EC147A3"
+				item: { count: 1, id: "artifacts:plastic_drinking_hat" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "7D8704E64765DA15"
+			shape: "square"
+			tasks: [{
+				id: "36B517225618CFEF"
+				item: { count: 1, id: "artifacts:novelty_drinking_hat" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "141874154D546F59"
+			shape: "square"
+			tasks: [{
+				id: "41A549C49DE94E44"
+				item: { count: 1, id: "artifacts:snorkel" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "71947026F591CAB1"
+			shape: "square"
+			tasks: [{
+				id: "417C96D22A3E7059"
+				item: { count: 1, id: "artifacts:villager_hat" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "3978BF946BFB4379"
+			shape: "square"
+			tasks: [{
+				id: "2E1AFAA725382C0F"
+				item: { count: 1, id: "artifacts:superstitious_hat" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "389057069CBFACFC"
+			shape: "square"
+			tasks: [{
+				id: "0A2E9CD915C3A4F1"
+				item: { count: 1, id: "artifacts:cowboy_hat" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "192A2333F68999C4"
+			shape: "square"
+			tasks: [{
+				id: "45EFC28E2A7D7576"
+				item: { count: 1, id: "artifacts:anglers_hat" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "7B5D0BEB9E50F341"
+			tasks: [{
+				id: "424CBF3EDF491578"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "2586F76CC4507A05"
+			shape: "circle"
+			tasks: [{
+				id: "1EE4925E81D39DB3"
+				item: { count: 1, id: "artifacts:eternal_steak" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "4F7E17DAF1730D4A"
+			tasks: [{
+				id: "634DA51B5BDD42A7"
+				item: { count: 1, id: "artifacts:everlasting_beef" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "7F6BA87CC8C1B87E"
+			shape: "circle"
+			tasks: [{
+				id: "3ABEF1EBB4EBB678"
+				item: { count: 1, id: "artifacts:whoopee_cushion" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "0F553BF3726C0216"
+			shape: "circle"
+			tasks: [{
+				id: "1D1C1308FB96352D"
+				item: { count: 1, id: "artifacts:umbrella" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "39B46A7CDBFD2092"
+			tasks: [{
+				id: "4B5C2E6FD1D5ED86"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "122573E4B7EB9ECE"
+			shape: "rsquare"
+			tasks: [{
+				id: "6E4FC0C55108AC38"
+				item: { count: 1, id: "artifacts:warp_drive" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "5AFBCCDDA390FDA0"
+			shape: "rsquare"
+			tasks: [{
+				id: "0B02CCC28F354605"
+				item: { count: 1, id: "artifacts:chorus_totem" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "6AA22B99806E10AE"
+			shape: "rsquare"
+			tasks: [{
+				id: "177D2D715E9D6E15"
+				item: { count: 1, id: "artifacts:helium_flamingo" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "3094C85C1B3FD414"
+			shape: "rsquare"
+			tasks: [{
+				id: "6F609F25823BA5F3"
+				item: { count: 1, id: "artifacts:obsidian_skull" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "00C5D85061131F4D"
+			shape: "rsquare"
+			tasks: [{
+				id: "475D1BB8CAAEEF62"
+				item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "79E4B52CC69642B5"
+			shape: "rsquare"
+			tasks: [{
+				id: "650B2ABCA9DF33E0"
+				item: { count: 1, id: "artifacts:crystal_heart" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "552A99FE9897B3BA"
+			shape: "rsquare"
+			tasks: [{
+				id: "5CB613F037BC70E6"
+				item: { count: 1, id: "artifacts:antidote_vessel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "06D6D97956C94096"
+			shape: "rsquare"
+			tasks: [{
+				id: "13BE22AC430368AC"
+				item: { count: 1, id: "artifacts:universal_attractor" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "51D4761569E63F60"
+			tasks: [{
+				id: "52EA86BDE4461F6A"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			id: "6D9095FEB62A25F9"
+			tasks: [{
+				id: "128088A459350875"
+				item: { count: 1, id: "artifacts:aqua_dashers" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			id: "6EBDF1B688C60354"
+			tasks: [{
+				id: "4F68B30980E9CA10"
+				item: { count: 1, id: "artifacts:flippers" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "261846A2B2E8CA94"
+			tasks: [{
+				id: "277B314A6E00427C"
+				item: { count: 1, id: "artifacts:snowshoes" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "1A08F5D26B40F588"
+			tasks: [{
+				id: "7BD0DA93E0F21FA4"
+				item: { count: 1, id: "artifacts:rooted_boots" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "03A447B1B9093EA2"
+			tasks: [{
+				id: "1D4BF8BAEF35ADCA"
+				item: { count: 1, id: "artifacts:steadfast_spikes" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "285170C6F13E9D64"
+			tasks: [{
+				id: "5637BE84294587E3"
+				item: { count: 1, id: "artifacts:bunny_hoppers" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "2939882ED5C1FED3"
+			tasks: [{
+				id: "345811864F734B7A"
+				item: { count: 1, id: "artifacts:kitty_slippers" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "7B0678ACA56A3B1E"
+			tasks: [{
+				id: "14A36244C9CDB1DF"
+				item: { count: 1, id: "artifacts:running_shoes" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			id: "76C76E55E23AC452"
+			tasks: [{
+				id: "752C68D041033B1F"
+				item: { count: 1, id: "artifacts:strider_shoes" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "109657223C793E54"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "6FECD96C31568430"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			hide_until_deps_visible: true
+			icon: {
+				id: "relics:relic_experience_bottle"
+			}
+			id: "61B7191E2AF374C1"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "4894F47178B5B3B5"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			icon_scale: 2.0d
+			id: "672ECE3ABD52B861"
+			tasks: [{
+				id: "36E190CA095D828E"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			id: "6E5B9FA6D097CB6A"
+			tasks: [{
+				id: "0B570B32C8BE4C02"
+				item: { components: { "relics:data": { abilities: { abilities: { stable: { lock: { breaks: 5 }, points: 0, stats: { heal: { initialQuality: 1 }, max_slots: { initialQuality: 7 }, resistance: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:rider_flute" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			id: "06DC4674FA7D8809"
+			tasks: [{
+				id: "3D8103661272F37C"
+				item: { components: { "relics:data": { abilities: { abilities: { pack: { lock: { breaks: 5 }, points: 0, stats: { damage_modifier: { initialQuality: 3 }, pet_radius: { initialQuality: 5 }, resistance_per_pet: { initialQuality: 4 }, revival_cost: { initialQuality: 6 } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:hunting_belt" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			id: "171E90B4E69B33F2"
+			tasks: [{
+				id: "1D1D7669C2F02229"
+				item: { components: { "relics:data": { abilities: { abilities: { satiety: { lock: { breaks: 5 }, points: 0, stats: { chance: { initialQuality: 8 }, healing: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:chef_hat" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			id: "5F3CE39751092DDA"
+			tasks: [{
+				id: "47F3AE00B0912432"
+				item: { components: { "relics:data": { abilities: { abilities: { camouflage: { lock: { breaks: 5 }, points: 0, stats: { absorption: { initialQuality: 8 }, cooldown: { initialQuality: 2 }, heal: { initialQuality: 9 } } }, revival: { lock: { breaks: 0 }, points: 0, stats: { damage: { }, heal: { initialQuality: 7 }, paralysis: { initialQuality: 2 }, radius: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:leafy_mantle" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			id: "744370A1F43EBC30"
+			tasks: [{
+				id: "3DAAA82865CC847A"
+				item: { components: { "relics:data": { abilities: { abilities: { regeneration: { lock: { breaks: 5 }, points: 0, stats: { max_health: { initialQuality: 9 }, regeneration: { initialQuality: 10 } } }, shock: { lock: { breaks: 5 }, points: 0, stats: { bounces: { }, cooldown: { initialQuality: 7 }, damage: { initialQuality: 10 }, damage_modifier: { initialQuality: 5 }, distance: { initialQuality: 2 }, duration: { initialQuality: 9 }, knockback: { initialQuality: 8 }, paralysis: { initialQuality: 1 }, radius: { initialQuality: 5 }, rings: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:jellyfish_necklace" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			id: "4BEC658D681EA9D8"
+			tasks: [{
+				id: "112ACDBA2423C24A"
+				item: { components: { "relics:data": { abilities: { abilities: { skating: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 3 }, ignite: { }, resistance: { initialQuality: 3 }, speed: { initialQuality: 6 }, step_height: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:roller_skate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			id: "54BAA244C21DBD2D"
+			tasks: [{
+				id: "28B5811F03FD8503"
+				item: { components: { "relics:data": { abilities: { abilities: { bounce: { lock: { breaks: 5 }, points: 0, stats: { damage: { }, damage_modifier: { initialQuality: 7 }, power: { initialQuality: 6 }, radius: { }, stun: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:springy_boot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			id: "769E6DE7E7A4DD86"
+			tasks: [{
+				id: "7A244858386F1696"
+				item: { components: { "relics:data": { abilities: { abilities: { glass: { lock: { breaks: 5 }, points: 0, stats: { capacity: { initialQuality: 1 }, max_fluids: { initialQuality: 4 }, speed: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:cut_glass_boot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				id: "minecraft:netherrack"
+			}
+			icon_scale: 2.0d
+			id: "29E28E68B3E01764"
+			tasks: [{
+				id: "45D543B5F8CC9EB3"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			id: "3A2028F1E294FC71"
+			tasks: [{
+				id: "42D8CA15EEB3C355"
+				item: { components: { "relics:data": { abilities: { abilities: { sacrifice: { lock: { breaks: 5 }, points: 0, stats: { resistance: { initialQuality: 6 }, stacks: { initialQuality: 8 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:sphere_of_self_sacrifice" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			id: "3461C6A26FAC7878"
+			tasks: [{
+				id: "6409A776E3C8D3F0"
+				item: { components: { "relics:data": { abilities: { abilities: { reflection: { lock: { breaks: 5 }, points: 0, stats: { bounces: { initialQuality: 10 }, chance: { initialQuality: 7 }, damage: { initialQuality: 6 }, lifetime: { initialQuality: 10 }, piercings: { initialQuality: 4 }, stun: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:reflective_necklace" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			id: "3CCEC6299D1458D4"
+			tasks: [{
+				id: "3C954D79E910696A"
+				item: { components: { "relics:data": { abilities: { abilities: { barter: { lock: { breaks: 5 }, points: 0, stats: { items_count: { initialQuality: 6 }, trades: { initialQuality: 4 } } }, looting: { lock: { breaks: 0 }, points: 0, stats: { attack_damage: { initialQuality: 4 }, attack_speed: { }, chance: { initialQuality: 8 }, duration: { initialQuality: 6 }, health: { initialQuality: 8 } } }, neutrality: { lock: { breaks: 5 }, points: 0, stats: { } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:piglin_mask" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			id: "16F934D87D75A166"
+			tasks: [{
+				id: "15BAF37F12628282"
+				item: { components: { "relics:data": { abilities: { abilities: { envy: { lock: { breaks: 5 }, points: 0, stats: { incoming_damage_multiplier: { initialQuality: 3 }, outgoing_damage_multiplier: { initialQuality: 5 } } }, gluttony: { lock: { breaks: 5 }, points: 0, stats: { early_multiplier: { initialQuality: 10 }, late_multiplier: { initialQuality: 2 } } }, greed: { lock: { breaks: 5 }, points: 0, stats: { chance: { initialQuality: 2 }, looting: { initialQuality: 1 }, luck: { initialQuality: 4 } } }, lust: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 7 }, time: { initialQuality: 7 } } }, pride: { lock: { breaks: 5 }, points: 0, stats: { multiplier: { initialQuality: 4 } } }, sloth: { lock: { breaks: 5 }, points: 0, stats: { speed: { initialQuality: 9 }, time: { } } }, wrath: { lock: { breaks: 5 }, points: 0, stats: { early_multiplier: { initialQuality: 6 }, late_multiplier: { initialQuality: 7 }, window: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:ring_of_the_seven_deadly_sins" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			id: "69A8B8BD7699387B"
+			tasks: [{
+				id: "7296B770303DB77E"
+				item: { count: 1, id: "relics:golden_tooth" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			icon_scale: 2.0d
+			id: "6A0506F4F591065A"
+			tasks: [{
+				id: "0BF38089A96C55D9"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			id: "40CB037293E84238"
+			tasks: [{
+				id: "32CE36AF798D89EA"
+				item: { components: { "relics:data": { abilities: { abilities: { gliding: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 3 }, efficiency: { initialQuality: 5 }, resistance: { initialQuality: 2 } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:kinetic_belt" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			id: "72E9364708D6CB5C"
+			tasks: [{
+				id: "2FC59BD1D7F2FAF2"
+				item: { components: { "relics:data": { abilities: { abilities: { constellation: { lock: { breaks: 0 }, points: 0, stats: { constellation_radius: { initialQuality: 8 }, explosion_damage: { initialQuality: 3 }, explosion_radius: { initialQuality: 2 }, star_chance: { initialQuality: 2 }, star_lifetime: { initialQuality: 8 }, stun_duration: { initialQuality: 9 }, tremor_duration: { initialQuality: 8 } } }, invisibility: { lock: { breaks: 0 }, points: 0, stats: { brightness: { initialQuality: 2 }, cooldown: { initialQuality: 5 }, damage: { initialQuality: 2 } } }, phase: { lock: { breaks: 5 }, points: 0, stats: { attack_damage: { initialQuality: 1 }, attack_speed: { initialQuality: 6 }, duration: { initialQuality: 10 }, health_regeneration: { }, max_health: { }, modifier: { initialQuality: 2 } } }, starfall: { lock: { breaks: 0 }, points: 0, stats: { bounce_chance: { initialQuality: 3 }, chance: { initialQuality: 2 }, damage: { initialQuality: 3 }, radius: { initialQuality: 9 }, stun: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:midnight_mantle" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			id: "0DDA3C75652D72C9"
+			tasks: [{
+				id: "5AFDC0D4940A9F6A"
+				item: { components: { "relics:chorus_staff/charge": 4, "relics:data": { abilities: { abilities: { blink: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 5 }, distance: { initialQuality: 6 }, max_charge: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:chorus_staff" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			id: "66517D831DCA90B7"
+			tasks: [{
+				id: "47BDEFB20DB2DFF4"
+				item: { components: { "relics:data": { abilities: { abilities: { rewind: { lock: { breaks: 5 }, points: 0, stats: { time: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:clot_of_time" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			id: "12A6FAD0C525A41F"
+			tasks: [{
+				id: "7540164634AE5B33"
+				item: { components: { "relics:data": { abilities: { abilities: { dispersion: { lock: { breaks: 5 }, points: 0, stats: { distribution_ratio: { initialQuality: 8 }, player_xp_ratio: { initialQuality: 10 }, same_item_bonus: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:experience_disperser" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			id: "3C4AC39E8E4BCA36"
+			tasks: [{
+				id: "5537C582FC71E5E8"
+				item: { components: { "relics:data": { abilities: { abilities: { retaliation: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 2 }, extension: { initialQuality: 8 }, miss_damage: { }, miss_duration: { initialQuality: 10 }, projectile_damage: { initialQuality: 5 }, stun: { initialQuality: 1 }, stun_radius: { initialQuality: 7 }, window: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:shield_of_retaliation" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			id: "4C16B3BF8B03CE8D"
+			tasks: [{
+				id: "507A86E5189F3902"
+				item: { components: { "relics:data": { abilities: { abilities: { distortion: { lock: { breaks: 5 }, points: 0, stats: { miss_chance: { initialQuality: 8 } } }, glitch: { lock: { breaks: 0 }, points: 0, stats: { fall_damage: { initialQuality: 10 }, phase_time: { initialQuality: 8 }, stability_time: { initialQuality: 7 } } }, illusion: { lock: { breaks: 0 }, points: 0, stats: { duration: { initialQuality: 6 }, echo_radius: { initialQuality: 7 }, interval: { initialQuality: 1 }, stun: { initialQuality: 10 }, stun_radius: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:glitchy_mantle" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			id: "4DEB32A8B6F4A75B"
+			tasks: [{
+				id: "0E349989B0139792"
+				item: { components: { "relics:data": { abilities: { abilities: { fog: { lock: { breaks: 5 }, points: 0, stats: { air_loss: { initialQuality: 1 }, duration: { initialQuality: 9 }, radius: { initialQuality: 6 }, suffocation_damage: { initialQuality: 6 }, tremor: { initialQuality: 5 } } }, gaze: { lock: { breaks: 0 }, points: 0, stats: { charges: { }, damage: { initialQuality: 8 }, range: { initialQuality: 9 }, weakness: { initialQuality: 10 } } }, spectral_escape: { lock: { breaks: 0 }, points: 0, stats: { cooldown: { initialQuality: 9 }, damage: { initialQuality: 8 }, duration: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:ghostly_mantle" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+	]
+}

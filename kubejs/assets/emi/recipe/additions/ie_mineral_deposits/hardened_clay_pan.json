@@ -1,0 +1,15 @@
+{
+  "type": "emi:info",
+  "text": "emi.info.immersiveengineering.mineral.hardened_clay_pan",
+  "stacks": [
+    "item:immersiveengineering:sample_drill",
+    "item:immersiveengineering:bucket_wheel",
+    "item:immersiveengineering:excavator",
+    "item:minecraft:gravel",
+    "item:minecraft:cobblestone",
+    "item:minecraft:coarse_dirt",
+    "item:minecraft:terracotta",
+    "item:minecraft:red_sandstone",
+    "item:minecraft:red_sand"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "emi:info",
+  "text": "emi.info.immersiveengineering.mineral.hematite",
+  "stacks": [
+    "item:immersiveengineering:sample_drill",
+    "item:immersiveengineering:bucket_wheel",
+    "item:immersiveengineering:excavator",
+    "item:create:crimsite",
+    "item:biomesoplenty:rose_quartz_block",
+    "item:minecraft:blackstone",
+    "item:mekanism:osmium_ore",
+    "item:create:rose_quartz",
+    "item:minecraft:iron_ore",
+    "item:biomesoplenty:rose_quartz_chunk"
+  ]
+}

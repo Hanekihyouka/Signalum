@@ -1,0 +1,16 @@
+[market]
+	# Default: 1
+	# Range: > 1
+	minPrice = 1
+	# Default: 1000000000
+	# Range: > 1
+	maxPrice = 1000000000
+	# Default: 100000
+	# Range: > 1
+	maxStacksPerOperation = 100000
+	# Default: 200
+	# Range: 1 ~ 10000
+	maxListingsPerShop = 200
+	# Default: 32
+	# Range: 1 ~ 128
+	maxShopNameLength = 32

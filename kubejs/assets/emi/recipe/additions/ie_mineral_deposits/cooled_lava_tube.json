@@ -1,0 +1,15 @@
+{
+  "type": "emi:info",
+  "text": "emi.info.immersiveengineering.mineral.cooled_lava_tube",
+  "stacks": [
+    "item:immersiveengineering:sample_drill",
+    "item:immersiveengineering:bucket_wheel",
+    "item:immersiveengineering:excavator",
+    "item:minecraft:netherrack",
+    "item:minecraft:basalt",
+    "item:minecraft:gravel",
+    "item:minecraft:magma_block",
+    "item:minecraft:smooth_basalt",
+    "item:minecraft:obsidian"
+  ]
+}
