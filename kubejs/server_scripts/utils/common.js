@@ -19,7 +19,7 @@ ServerEvents.tags('item', event => {
     event.add('c:foods/raw_fishes', '#c:foods/safe_raw_fish')
     event.add('c:foods/raw_meats','#c:foods/raw_meat')
   //chancecubes roll items
-    const ChancecubesBlackList = ["minecraft:trial_spawner","moonlight:spawn_box","quark:monster_box","mekanism:creative_energy_cube","mekanism:creative_chemical_tank","mekanism:creative_bin","mekanism:creative_fluid_tank","chancecubes:creative_pendant","chancecubes:cube_dispenser","chancecubes:reward_selector_pendant","powertool:slim_item_supplier","powertool:item_supplier","powertool:command_block","powertool:register","powertool:gorgeous_register","powertool:mechanical_register","powertool:tech_register","powertool:safe","powertool:gorgeous_safe","powertool:mechanical_safe","powertool:tech_safe","powertool:bezier_curve_block","powertool:useless_stick","powertool:power_supply","powertool:command_rune","powertool:display_mode_tool","powertool:static_mode_tool","powertool:cached_mode_tool","powertool:texture_extractor","simulated:creative_physics_staff","create:handheld_worldshaper","create:creative_motor","create:creative_fluid_tank","create:creative_crate","immersiveengineering:capacitor_creative","ae2:creative_storage_cell","ae2:creative_energy_cell","functionalstorage:creative_vending_upgrade","createaddition:creative_energy","sophisticatedstorage:infinity_upgrade","sophisticatedstorage:survival_infinity_upgrade","sophisticatedbackpacks:infinity_upgrade","sophisticatedbackpacks:survival_infinity_upgrade","touhou_little_maid:owner_conversion_tool","#randomium:blacklist","twilightforest:sinister_spawner","ftbechoes:echo_projector","ftbquests:barrier","ftbquests:stage_stage_barrier","ftbquests:detector","ftblibrary:icon_item","twilightforest:uncrafting_table","sophisticatedbackpacks:mob_catcher_upgrade","sophisticatedbackpacks:advanced_mob_catcher_upgrade","#create:table_cloths"]
+    const ChancecubesBlackList = ["minecraft:trial_spawner","moonlight:spawn_box","quark:monster_box","mekanism:creative_energy_cube","mekanism:creative_chemical_tank","mekanism:creative_bin","mekanism:creative_fluid_tank","chancecubes:creative_pendant","chancecubes:cube_dispenser","chancecubes:reward_selector_pendant","powertool:slim_item_supplier","powertool:item_supplier","powertool:command_block","powertool:register","powertool:gorgeous_register","powertool:mechanical_register","powertool:tech_register","powertool:safe","powertool:gorgeous_safe","powertool:mechanical_safe","powertool:tech_safe","powertool:bezier_curve_block","powertool:useless_stick","powertool:power_supply","powertool:command_rune","powertool:display_mode_tool","powertool:static_mode_tool","powertool:cached_mode_tool","powertool:texture_extractor","simulated:creative_physics_staff","create:handheld_worldshaper","create:creative_motor","create:creative_fluid_tank","create:creative_crate","immersiveengineering:capacitor_creative","ae2:creative_storage_cell","ae2:creative_energy_cell","functionalstorage:creative_vending_upgrade","createaddition:creative_energy","sophisticatedstorage:infinity_upgrade","sophisticatedstorage:survival_infinity_upgrade","sophisticatedbackpacks:infinity_upgrade","sophisticatedbackpacks:survival_infinity_upgrade","touhou_little_maid:owner_conversion_tool","#randomium:blacklist","twilightforest:sinister_spawner","ftbechoes:echo_projector","ftbquests:barrier","ftbquests:stage_stage_barrier","ftbquests:detector","ftblibrary:icon_item","twilightforest:uncrafting_table","sophisticatedbackpacks:mob_catcher_upgrade","sophisticatedbackpacks:advanced_mob_catcher_upgrade","#create:table_cloths","create:repackager","create:item_drain"]
     
     ChancecubesBlackList.forEach(item =>{
         event.add('chancecubes:blacklist', item)
@@ -52,6 +52,31 @@ ServerEvents.recipes(imc => {
     allthesaplings.forEach(a =>{
         imc.stonecutting(a,'#minecraft:saplings')
     })
+// 蛙鸣灯互换
+    imc.stonecutting(
+        'minecraft:verdant_froglight',
+        'minecraft:ochre_froglight'
+    )
+    imc.stonecutting(
+        'minecraft:pearlescent_froglight',
+        'minecraft:ochre_froglight'
+    )
+    imc.stonecutting(
+        'minecraft:ochre_froglight',
+        'minecraft:verdant_froglight'
+    )
+    imc.stonecutting(
+        'minecraft:pearlescent_froglight',
+        'minecraft:verdant_froglight'
+    )
+    imc.stonecutting(
+        'minecraft:verdant_froglight',
+        'minecraft:pearlescent_froglight'
+    )
+    imc.stonecutting(
+        'minecraft:ochre_froglight',
+        'minecraft:pearlescent_froglight'
+    )
 // --- 钢互换 ---
     imc.stonecutting(
         'immersiveengineering:nugget_steel',
@@ -142,8 +167,34 @@ ServerEvents.recipes(imc => {
         'farmersdelight:fried_egg',
         'kaleidoscope_cookery:fried_egg'
     )
+// 沙子互换
+    imc.stonecutting(
+        'minecraft:sand',
+        '#c:sands'
+    )
+    imc.stonecutting(
+        'minecraft:red_sand',
+        '#c:sands'
+    )
+    imc.stonecutting(
+        'biomesoplenty:white_sand',
+        '#c:sands'
+    )
+    imc.stonecutting(
+        'biomesoplenty:orange_sand',
+        '#c:sands'
+    )
+    imc.stonecutting(
+        'biomesoplenty:black_sand',
+        '#c:sands'
+    )
 // --- ---
+    imc.remove({ id: 'kaleidoscope_doll:tweaks_tool' })
+    imc.remove({ id: 'buildinggadgets2:gadget_destruction' })
+    imc.remove({ id: 'buildinggadgets2:gadget_cut_paste' })
     imc.remove({ id: 'explorerscompass:explorers_compass' })
+    imc.remove({ id: 'sophisticatedbackpacks:mob_catcher_upgrade' })
+    imc.remove({ id: 'sophisticatedbackpacks:advanced_mob_catcher_upgrade' })
     imc.remove({ id: 'sophisticatedstorage:controller' })
     imc.remove({ id: 'sophisticatedstorage:storage_input' })
     imc.remove({ id: 'sophisticatedstorage:storage_output' })
@@ -262,6 +313,7 @@ ServerEvents.recipes(imc => {
     imc.remove({ id: "create:brass_table_cloth_from_ingots_brass_stonecutting" })
     imc.remove({ id: "create:copper_table_cloth_from_ingots_copper_stonecutting" })
     imc.remove({ id: "create:crafting/kinetics/item_drain" })
+    imc.remove({ id: "create:crafting/logistics/repackager_from_conversion" })
 // --- 杂七杂八 ---
     imc.shapeless(
         Item.of('twilightforest:wispy_cloud', 16),
@@ -283,8 +335,16 @@ ServerEvents.recipes(imc => {
         ["minecraft:clay"]
     )
     imc.shapeless(
+        Item.of('minecraft:amethyst_shard', 4),
+        ["minecraft:amethyst_block"]
+    )
+    imc.shapeless(
         Item.of('minecraft:snowball', 4),
         ["minecraft:snow_block"]
+    )
+    imc.shapeless(
+        Item.of('minecraft:glowstone_dust', 4),
+        ["minecraft:glowstone"]
     )
     imc.shaped(
         Item.of('minecraft:deepslate', 16),
@@ -320,9 +380,9 @@ ServerEvents.recipes(imc => {
     )
     imc.shaped(
         Item.of('quark:limestone', 16),
-        ["BA","AB"],
+        ["AB","BA"],
         {
-            "A":"minecraft:calcite",
+            "A":"minecraft:stone",
             "B":"extendedae:quartz_blend"
         }
     )
@@ -335,7 +395,11 @@ ServerEvents.recipes(imc => {
         }
     )
     imc.smelting('minecraft:calcite', 'minecraft:bone_block')
-    imc.smelting('minecraft:quartz_block', 'ae2:quartz_vibrant_glass')
+    imc.smelting('16x minecraft:quartz_block', 'ae2:quartz_vibrant_glass')
+    imc.shapeless(
+        Item.of('minecraft:quartz', 4),
+        ["minecraft:quartz_block"]
+    )
     imc.shaped(
         Item.of('biomesoplenty:rose_quartz_block', 16),
         ["AA","AA"],
@@ -407,6 +471,14 @@ ServerEvents.recipes(imc => {
             "B":"mekanism:dust_coal"
         }
     )
+    imc.shaped(
+        Item.of('minecraft:netherrack', 16),
+        ["AB","BA"],
+        {
+            "A":"create:cinder_flour",
+            "B":"minecraft:cobblestone"
+        }
+    )
     imc.shapeless(
         Item.of('immersiveengineering:treated_wood_horizontal', 4),
         ["minecraft:honeycomb","#minecraft:logs"]
@@ -451,10 +523,47 @@ ServerEvents.recipes(imc => {
             "Y":"hostilenetworks:loot_fabricator"
         }
     )
-    imc.remove({ id: 'kaleidoscope_doll:tweaks_tool' })
-    imc.remove({ id: 'buildinggadgets2:gadget_destruction' })
-    imc.remove({ id: 'buildinggadgets2:gadget_cut_paste' })
-    imc.remove({ id: 'sophisticatedbackpacks:mob_catcher_upgrade' })
-    imc.remove({ id: 'sophisticatedbackpacks:advanced_mob_catcher_upgrade' })
 
+// 附魔金苹果 -> 灌注龙息
+    imc.shaped(
+        Item.of('apothic_enchanting:infused_breath', 1),
+        ["AAA","ACA","AAA"],
+        {
+            "A":"minecraft:enchanted_golden_apple",
+            "C":"minecraft:dragon_breath"
+        }
+    ).replaceIngredient('minecraft:enchanted_golden_apple','minecraft:golden_apple')
+// 附魔金苹果
+    imc.shaped(
+        Item.of('minecraft:enchanted_golden_apple', 1),
+        ["AAA","ACA","AAA"],
+        {
+            "A":"magic_coins:crystal_coin",
+            "C":"minecraft:golden_apple"
+        }
+    )
+// quark 刚玉
+    const corundums = ['red','orange','yellow','green','blue','indigo','violet','white','black']
+    corundums.forEach(c => {
+        imc.stonecutting(
+            'quark:' + c + '_corundum',
+            '#quark:corundum'
+        )
+        imc.shapeless(
+            Item.of('quark:' + c + '_corundum_cluster', 4),
+            ['quark:' + c + '_corundum']
+        )
+        imc.shapeless(
+            Item.of('quark:' + c + '_corundum', 2),
+            ['quark:' + c + '_corundum', 'minecraft:quartz_block']
+        )
+        imc.shaped(
+            Item.of('quark:' + c + '_corundum', 1),
+            ["AA","AA"],
+            {
+                "A":'quark:' + c + '_corundum_cluster'
+            }
+        )
+    })
+    imc.smelting('quark:myalite_crystal', 'quark:myalite')
 })

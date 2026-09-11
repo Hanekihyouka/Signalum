@@ -39,9 +39,9 @@ ServerEvents.recipes(imc => {
     arcfurnace('#ae2:quartz_sword', [{item: 'amethyst_shard'}], 51200, {item: 'twilightforest:glass_sword'})
     arcfurnace('create:blaze_cake', [{item: 'cataclysm:music_disc_ignis'}], 51200, {item: 'create:creative_blaze_cake'})
     arcfurnace('createaddition:chocolate_cake', [{item: 'twilightforest:lamp_of_cinders'}], 51200, {item: 'create:creative_blaze_cake'})
-    arcfurnace('justdirethings:raw_ferricore', [], 51200, {item: 'justdirethings:ferricore_ingot', count: 3})
-    arcfurnace('justdirethings:raw_blazegold', [], 51200, {item: 'justdirethings:blazegold_ingot', count: 3})
-    arcfurnace('justdirethings:raw_eclipsealloy', [], 51200, {item: 'justdirethings:eclipsealloy_ingot', count: 3})
+    arcfurnace('justdirethings:raw_ferricore', [], 51200, {item: 'justdirethings:ferricore_ingot', count: 5})
+    arcfurnace('justdirethings:raw_blazegold', [], 51200, {item: 'justdirethings:blazegold_ingot', count: 5})
+    arcfurnace('justdirethings:raw_eclipsealloy', [], 51200, {item: 'justdirethings:eclipsealloy_ingot', count: 5})
     
     imc.remove({ id: 'twilightforest:equipment/fiery_ingot_crafting' })
     arcfurnace('minecraft:iron_ingot', [{tag: 'twilightforest:fiery_vial'}], 51200, {item: 'twilightforest:fiery_ingot'})

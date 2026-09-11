@@ -1,4 +1,5 @@
 ServerEvents.recipes(imc => {
+
     imc.remove({ id: 'mekanism:cardboard_box' })
 // casing & frame
     imc.remove({ id: 'mekanism:steel_casing' })
@@ -78,7 +79,17 @@ ServerEvents.recipes(imc => {
             "C":'immersiveengineering:coil_lv'
         }
     )
-
+// 化学氧化
+    imc.custom({"type":"mekanism:oxidizing","input":{"count":1,"item":"minecraft:end_stone"},"output":{"amount":120,"id":"mekanismgenerators:tritium"}})
+    imc.custom({"type":"mekanism:oxidizing","input":{"count":1,"item":"minecraft:dragon_breath"},"output":{"amount":1600,"id":"mekanismgenerators:tritium"}})
+    imc.custom({"type":"mekanism:oxidizing","input":{"count":1,"item":"apothic_enchanting:infused_breath"},"output":{"amount":32000,"id":"mekanismgenerators:tritium"}})
+    imc.custom({"type":"mekanism:oxidizing","input":{"count":1,"item":"kaleidoscope_cookery:oolong"},"output":{"amount":10800,"id":"mekanismgenerators:tritium"}})
+// 融合机
+// 货币转换
+    imc.custom({"type":"mekanism:combining","extra_input":{"count":1,"item":"magic_coins:silver_coin"},"main_input":{"count":10,"item":"magic_coins:gold_coin"},"output":{"count":1,"id":"magic_coins:crystal_coin"}})
+    imc.custom({"type":"mekanism:combining","extra_input":{"count":1,"item":"magic_coins:silver_coin"},"main_input":{"count":10,"item":"magic_coins:silver_coin"},"output":{"count":1,"id":"magic_coins:gold_coin"}})
+    imc.custom({"type":"mekanism:combining","extra_input":{"count":1,"item":"minecraft:golden_apple"},"main_input":{"count":64,"item":"magic_coins:gold_coin"},"output":{"count":1,"id":"minecraft:enchanted_golden_apple"}})
+// 粉碎
 //mekCrushing({item: 'mod:item', count: 0}, {item/tag: 'mod:item/tag', count: 0}, 'id');
     function mekCrushing(output, input, id) {
         let inputObject = {
@@ -102,6 +113,18 @@ ServerEvents.recipes(imc => {
 
         imc.custom(recipe).id(`imc:mekanism/crushing/${id}`);
     }
+// 货币转换
+    mekCrushing(
+        {item: 'magic_coins:silver_coin', count:10},
+        {item: 'magic_coins:gold_coin'},
+        'coin_gold_to_silver'
+    )
+    mekCrushing(
+        {item: 'magic_coins:gold_coin', count:9},
+        {item: 'magic_coins:crystal_coin'},
+        'coin_crystal_to_gold'
+    )
+// --- ---
     mekCrushing(
         {item: 'mekanism:dust_sulfur'},
         {item: 'minecraft:blaze_powder'},
@@ -127,7 +150,26 @@ ServerEvents.recipes(imc => {
         {item: 'immersiveengineering:coal_coke'},
         'coal_coke_to_dust'
     )
-    
+    mekCrushing(
+        {item: 'mekanism:fluorite_gem', count:12},
+        {item: 'minecraft:glowstone_dust'},
+        'glowstone_dust_to_fluorite'
+    )
+    mekCrushing(
+        {item: 'mekanism:fluorite_gem', count:48},
+        {item: 'minecraft:glowstone'},
+        'glowstone_to_fluorite'
+    )
+    mekCrushing(
+        {item: 'immersiveengineering:slag', count:16},
+        {item: 'create:scoria'},
+        'scoria_to_slag'
+    )
+    mekCrushing(
+        {item: 'create:cinder_flour', count:16},
+        {item: 'minecraft:netherrack'},
+        'netherrack_to_cinder_flour'
+    )
 // machines
     imc.remove({ id: 'mekanism:energized_smelter' })
     imc.remove({ id: 'mekanism:enrichment_chamber' })
