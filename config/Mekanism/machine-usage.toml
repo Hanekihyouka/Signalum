@@ -121,7 +121,7 @@ paintingMachine = 100
 #Energy per chunk per tick in Joules.
 # Default: 5000
 # Range: 0 ~ 9223372036854775807
-dimensionalStabilizer = 5000
+dimensionalStabilizer = 8192
 #If enabled, Chemical Injectors and Purification Chambers will consume a semi randomized amount of chemical each operation.
 randomizedConsumption = true
 

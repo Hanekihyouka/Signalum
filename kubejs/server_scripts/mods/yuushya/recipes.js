@@ -11,4 +11,17 @@ ServerEvents.recipes(imc => {
     yuushyaBuildings.forEach(block =>{
         imc.stonecutting(`yuushya:${block}`,'mekanismadditions:white_reinforced_plastic')
     })
+    
+    imc.stonecutting(
+        'yuushya:red_bricks',
+        'minecraft:mossy_cobblestone'
+    )
+    imc.stonecutting(
+        'yuushya:black_bricks',
+        'minecraft:mossy_cobblestone'
+    )
+    imc.stonecutting(
+        'yuushya:pale_bricks',
+        'minecraft:mossy_cobblestone'
+    )
 })

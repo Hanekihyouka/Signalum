@@ -2037,6 +2037,9 @@
 		}
 		{
 			dependencies: ["3F663416E824720C"]
+			icon: {
+				id: "create:item_drain"
+			}
 			id: "39A7619B4C5592BE"
 			rewards: [
 				{
@@ -2057,9 +2060,8 @@
 				}
 			]
 			tasks: [{
-				id: "59F4EFCCDB445D31"
-				item: { count: 1, id: "create:item_drain" }
-				type: "item"
+				id: "125D149002CF863C"
+				type: "checkmark"
 			}]
 			x: -2.0d
 			y: -1.5d
@@ -2757,9 +2759,8 @@
 				}
 			]
 			tasks: [{
-				id: "45140DDB8CE40AC4"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(create:table_cloths))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
+				id: "37E382978C16FF90"
+				type: "checkmark"
 			}]
 			x: -11.0d
 			y: -3.5d

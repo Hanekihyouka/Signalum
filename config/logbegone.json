@@ -1,0 +1,20 @@
+{
+  "logbegone": {
+    "phrases": [
+      "Named entity",
+      "Tried to load invalid item",
+      "Saving sub-levels for level",
+      "moved wrongly",
+      "moved too quickly",
+      "Ignoring unknown attribute",
+      "could not find a Capsule Marker",
+      "Encountered unknown",
+      "unprepared network",
+      "fzzy_config",
+      "uncaughtException:571",
+      "unexpectedly refused"
+    ],
+    "regex": [
+    ]
+  }
+}

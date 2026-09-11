@@ -36,7 +36,7 @@
 	quest.01F3F0C25BA72BDA.quest_desc: [
 		"空间IO端口用于将游戏中存在的空间结构存入网络。不只是方块，实体也可以保留。"
 		""
-		"如果你只是想搬走某些平常无法破坏的方块，比如无瑕的&6水晶母岩&r或者&6末地传送门框架&r。"
+		"如果你只是想搬走某些平常无法破坏的方块，比如无暇的&6水晶母岩&r或者&6末地传送门框架&r。"
 		"不妨试试&mMEK的纸箱&r和&bJustDireThings&r的高级&a替换器&r。"
 	]
 	quest.01F3F0C25BA72BDA.title: "空间IO"
@@ -635,7 +635,7 @@
 	quest.1A3F053E0F693002.quest_desc: ["安装在采矿机械钻或伐木机械锯上，减少耐久损耗。"]
 	quest.1A3F053E0F693002.quest_subtitle: "别笑它的名字！"
 	quest.1A3F5609B3310C5A.quest_desc: [
-		"每名玩家都可以开设自己的店铺。"
+		"&r每名玩家都可以开设自己的店铺。"
 		"使用 &b/vss_market open&r 打开界面，点击&6管理店铺&r、&6创建店铺&r，为自己的商店起个名字。"
 		""
 		"然后上传背包里的物品作为商品，设置价格和数量。"
@@ -643,6 +643,7 @@
 		"操作完毕后记得点击右方的&c保存按钮&r。"
 		""
 		"当有玩家从你的店铺购买商品后，钱币会暂存到系统中，你需要点击&6领取金币&r来把钱币取到自己的账户中。"
+		"&c(已经修好了)"
 	]
 	quest.1A3F5609B3310C5A.quest_subtitle: "/vss_market open"
 	quest.1A6A383B4EF26B20.quest_desc: [
@@ -1329,6 +1330,7 @@
 	quest.3A4A8EAA3022C7BA.quest_desc: ["水车通过流水覆盖面产能动能，可以将三个水车同轴放置。它的发电量非常低。"]
 	quest.3A4C62865C7CC862.quest_desc: ["2x2 或者 3x3 叠放，用作存储大量流体。"]
 	quest.3A4C62865C7CC862.title: "&b流体储罐"
+	quest.3A597E689DA5C74F.quest_desc: ["现在，你可以把药水护符附魔成不毁版本的护符了。"]
 	quest.3ADF49BA6E45B33D.quest_desc: [
 		"&d装配矩阵&r是&bEAE&r添加的、用于自动合成的多方块结构，有极高的效率。"
 		""
@@ -1495,7 +1497,7 @@
 	]
 	quest.3EE95747CA6DFB1A.quest_subtitle: "40FE/t"
 	quest.3EE95747CA6DFB1A.title: "金属冲压机"
-	quest.3EF82BFD78654AF1.quest_desc: ["目前并没有为 &duu物质&r 复制添加配方，所以你最好别把资源浪费在 mekmm 的复制机上。"]
+	quest.3EF82BFD78654AF1.quest_desc: ["&duu 物质复制机&r现在可以消耗 1mb &duu物质&r来复制所有 &6#c:foods&r 标签的物品。"]
 	quest.3F02EF19112D23BE.quest_desc: [
 		"粉碎轮可执行粉碎类的配方，没有配方的物品会被直接&c销毁&r。"
 		""
@@ -2226,6 +2228,7 @@
 		""
 		"首先，收集一些&d安山岩&r。"
 	]
+	quest.57A7A5C79389A96A.quest_subtitle: "开端"
 	quest.57A7A5C79389A96A.title: "&6&l机械动力&r"
 	quest.57C4A0BAE739E903.quest_desc: [
 		"溶解成型机用于制作更高级的机器。"
@@ -3238,6 +3241,7 @@
 	task.11D3AAE660B3884B.title: "我捅死你喵"
 	task.11EF7663818B6CC6.title: "箱柜"
 	task.123A6FC6D66AA662.title: "防辐射护甲"
+	task.125D149002CF863C.title: "暂时 ban 了喵"
 	task.143EC9AA3691113C.title: "无限矿脉"
 	task.14DEFFB80CC96BC1.title: "ME致密包层线缆"
 	task.154879DC234A017D.title: "资源世界"
@@ -3260,6 +3264,7 @@
 	task.335D80E83360A7DB.title: "抽取以太气体"
 	task.338A6DA0D711B7DC.title: "ME样板供应器"
 	task.36B9FB74D9BF26E4.title: "热导线缆"
+	task.37E382978C16FF90.title: "桌布暂时 ban 了喵"
 	task.38E166AC8F55D42E.title: "升级"
 	task.38E290AC5E011888.title: "ME致密智能线缆"
 	task.3AB6845819FF686F.title: "纸板包裹"

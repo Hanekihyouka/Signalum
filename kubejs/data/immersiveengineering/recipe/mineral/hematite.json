@@ -1,0 +1,57 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_nether"
+    ]
+  ],
+  "fail_chance": 0.5,
+  "ores": [
+    {
+      "chance": 0.4,
+      "output": {
+        "id": "mekanism:osmium_ore"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "create:rose_quartz"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "minecraft:iron_ore"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "id": "biomesoplenty:rose_quartz_chunk"
+      }
+    }
+  ],
+  "sample_background": "ae2:sky_stone_block",
+  "spoils": [
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "create:crimsite"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "biomesoplenty:rose_quartz_block"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "minecraft:blackstone"
+      }
+    }
+  ],
+  "weight": 20
+}

@@ -127,6 +127,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "7AAECC6D25FA1473"
+				permission_level: 4
 				type: "command"
 			}]
 			shape: "rsquare"
@@ -155,6 +156,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "2C0A3B0EADA97278"
+				permission_level: 4
 				type: "command"
 			}]
 			shape: "rsquare"

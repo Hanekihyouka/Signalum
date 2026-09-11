@@ -537,8 +537,8 @@
 			id: "1AA7BB139E9BCAF9"
 			shape: "diamond"
 			tasks: [{
-				id: "7C8A371998792D3A"
-				item: { count: 1, id: "justdirethings:time_crystal_budding_block" }
+				id: "31DB0E1388DADE5A"
+				item: { count: 1, id: "justdynathings:echoing_budding_time" }
 				type: "item"
 			}]
 			x: 4.0d

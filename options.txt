@@ -1,1 +1,2 @@
 lang:zh_cn
+resourcePacks:["vanilla","mod_resources","moonlight:merged_pack","file/skinmc-sotr233-totem-pack.zip"]

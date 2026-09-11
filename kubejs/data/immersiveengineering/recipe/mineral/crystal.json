@@ -1,0 +1,57 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "biome_predicates": [
+    [
+      "minecraft:is_nether"
+    ]
+  ],
+  "fail_chance": 0.5,
+  "ores": [
+    {
+      "chance": 0.4,
+      "output": {
+        "id": "ae2:certus_quartz_crystal"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:quartz"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "minecraft:amethyst_shard"
+      }
+    },
+    {
+      "chance": 0.1,
+      "output": {
+        "id": "ae2:fluix_crystal"
+      }
+    }
+  ],
+  "sample_background": "ae2:sky_stone_block",
+  "spoils": [
+    {
+      "chance": 0.5,
+      "output": {
+        "id": "minecraft:tuff"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "id": "minecraft:calcite"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "id": "ae2:sky_stone_block"
+      }
+    }
+  ],
+  "weight": 20
+}

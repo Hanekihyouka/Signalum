@@ -508,7 +508,7 @@ _version = 4
 				# 
 				# Generally this should be left as true. It's main purpose is for debugging
 				# beacon updating/rendering.
-				disableBeaconDistanceCulling = true
+				disableBeaconDistanceCulling = false
 				#
 				# Should the blocks underneath avoided blocks gain the color of the avoided block? 
 				# 
@@ -607,19 +607,19 @@ _version = 4
 				# If true LOD beacon beams will be rendered wider at extreme distances, 
 				# making them easier to see. 
 				# If false all LOD beacon beams will only ever be 1 block wide.
-				expandDistantBeacons = true
+				expandDistantBeacons = false
 				#
 				# Sets the maximum height beacons will render up to. 
 				# 
 				# Requires a world re-load to take affect.
-				beaconRenderHeight = 6000
+				beaconRenderHeight = 0
 				#
 				# If true LOD beacon beams will be rendered.
-				enableBeaconRendering = true
+				enableBeaconRendering = false
 				#
 				# If true non terrain objects will be rendered by DH. 
 				# i.e. beacon beams and clouds.
-				enableGenericRendering = true
+				enableGenericRendering = false
 				#
 				# False = DH will render a single layer of clouds, like vanilla Minecraft. 
 				# True = DH will render 3 layers of clouds at different heights.

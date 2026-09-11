@@ -1,18 +1,57 @@
+let allthelogs = []
+let alltheleaves = []
+let allthesaplings = []
+
+function copyObjectIds(objectIds){
+    let returnStringList = []
+    objectIds.forEach(aaa =>{
+        returnStringList.push(aaa)
+    })
+    return returnStringList
+}
+
 ServerEvents.tags('item', event => {
     event.add('c:crops/eggplant', 'minecraft:beetroot')
     event.add('c:crops/eggplant', 'kaleidoscope_cookery:tomato')
     event.add('c:doughs', 'kaleidoscope_cookery:raw_dough')
     event.add('c:crops/corn', 'minecraft:cocoa_beans')
+    event.add('c:foods/tofu', 'minecraft:slime_ball')
+    event.add('c:foods/raw_fishes', '#c:foods/safe_raw_fish')
+    event.add('c:foods/raw_meats','#c:foods/raw_meat')
   //chancecubes roll items
     const ChancecubesBlackList = ["minecraft:trial_spawner","moonlight:spawn_box","quark:monster_box","mekanism:creative_energy_cube","mekanism:creative_chemical_tank","mekanism:creative_bin","mekanism:creative_fluid_tank","chancecubes:creative_pendant","chancecubes:cube_dispenser","chancecubes:reward_selector_pendant","powertool:slim_item_supplier","powertool:item_supplier","powertool:command_block","powertool:register","powertool:gorgeous_register","powertool:mechanical_register","powertool:tech_register","powertool:safe","powertool:gorgeous_safe","powertool:mechanical_safe","powertool:tech_safe","powertool:bezier_curve_block","powertool:useless_stick","powertool:power_supply","powertool:command_rune","powertool:display_mode_tool","powertool:static_mode_tool","powertool:cached_mode_tool","powertool:texture_extractor","simulated:creative_physics_staff","create:handheld_worldshaper","create:creative_motor","create:creative_fluid_tank","create:creative_crate","immersiveengineering:capacitor_creative","ae2:creative_storage_cell","ae2:creative_energy_cell","functionalstorage:creative_vending_upgrade","createaddition:creative_energy","sophisticatedstorage:infinity_upgrade","sophisticatedstorage:survival_infinity_upgrade","sophisticatedbackpacks:infinity_upgrade","sophisticatedbackpacks:survival_infinity_upgrade","touhou_little_maid:owner_conversion_tool","#randomium:blacklist","twilightforest:sinister_spawner","ftbechoes:echo_projector","ftbquests:barrier","ftbquests:stage_stage_barrier","ftbquests:detector","ftblibrary:icon_item","twilightforest:uncrafting_table","sophisticatedbackpacks:mob_catcher_upgrade","sophisticatedbackpacks:advanced_mob_catcher_upgrade","#create:table_cloths"]
     
     ChancecubesBlackList.forEach(item =>{
         event.add('chancecubes:blacklist', item)
     })
+    
+    const logs = event.get('minecraft:logs').getObjectIds()
+    const leaves = event.get('minecraft:leaves').getObjectIds()
+    const saplings = event.get('minecraft:saplings').getObjectIds()
+    allthelogs = copyObjectIds(logs)
+    alltheleaves = copyObjectIds(leaves)
+    allthesaplings = copyObjectIds(saplings)
+    
+    // All the foods
+    Ingredient.all.getItemIds().forEach(i => {
+        if(Item.of(i).getPrototype().get("minecraft:food")){
+            event.add('c:foods', i)
+        }
+    })
 })
 
 ServerEvents.recipes(imc => {
 
+// 树苗木头互换
+    allthelogs.forEach(a =>{
+        imc.stonecutting(a,'#minecraft:logs')
+    })
+    alltheleaves.forEach(a =>{
+        imc.stonecutting(a,'#minecraft:leaves')
+    })
+    allthesaplings.forEach(a =>{
+        imc.stonecutting(a,'#minecraft:saplings')
+    })
 // --- 钢互换 ---
     imc.stonecutting(
         'immersiveengineering:nugget_steel',
@@ -224,6 +263,158 @@ ServerEvents.recipes(imc => {
     imc.remove({ id: "create:copper_table_cloth_from_ingots_copper_stonecutting" })
     imc.remove({ id: "create:crafting/kinetics/item_drain" })
 // --- 杂七杂八 ---
+    imc.shapeless(
+        Item.of('twilightforest:wispy_cloud', 16),
+        ["minecraft:water_bucket", "twilightforest:carminite"]
+    ).replaceIngredient('minecraft:water_bucket','minecraft:bucket')
+    imc.shaped(
+        Item.of('twilightforest:fluffy_cloud', 1),
+        ["AAA","AAA","AAA"],
+        {
+            "A":"twilightforest:wispy_cloud"
+        }
+    )
+    imc.shapeless(
+        Item.of('biomesoplenty:wispjelly', 16),
+        ["minecraft:water_bucket", "twilightforest:wispy_cloud"]
+    ).replaceIngredient('minecraft:water_bucket','minecraft:bucket')
+    imc.shapeless(
+        Item.of('minecraft:clay_ball', 4),
+        ["minecraft:clay"]
+    )
+    imc.shapeless(
+        Item.of('minecraft:snowball', 4),
+        ["minecraft:snow_block"]
+    )
+    imc.shaped(
+        Item.of('minecraft:deepslate', 16),
+        ["AB","BA"],
+        {
+            "A":"minecraft:cobblestone",
+            "B":"extendedae:quartz_blend"
+        }
+    )
+    imc.shaped(
+        Item.of('minecraft:tuff', 16),
+        ["AB","BA"],
+        {
+            "A":"minecraft:cobblestone",
+            "B":"minecraft:gravel"
+        }
+    )
+    imc.shaped(
+        Item.of('create:ochrum', 1),
+        ["AB","BA"],
+        {
+            "A":"minecraft:glowstone_dust",
+            "B":{"tag":"c:dusts/gold"},
+        }
+    )
+    imc.shaped(
+        Item.of('create:limestone', 16),
+        ["AB","BA"],
+        {
+            "A":"minecraft:calcite",
+            "B":"extendedae:quartz_blend"
+        }
+    )
+    imc.shaped(
+        Item.of('quark:limestone', 16),
+        ["BA","AB"],
+        {
+            "A":"minecraft:calcite",
+            "B":"extendedae:quartz_blend"
+        }
+    )
+    imc.shaped(
+        Item.of('create:veridium', 16),
+        ["AB","BA"],
+        {
+            "A":"minecraft:prismarine",
+            "B":"minecraft:dark_prismarine"
+        }
+    )
+    imc.smelting('minecraft:calcite', 'minecraft:bone_block')
+    imc.smelting('minecraft:quartz_block', 'ae2:quartz_vibrant_glass')
+    imc.shaped(
+        Item.of('biomesoplenty:rose_quartz_block', 16),
+        ["AA","AA"],
+        {
+            "A":"create:rose_quartz_block"
+        }
+    )
+    imc.shaped(
+        Item.of('minecraft:dripstone_block', 16),
+        ["AB","BA"],
+        {
+            "A":"minecraft:calcite",
+            "B":"minecraft:terracotta"
+        }
+    )
+    imc.shaped(
+        Item.of('create:asurine', 16),
+        ["AB","BA"],
+        {
+            "A":"minecraft:crying_obsidian",
+            "B":"extendedae:quartz_blend"
+        }
+    )
+    imc.shaped(
+        Item.of('quark:jasper', 16),
+        ["AB","BA"],
+        {
+            "A":"create:scoria",
+            "B":"extendedae:quartz_blend"
+        }
+    )
+    imc.shaped(
+        Item.of('quark:shale', 16),
+        ["AB","BA"],
+        {
+            "A":"create:scoria",
+            "B":"minecraft:deepslate"
+        }
+    )
+    imc.shaped(
+        Item.of('quark:myalite', 16),
+        ["AB","BA"],
+        {
+            "A":"create:scoria",
+            "B":"minecraft:end_stone"
+        }
+    )
+    imc.shaped(
+        Item.of('quark:permafrost', 16),
+        ["AB","BA"],
+        {
+            "A":"create:scoria",
+            "B":"minecraft:ice"
+        }
+    )
+    imc.shaped(
+        Item.of('quark:dusky_myalite', 8),
+        ["AAA","ACA","AAA"],
+        {
+            "A":"quark:myalite",
+            "C":"minecraft:black_dye"
+        }
+    )
+    imc.shaped(
+        Item.of('supplementaries:ash', 32),
+        ["AB","BA"],
+        {
+            "A":"mekanism:dust_charcoal",
+            "B":"mekanism:dust_coal"
+        }
+    )
+    imc.shapeless(
+        Item.of('immersiveengineering:treated_wood_horizontal', 4),
+        ["minecraft:honeycomb","#minecraft:logs"]
+    )
+    imc.shapeless(
+        Item.of('minecraft:end_stone', 64),
+        ["minecraft:end_stone","minecraft:dragon_breath"]
+    )
     imc.shapeless(
         Item.of('minecraft:honey_block', 16),
         ["hostilenetworks:overworld_prediction","minecraft:honeycomb_block"]

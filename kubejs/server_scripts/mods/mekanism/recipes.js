@@ -239,4 +239,132 @@ ServerEvents.recipes(imc => {
             "D": 'mekmm:ultimate_max_chemical_tank'
         }
     )
+// uu
+    // imc.remove({ id: 'mekmm:recycler/from_dirt' })
+    // imc.remove({ id: 'mekmm:recycler/from_stone' })
+    imc.remove({ id: 'mekmm:recycler/from_substrate' })
+    imc.remove({ id: 'mekmm:compressing/scrap_box' })
+    imc.remove({ id: 'mekmm:reaction/empty_crystal' })
+    imc.remove({ id: 'mekmm:nucleosynthesizing/uu_matter' })
+    imc.custom({
+        "type": "mekmm:recycler",
+        "input": {
+            "count": 1,
+            "item": "mekanism:substrate"
+        },
+        "chance": 1,
+        "output": {
+            "count": 16,
+            "id": "mekmm:scrap"
+        }
+    })
+    imc.custom({
+        "type": "mekmm:recycler",
+        "input": {
+            "count": 1,
+            "item": "industrialforegoing:fertilizer"
+        },
+        "chance": 1,
+        "output": {
+            "count": 64,
+            "id": "mekmm:scrap"
+        }
+    })
+    imc.custom({
+        "type": "mekanism:compressing",
+        "chemical_input": {
+            "amount": 1,
+            "chemical": "mekanism:osmium"
+        },
+        "item_input": {
+            "count": 8,
+            "item": "mekmm:scrap"
+        },
+        "output": {
+            "count": 1,
+            "id": "mekmm:scrap_box"
+        },
+        "per_tick_usage": true
+    })
+    imc.custom({
+        "type": "mekanism:compressing",
+        "chemical_input": {
+            "amount": 1,
+            "chemical": "mekanism:osmium"
+        },
+        "item_input": {
+            "count": 1,
+            "item": "industrialforegoing:fertilizer"
+        },
+        "output": {
+            "count": 4,
+            "id": "mekmm:scrap_box"
+        },
+        "per_tick_usage": true
+    })
+    imc.custom({
+        "type": "mekanism:reaction",
+        "chemical_input": {
+            "amount": 400,
+            "chemical": "mekmm:unstable_dimensional_gas"
+        },
+        "chemical_output": {
+            "amount": 1000,
+            "id": "mekanismgenerators:tritium"
+        },
+        "duration": 1500,
+        "fluid_input": {
+            "amount": 400,
+            "tag": "c:fusion_fuel"
+        },
+        "item_input": {
+            "count": 4,
+            "item": "mekmm:scrap_box"
+        },
+        "item_output": {
+            "count": 1,
+            "id": "mekmm:empty_crystal"
+        }
+    })
+    imc.custom({
+        "type": "mekanism:reaction",
+        "chemical_input": {
+            "amount": 8000,
+            "chemical": "mekmm:unstable_dimensional_gas"
+        },
+        "chemical_output": {
+            "amount": 400,
+            "id": "mekanism:nuclear_waste"
+        },
+        "duration": 1500,
+        "fluid_input": {
+            "amount": 8000,
+            "tag": "c:fusion_fuel"
+        },
+        "item_input": {
+            "count": 1,
+            "item": "mekmm:empty_crystal"
+        },
+        "item_output": {
+            "count": 3,
+            "id": "mekmm:empty_crystal"
+        }
+    })
+    imc.custom({
+        "type": "mekanism:nucleosynthesizing",
+        "chemical_input": {
+            "amount": 2,
+            "chemical": "mekanism:antimatter"
+        },
+        "duration": 5000,
+        "item_input": {
+            "count": 1,
+            "item": "mekmm:empty_crystal"
+        },
+        "output": {
+            "count": 1,
+            "id": "mekmm:uu_matter"
+        },
+        "per_tick_usage": false
+    })
 })

@@ -10,12 +10,12 @@
     "minecraft:command_suggestions"
   ],
   "debugLog": false,
-  "contextLevel": 23,
-  "dccEnabled": true,
+  "contextLevel": 22,
+  "dccEnabled": false,
   "dccSizeLimit": 200,
   "dccDistance": 5,
   "dccTimeout": 60,
-  "maxPacketSize": "4MB",
+  "maxPacketSize": "12MB",
   "maxPacketSizeByte": -1,
   "playersDoNotUseContext": [
     "00000000-0000-0000-0000-000000000000"

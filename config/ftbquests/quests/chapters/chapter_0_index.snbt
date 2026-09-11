@@ -488,6 +488,7 @@
 		}
 		{
 			dependencies: ["441888D4A2863C2E"]
+			dependency_requirement: "one_started"
 			icon: {
 				id: "mekanism:configurator"
 			}

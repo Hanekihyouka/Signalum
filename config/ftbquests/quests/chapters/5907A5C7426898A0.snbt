@@ -1015,5 +1015,22 @@
 			x: -7.0d
 			y: 5.5d
 		}
+		{
+			dependencies: [
+				"5D9CAEAD43B8D020"
+				"6F2615C4E0D393D7"
+				"30D29C2070B14E98"
+			]
+			dependency_requirement: "one_completed"
+			id: "3A597E689DA5C74F"
+			size: 1.75d
+			tasks: [{
+				id: "44004A8D6E6BF76C"
+				item: { count: 1, id: "apothic_enchanting:treasure_shelf" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
 	]
 }

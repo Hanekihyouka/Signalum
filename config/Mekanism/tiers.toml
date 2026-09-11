@@ -282,27 +282,27 @@
 		#Item throughput rate of Basic logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.
 		# Default: 1
 		# Range: > 1
-		basicPullAmount = 1
+		basicPullAmount = 4
 		#Five times the travel speed in m/s of Basic logistical transporter. This value assumes a target tick rate of 20 ticks per second.
 		# Default: 5
 		# Range: > 1
-		basicSpeed = 5
+		basicSpeed = 2
 		#Item throughput rate of Advanced logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.
 		# Default: 16
 		# Range: > 1
-		advancedPullAmount = 16
+		advancedPullAmount = 64
 		#Five times the travel speed in m/s of Advanced logistical transporter. This value assumes a target tick rate of 20 ticks per second.
 		# Default: 10
 		# Range: > 1
-		advancedSpeed = 10
+		advancedSpeed = 4
 		#Item throughput rate of Elite logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.
 		# Default: 32
 		# Range: > 1
-		elitePullAmount = 32
+		elitePullAmount = 64
 		#Five times the travel speed in m/s of Elite logistical transporter. This value assumes a target tick rate of 20 ticks per second.
 		# Default: 20
 		# Range: > 1
-		eliteSpeed = 20
+		eliteSpeed = 8
 		#Item throughput rate of Ultimate logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.
 		# Default: 64
 		# Range: > 1
@@ -310,7 +310,7 @@
 		#Five times the travel speed in m/s of Ultimate logistical transporter. This value assumes a target tick rate of 20 ticks per second.
 		# Default: 50
 		# Range: > 1
-		ultimateSpeed = 50
+		ultimateSpeed = 8
 
 	#Settings for configuring Thermodynamic Conductors
 	[transmitters.heat]

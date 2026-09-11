@@ -97,4 +97,40 @@ ServerEvents.recipes(imc => {
             "F":'immersiveengineering:radiator'
         }
     )
+// 石墨电极
+    imc.custom({
+        "type": "immersiveengineering:bottling_machine",
+        "fluid": {
+            "amount": 1000,
+            "fluid": "justdirethings:time_fluid_source",
+        },
+        "inputs": [
+            {
+            "item": "immersiveengineering:graphite_electrode"
+            }
+        ],
+        "results": [
+            {
+            "id": "immersiveengineering:graphite_electrode",
+            "components": {"minecraft:unbreakable":{}}
+            }
+        ]
+    })
+    imc.custom({
+        "type": "immersiveengineering:bottling_machine",
+        "fluid": {
+            "amount": 1,
+            "fluid": "industrialforegoing:ether_gas",
+        },
+        "inputs": [
+            {
+            "item": "mekanism:dust_coal"
+            }
+        ],
+        "results": [
+            {
+            "id": "immersiveengineering:graphite_electrode"
+            }
+        ]
+    })
 })

@@ -6,21 +6,25 @@
 		{
 			command: "/resourceworld tp overworld"
 			id: "7F4818195971BD14"
+			permission_level: 4
 			type: "command"
 		}
 		{
 			command: "/resourceworld tp nether"
 			id: "30F841F7DAF7C97A"
+			permission_level: 4
 			type: "command"
 		}
 		{
 			command: "/resourceworld tp end"
 			id: "75FBF7C37ADD1E78"
+			permission_level: 4
 			type: "command"
 		}
 		{
 			command: "/resourceworld tp twilight"
 			id: "4D3171B8B0F15C77"
+			permission_level: 4
 			type: "command"
 		}
 	]
