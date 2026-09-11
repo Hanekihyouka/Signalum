@@ -1,13 +1,13 @@
 name = "SG-Economy API"
-filename = "sg_economy-1.0.5.jar"
+filename = "sg_economy-1.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c27566c8307fe7f2d111fb2ec0da8b1b6b7d4f8b"
+hash = "3581dfdbb593da9f2a93741add720ffd839bb769"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8176623
+file-id = 8724384
 project-id = 1446971

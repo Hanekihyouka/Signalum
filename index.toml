@@ -278,7 +278,7 @@ hash = "435f2831b3d47afce01510e0fdb8f093df18110ffb1fda837d6ed6d18e13c403"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_0_welcome.snbt"
-hash = "4233063a00426fb7810a5405dac2de4bda09f3b07eee9e3db3b7979b91b98cc8"
+hash = "cf3bfd121bdfd0d32dd2952770131c9f4d72692648099173fc8fc62fdab8f475"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chapter_1_create.snbt"
@@ -5679,11 +5679,6 @@ hash = "3529bc9c3a7b54933869be1d1d84a948d091c3d6064bbb6b17874d7c153b4dca"
 metafile = true
 
 [[files]]
-file = "mods/ftb-xmod-compat.pw.toml"
-hash = "01290866d0c405f7b637961b71b13f36124c897e1f4fc748951a3eaa671dd082"
-metafile = true
-
-[[files]]
 file = "mods/functional-storage.pw.toml"
 hash = "55c21e0159f5509b84d1e1fa42c2e478a3600c43007ede829cad5839aaa1b8da"
 metafile = true
@@ -5925,7 +5920,7 @@ metafile = true
 
 [[files]]
 file = "mods/magic-coins.pw.toml"
-hash = "d88bc8fe96043a431c6735d8ff2be3c5b68e8309ce48ecdf9c80518e3aeaa14b"
+hash = "ce78a666c6bd0feb339746cbf395aa343d7e171414849b2f5f177b3cdc296094"
 metafile = true
 
 [[files]]
@@ -6079,7 +6074,7 @@ metafile = true
 
 [[files]]
 file = "mods/sg-economy-api.pw.toml"
-hash = "5cb9bca72e0b6aaaba76a90f8ced36cfdefd5f026273aa456d1490146ac11dd5"
+hash = "068fb13b19130d7b34221041d8ae9e49a4b6d5f0279c0d9c7066a254bd50c5d5"
 metafile = true
 
 [[files]]

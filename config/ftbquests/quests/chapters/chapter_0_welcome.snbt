@@ -57,7 +57,7 @@
 			}
 			id: "0CF87C6443DED1E7"
 			rewards: [{
-				command: "/ftbranks add @p nick_team"
+				command: "/ftbranks remove @p nick_team"
 				id: "68581A20196003D2"
 				permission_level: 4
 				type: "command"
@@ -73,7 +73,7 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "viscript_shop:textures/coin.png"
+					"ftbquests:icon": "viscript_shop:icons/coin"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -113,7 +113,7 @@
 			can_repeat: true
 			icon: {
 				components: {
-					"ftbquests:icon": "viscript_shop:textures/shop.png"
+					"ftbquests:icon": "viscript_shop:icons/shop"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -122,7 +122,7 @@
 				command: "/viscript_shop open common"
 				icon: {
 					components: {
-						"ftbquests:icon": "viscript_shop:textures/shop.png"
+						"ftbquests:icon": "viscript_shop:icons/shop"
 					}
 					id: "ftbquests:custom_icon"
 				}
