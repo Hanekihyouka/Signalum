@@ -5262,7 +5262,7 @@ hash = "050d1e5a516a32985e0f5fcc546809c1aba5d683dc4cbca700d1bf68ef27c4bf"
 
 [[files]]
 file = "kubejs/server_scripts/mods/immersiveengineering/recipes.js"
-hash = "fa5e546e28f36e2bad6452672f8f7e1513d9aeb29720bc74c69c83e9dc5568d8"
+hash = "8d02008e47fbd146eec597fd4d22440b7ed08aacdbdbf927a93ece1a24d813b2"
 
 [[files]]
 file = "kubejs/server_scripts/mods/industrialforegoing/recipes.js"
@@ -5274,7 +5274,7 @@ hash = "26f84884c488c895ab976325c0dc71ace9e5f1dacf79f96399587478237becc4"
 
 [[files]]
 file = "kubejs/server_scripts/mods/mekanism/recipes.js"
-hash = "01eb32f9e5f8f48e7b997a22809398d841d2af1f858d751c27dedb1c6b8f3c13"
+hash = "36a9a1d5db100ce2688f807862974468a5d3c7ff2fa23f44327d0a417d12d8d7"
 
 [[files]]
 file = "kubejs/server_scripts/mods/mob_grinding_utils/recipes.js"
@@ -5282,7 +5282,7 @@ hash = "4541dd778cb90be374545c73b80a01c1c7b1e85d57bd10ab49935e6d149cefef"
 
 [[files]]
 file = "kubejs/server_scripts/mods/twilightforest/recipes.js"
-hash = "8e61bdfa922a184480dca25ca7ca0905cfc2980f8e93038ea966eb6b5e930694"
+hash = "ba031197fae27933f69cdbe5802693849cdf5641d4b7800fd9296715af276383"
 
 [[files]]
 file = "kubejs/server_scripts/mods/yuushya/recipes.js"
@@ -5290,7 +5290,7 @@ hash = "f95105710f90ea2e7abada054db007454f1cba2f3d113b2ecfe401f504f98b9d"
 
 [[files]]
 file = "kubejs/server_scripts/utils/common.js"
-hash = "b287eb534ed3a1397e550c0dcb382fe87e8199460e03d4a6406fd8d724b046a3"
+hash = "878bac3c4ab583e74aa150e4e5e48d2f39a8e44dc53ca6b115e0107135f1daa5"
 
 [[files]]
 file = "kubejs/server_scripts/utils/conflicts.js"
