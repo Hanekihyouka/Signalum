@@ -5861,9 +5861,8 @@ hash = "330eae6dd751b70d4761f5fb556bc476f693549f3eb42ff7f441e1cd5bfe3cfb"
 metafile = true
 
 [[files]]
-file = "mods/powertool.pw.toml"
-hash = "b237d53e9d148e570e45a8333df6889cfc8d385a8e38ac5a046bffd35cf2b87d"
-metafile = true
+file = "mods/powertool-1.4.51.jar"
+hash = "a709a53cca8346a04b0e3018bad84ad1646ba0d6fc66a1fe82b9d3a7913beff5"
 
 [[files]]
 file = "mods/prickle.pw.toml"

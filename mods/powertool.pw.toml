@@ -1,8 +1,0 @@
-name = "PowerTool"
-filename = "powertool-1.4.51.jar"
-side = "both"
-
-[download]
-url = "https://github.com/teaconmc/PowerTool/releases/download/1.4.51/powertool-1.4.51.jar"
-hash-format = "sha1"
-hash = "a3d002655949bea2b3c050167311e4ebfe3ecf03"
