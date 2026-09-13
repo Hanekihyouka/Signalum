@@ -5309,11 +5309,6 @@ file = "mods/WorldEditCUI-NeoForge-1.21.1+01-SNAPSHOT-PATCHED.jar"
 hash = "ad01443cebf98d8fa8e3bbaf1159760828bd89c0d45833a18a79de0603434a20"
 
 [[files]]
-file = "mods/addons-shadows-of-eternia.pw.toml"
-hash = "7bf44be8e11afaabe88ddc1d079436398530f33296081a70dfcd243448fda01a"
-metafile = true
-
-[[files]]
 file = "mods/advanced-core-info.pw.toml"
 hash = "260d28d035348500a3d54830170a0db5250834b7b3ec33d80e084b797b608eba"
 metafile = true
