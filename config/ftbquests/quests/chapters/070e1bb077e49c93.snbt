@@ -1,12 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "070E1BB077E49C93"
+	filename: "070e1bb077e49c93"
 	group: "3BA1895201BB8DA0"
 	icon: {
 		id: "farmersdelight:skillet"
 	}
 	id: "070E1BB077E49C93"
+	images: [ ]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

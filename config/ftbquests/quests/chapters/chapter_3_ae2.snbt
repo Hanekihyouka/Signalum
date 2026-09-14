@@ -14,6 +14,7 @@
 	images: [
 		{
 			height: 1.5d
+			id: "56C7F3622C021CA7"
 			image: "imc:textures/questpics/ae2/3a7286cc5a0b21aeef3388a6da589218.png"
 			rotation: 0.0d
 			width: 5.7273d
@@ -22,6 +23,7 @@
 		}
 		{
 			height: 3.06d
+			id: "0CBDB2283ECD45C0"
 			image: "imc:textures/questpics/ae2/4cc0b5e563d246be51638b75ff2ebcb7.png"
 			rotation: 0.0d
 			width: 3.54d
@@ -30,6 +32,7 @@
 		}
 		{
 			height: 3.08d
+			id: "46AA10F601A399F3"
 			image: "imc:textures/questpics/ae2/d9032d3c985a83a7cc1fbc091406021b.png"
 			rotation: 0.0d
 			width: 3.54d
@@ -38,6 +41,7 @@
 		}
 		{
 			height: 3.06d
+			id: "17AFFB07921C2FF2"
 			image: "imc:textures/questpics/ae2/12dda1d74f53a5715c6c1e261c25b6a2.png"
 			rotation: 0.0d
 			width: 3.54d
@@ -889,8 +893,8 @@
 			dependencies: ["18DFB25DC48D8BF7"]
 			id: "6F3D0A248B5A9CA2"
 			tasks: [{
-				id: "75924053D6F5B242"
-				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:spatial_storage_cell_2)item(ae2:spatial_storage_cell_16)item(ae2:spatial_storage_cell_128))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "0FCDEE4FA8EA4C92"
+				item: { count: 1, id: "ae2:spatial_cell_component_2" }
 				type: "item"
 			}]
 			x: 16.5d

@@ -2,12 +2,13 @@
 	consume_items: false
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
-	filename: "5907A5C7426898A0"
+	filename: "5907a5c7426898a0"
 	group: "3BA1895201BB8DA0"
 	icon: {
 		id: "create:cardboard_chestplate"
 	}
 	id: "5907A5C7426898A0"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -97,8 +98,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "7DC6F078F2A6E9BA"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(apothic_enchanting:cannot_be_converted_to_xp)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "69812F7670A9BAF3"
+				item: { count: 1, id: "apotheosis:gem_dust" }
 				type: "item"
 			}]
 			x: -1.5d

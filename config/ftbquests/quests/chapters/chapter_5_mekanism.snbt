@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 1.5d
+			id: "711DA03C1EF91F70"
 			image: "imc:textures/questpics/mekanism/8ebbbd4e0256002ab047ccb00eb1f801.png"
 			rotation: 0.0d
 			width: 5.6508d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6D16CBAB4855BB81"
 			image: "imc:textures/questpics/mekanism/89c0b3a0f18496cdd453159b0ea917c7.png"
 			rotation: 0.0d
 			width: 1.7838d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "28E9BC6A16FBFF9D"
 			image: "imc:textures/questpics/mekanism/156f5f892f906bf223050e58cab34ed8.png"
 			rotation: 0.0d
 			width: 1.7838d
@@ -35,6 +38,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7CC30806F04944F7"
 			image: "imc:textures/questpics/mekanism/e07ed2935f49d3c030cee4f77e122558.png"
 			rotation: 0.0d
 			width: 3.5743d
@@ -43,6 +47,7 @@
 		}
 		{
 			height: 4.41d
+			id: "529A7A823E3DFD8E"
 			image: "imc:textures/questpics/mekanism/01e493a553e8e2ab9c9abda38c20e36f.png"
 			rotation: 0.0d
 			width: 7.2d
@@ -51,6 +56,7 @@
 		}
 		{
 			height: 4.97d
+			id: "3F4A7BB37F19155E"
 			image: "imc:textures/questpics/mekanism/2e1a917f5898c5ae5f0185cdcbd55200.png"
 			rotation: 0.0d
 			width: 4.94d
@@ -59,6 +65,7 @@
 		}
 		{
 			height: 4.36d
+			id: "12FD9FF94ECFE9F9"
 			image: "imc:textures/questpics/mekanism/f0b94c6f83fe163dd37aeb3c1e37d4ad.png"
 			rotation: 0.0d
 			width: 3.54d

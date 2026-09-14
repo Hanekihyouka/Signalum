@@ -8,6 +8,7 @@
 		id: "ftblibrary:icon_item"
 	}
 	id: "64379FB3C7F41D2D"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -340,8 +341,8 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "4E236246D21B049E"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/steel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "07B4CECC194EEF55"
+				item: { count: 1, id: "mekanism:ingot_steel" }
 				type: "item"
 			}]
 			x: 4.0d

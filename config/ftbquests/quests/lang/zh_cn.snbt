@@ -253,6 +253,7 @@
 	quest.0BCCDE24D378F260.quest_subtitle: "等级：&d3"
 	quest.0BCCDE24D378F260.title: "&d高级机器框架"
 	quest.0C0FF174A231BEA2.quest_desc: ["传送带，如果你想用这些传送带来做物品物流，它们，不好用。"]
+	quest.0CAFDCEA02129776.quest_subtitle: "多种性能升级"
 	quest.0CC516FA786B2094.quest_desc: [
 		"&c如果加入的食材 nbt 过长，会导致崩端，或者严重的渲染问题。&r"
 		""
@@ -305,7 +306,6 @@
 		"&7需要退出重进才能生效。&r"
 	]
 	quest.0CF87C6443DED1E7.title: "我不想要队伍前缀"
-	quest.0D091F8257B9FB22.quest_subtitle: "+2 容许实体数量"
 	quest.0D212038C0A45E0B.quest_desc: [
 		"&a卡苏尔弹&r是最简单的子弹，没有特殊功能，造成 40HP 伤害。"
 		"&a穿甲弹&r有高几率无视护甲。"
@@ -717,6 +717,7 @@
 	quest.1C76E244AE3582E6.quest_subtitle: "80FE/t"
 	quest.1C76E244AE3582E6.title: "装配机"
 	quest.1C92ED7F0682805A.quest_subtitle: "变小"
+	quest.1CADA4EC94BF6FE7.quest_subtitle: "多种性能升级"
 	quest.1D0BB45461DCF0EC.quest_desc: [
 		"&d怪物棉签&r可以采集生物的 dna 并制作生物的&d刷怪蛋&r。"
 		""
@@ -725,7 +726,6 @@
 	quest.1D45E7B8B486EF0D.quest_desc: ["合成材料，右键可以吃掉增加经验。"]
 	quest.1D4E7F548431263A.quest_desc: ["大部分使用&d红石工程块&r搭建的机器，都可以通过&a红石信号&r来控制开关。"]
 	quest.1D4E7F548431263A.title: "&4红石工程块"
-	quest.1DB6618285541B38.quest_subtitle: "+2 生成数量"
 	quest.1E7CBA6516A41905.quest_desc: [
 		"&bIE&r&d斗轮式挖掘机&r开采的虚拟矿脉，储量已被修改为无限量。"
 		""
@@ -740,7 +740,13 @@
 		"前期可以无需燃料处理熔炉冶炼，需要小心别把物品烧成灰了。"
 	]
 	quest.1E9B2D814F50A265.title: "&6鼓风机"
-	quest.1ED3796F8606FA49.quest_subtitle: "-10 最小生成延迟"
+	quest.1F3658891331321C.quest_desc: [
+		"提交 2048 银币到你的虚拟账户。"
+		""
+		"  奖励选择器会漂移，可能会被你的同队成员领取。"
+	]
+	quest.1F3658891331321C.quest_subtitle: "2,048"
+	quest.1F3658891331321C.title: "存钱"
 	quest.1F7DA060792D716A.quest_desc: [
 		"搅拌机用于制作&a液态混凝土&r和各种&a药水&r。"
 		""
@@ -1091,7 +1097,7 @@
 		"除了实体商品，有些店铺还提供命令执行。"
 		"命令会在购买的&c瞬间执行&r。"
 		""
-		"{image:viscript_shop:textures/shop.png width:24 height:24 align:center}"
+		"{image:viscript_shop:icons/shop width:24 height:24 align:center click_action:none:}"
 		""
 		"通过 &b/viscript_shop open common&r 可以打开系统商店。"
 		"或者你也打开背包界面，点击&6屏幕左上方&r的按钮来打开。"
@@ -1102,6 +1108,7 @@
 		"接入能量可以提高速度。"
 	]
 	quest.31324A6F96CAC112.title: "&b流体泵"
+	quest.3170362285C29B1F.quest_subtitle: "多种性能升级"
 	quest.3195A7AA874163CD.quest_desc: [
 		"&b均分卡&f可以安装在存储元件上，预先将每个格子的容量划分确定。"
 		""
@@ -1121,7 +1128,6 @@
 	quest.31F7D02AF1CF2D3B.title: "穷鬼腰带"
 	quest.320EE52EB022FAD3.quest_desc: ["&d流体阀&r可以将容器中的流体放置在世界上。"]
 	quest.320EE52EB022FAD3.title: "&b流体阀"
-	quest.321FA4883D09057A.quest_subtitle: "-20 最大生成延迟"
 	quest.32384DE59539557D.quest_desc: [
 		"&d粉碎机&r用于磨粉增产。根据配方的不同，耗能在32~120FE/t不等。"
 		""
@@ -1129,7 +1135,7 @@
 	]
 	quest.32384DE59539557D.quest_subtitle: "120FE/t"
 	quest.32384DE59539557D.title: "粉碎机"
-	quest.3250E775F3DBB028.quest_subtitle: "-5% HP"
+	quest.3250E775F3DBB028.quest_subtitle: "-16% HP"
 	quest.3252EDFAA159EDB8.quest_desc: [
 		"为&b精妙存储&r的容器提供多种功能。"
 		"它的容量升级不如抽屉的强力。"
@@ -1509,7 +1515,8 @@
 	]
 	quest.3F02EF19112D23BE.title: "&6粉碎轮"
 	quest.3F1F4C06B481BA91.quest_desc: [
-		"&b神化&r修改了&d刷怪笼&r的逻辑，使得你可以轻松的使用&a精准采集&r工具将&d刷怪笼&r带走。"
+		"&b神化&r修改了&d刷怪笼&r的逻辑，使得你可以轻松的使用&a精准采集&r工具将刷怪笼带走。"
+		""
 		"同时利用各种催化剂配置生成的生物。"
 		""
 		"对刷怪笼按&dU键&r查询配置物品。"
@@ -1932,7 +1939,7 @@
 	quest.4C63C1A869C3E65F.quest_desc: ["非常适合用作推送实体。"]
 	quest.4C77ABCD41383F32.quest_desc: ["为烈焰人制作的美味食物，玩家不能食用，在烈焰人之间风评十分火热。"]
 	quest.4C77ABCD41383F32.title: "&c烈焰蛋糕"
-	quest.4CB46AF6D536B8F7.quest_subtitle: "回响"
+	quest.4CB46AF6D536B8F7.quest_subtitle: "多倍掉落产物"
 	quest.4CC06254B7FC69E4.quest_desc: [
 		"8% 概率&a闪避&r攻击，15% 概率&a闪避&r弹射物。"
 		"受到致命伤害后会&6复活&r，立刻恢复到 5HP 并获得 5s &6无敌&r。"
@@ -2054,6 +2061,13 @@
 		"通常&a数字型采矿机&r会开采方块留下空气，这样会导致地下空洞刷怪。填充圆石可以避免这个现象。"
 	]
 	quest.515A60B89ED5440D.title: "&7造石机&8升级"
+	quest.51688F4DEFFE1C59.quest_desc: [
+		"提交 2048 金币到你的虚拟账户。"
+		""
+		"  奖励选择器会漂移，可能会被你的同队成员领取。"
+	]
+	quest.51688F4DEFFE1C59.quest_subtitle: "20,480"
+	quest.51688F4DEFFE1C59.title: "存钱"
 	quest.51D4761569E63F60.title: "脚部"
 	quest.51DE3157DE3E57B8.quest_desc: [
 		"订单的逻辑一以概之：&c发送材料，等待产物回流。&r"
@@ -2366,6 +2380,7 @@
 		"&e祈福之土&r会高速生成自然生物。"
 	]
 	quest.5BFB4974535FC67D.quest_subtitle: "我替鸡谢谢你"
+	quest.5BFE0688E5488C14.quest_subtitle: "多种性能升级"
 	quest.5C22E3103544B120.quest_desc: [
 		"&d线缆&r是你搭建网络的骨干设施，&bAE2&r的机器可以连接在线缆上，设备可以附着在线缆面上。"
 		""
@@ -2669,7 +2684,6 @@
 	]
 	quest.68B0B3DAF1145191.title: "工作站"
 	quest.690CFF61CE787D43.quest_desc: ["大部分机器都需要使用&d塑料片&r合成，现在你可以制作 &bIF&r 里等级1的机器了。"]
-	quest.6962F31E274B6E64.quest_subtitle: "+4 激活范围"
 	quest.69A8B8BD7699387B.quest_desc: ["- 它可用于与 &6猪灵&r &2交易&r，或熔炼成 &e金子&r。"]
 	quest.69A8B8BD7699387B.quest_subtitle: "就是金子"
 	quest.69B7DE2283B4EE6C.quest_desc: ["&d并行处理单元&r可以提高处理配方的并行数量和发配原材料的速度。"]
@@ -3134,7 +3148,7 @@
 		"&71&r、&610&r、&3100&r"
 		"这些货币都是实体物品，&n右键&r使用它们可以存入你的&d虚拟账户&r。点击背包中的&n按钮&r，可以将虚拟账户中的钱取出成&d实体货币&r。"
 		""
-		"{image:magic_coins:textures/gui/sprites/crystal_for_gold_button.png width:32 height:16 align:center}"
+		"{image:viscript_shop:icons/coin width:16 height:16 align:center click_action:none:}"
 		""
 		"货币的&a获取&r方式有以下几种："
 		"1. 完成&n悬赏板&r中的讨伐任务，获得任务奖励。"
@@ -3254,7 +3268,6 @@
 	task.1A33A098689DE034.title: "Any #c:ingots/steel"
 	task.1E3ED8E56692CBAB.title: "mekasuit"
 	task.1F1A69738DE70DB6.title: "菌丝网络反应堆"
-	task.20D0DB49AFA7976F.title: "任意蓄电池"
 	task.20E8F402DD286A4E.title: "Any #functionalstorage:fluid_drawer"
 	task.22981F0C87157892.title: "我知道了喵"
 	task.23D186249A999B8C.title: "石英切割刀"
@@ -3265,7 +3278,6 @@
 	task.338A6DA0D711B7DC.title: "ME样板供应器"
 	task.36B9FB74D9BF26E4.title: "热导线缆"
 	task.37E382978C16FF90.title: "桌布暂时 ban 了喵"
-	task.38E166AC8F55D42E.title: "升级"
 	task.38E290AC5E011888.title: "ME致密智能线缆"
 	task.3AB6845819FF686F.title: "纸板包裹"
 	task.3C1EC2BBB42C7F67.title: "咒魂护甲"
@@ -3287,7 +3299,6 @@
 	task.4B60ACBCC3B46D1D.title: "富集物品"
 	task.4B6C5B2099B18AB7.title: "熔炼炉"
 	task.4C47FA2598A0F030.title: "柴油发电"
-	task.4E236246D21B049E.title: "Any #c:ingots/steel"
 	task.50795B2B2A320D16.title: "加压管道"
 	task.529FFD7D692AEFA5.title: "特制弹射物"
 	task.52EA86BDE4461F6A.title: "脚部"
@@ -3316,10 +3327,8 @@
 	task.7241918F270CA402.title: "ME接口"
 	task.729C1974AE346ECA.title: "净化器"
 	task.73131D8833B27216.title: "量子套"
-	task.75924053D6F5B242.title: "空间存储元件"
 	task.79F67E07C28F8E97.title: "磁轨炮弹药"
 	task.7B71DCEF3F8F3549.title: "精炼厂"
-	task.7DC6F078F2A6E9BA.title: "Any #apothic_enchanting:cannot_be_converted_to_xp"
 	task.7E0D9E6342295AB0.title: "关于频道的前言"
 	task.7FC3DAA1BD5016A0.title: "ME智能线缆"
 	task.7FED013A7F667CC6.title: "储物箱"

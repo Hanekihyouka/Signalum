@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 1.5d
+			id: "5A7EEDC82F84AFDD"
 			image: "imc:textures/questpics/immersiveengineering/afa6d4b460178e291131c76cb0d6dce7.png"
 			rotation: 0.0d
 			width: 5.3712d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5E4A9456E1FB62DF"
 			image: "imc:textures/questpics/immersiveengineering/5a1f3a463093ed806ece31ce3892f080.png"
 			rotation: 0.0d
 			width: 1.6688d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "70A78D37FEB00616"
 			image: "imc:textures/questpics/immersiveengineering/085c585837ed3708c8f588e58e16f89d.png"
 			rotation: 0.0d
 			width: 1.6688d
@@ -35,6 +38,7 @@
 		}
 		{
 			height: 1.0d
+			id: "02415DE1BD25567C"
 			image: "imc:textures/questpics/immersiveengineering/037e4dfc3af89c0406b83ca86770b917.png"
 			rotation: 0.0d
 			width: 3.3439d
@@ -43,6 +47,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3091B743E423F99F"
 			image: "imc:textures/questpics/immersiveengineering/39e95c8effb4bc2d3c4255bedac4f4aa.png"
 			rotation: 0.0d
 			width: 1.6688d
@@ -193,8 +198,8 @@
 			}]
 			shape: "diamond"
 			tasks: [{
-				id: "4CBB52C7D0BF9B28"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:coal_coke)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "535E3459CB07A156"
+				item: { count: 1, id: "immersiveengineering:coal_coke" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -442,8 +447,8 @@
 			id: "50326B1D6EE8FA0B"
 			shape: "hexagon"
 			tasks: [{
-				id: "20D0DB49AFA7976F"
-				item: { components: { "ftbfiltersystem:filter": "or(item(immersiveengineering:capacitor_lv)item(immersiveengineering:capacitor_mv)item(immersiveengineering:capacitor_hv))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "15FFA3AF5230C41D"
+				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
 				type: "item"
 			}]
 			x: 5.5d

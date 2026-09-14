@@ -1,12 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
-	filename: "2FAC3F749F7EF3C6"
+	filename: "2fac3f749f7ef3c6"
 	group: "3BA1895201BB8DA0"
 	icon: {
 		id: "justdirethings:creaturecatcher"
 	}
 	id: "2FAC3F749F7EF3C6"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

@@ -4,7 +4,7 @@
 	default_quest_disable_jei: false
 	default_quest_shape: "circle"
 	default_reward_team: true
-	detection_delay: 20
+	detection_delay: 48
 	disable_gui: false
 	drop_book_on_death: false
 	drop_loot_crates: false
@@ -19,6 +19,20 @@
 		passive: 4000
 	}
 	pause_game: false
+	presets: {
+		goal: {
+			shape: "hexagon"
+			size: 2.0d
+		}
+		info: {
+			shape: "gear"
+			size: 1.0d
+		}
+		normal: {
+			shape: "square"
+			size: 1.0d
+		}
+	}
 	progression_mode: "linear"
 	show_lock_icons: false
 	verify_on_load: false

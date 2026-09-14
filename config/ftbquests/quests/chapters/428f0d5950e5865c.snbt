@@ -2,12 +2,13 @@
 	consume_items: false
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
-	filename: "428F0D5950E5865C"
+	filename: "428f0d5950e5865c"
 	group: "0402D7EC2A2A605C"
 	icon: {
 		id: "twilightforest:magic_map_focus"
 	}
 	id: "428F0D5950E5865C"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -630,6 +631,52 @@
 			}]
 			x: 2.5d
 			y: 3.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "1F3658891331321C"
+			rewards: [{
+				auto: "enabled"
+				command: "/coins add @p 2048"
+				id: "0993186944FBD837"
+				permission_level: 4
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "129E9732992DABDD"
+				item: { count: 1, id: "magic_coins:silver_coin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "51688F4DEFFE1C59"
+			rewards: [{
+				auto: "enabled"
+				command: "/coins add @p 20480"
+				id: "3F0E989DAD2D83D0"
+				permission_level: 4
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "5B0322534AE94B80"
+				item: { count: 1, id: "magic_coins:gold_coin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
 		}
 	]
 }

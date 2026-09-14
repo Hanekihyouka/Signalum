@@ -1,12 +1,13 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
-	filename: "452EFD912A5B1560"
+	filename: "452efd912a5b1560"
 	group: "3BA1895201BB8DA0"
 	icon: {
 		id: "laserio:laser_wrench"
 	}
 	id: "452EFD912A5B1560"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

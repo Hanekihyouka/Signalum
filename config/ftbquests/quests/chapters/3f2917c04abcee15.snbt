@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "3F2917C04ABCEE15"
+	filename: "3f2917c04abcee15"
 	group: "3BA1895201BB8DA0"
 	icon: {
 		id: "minecraft:spawner"
@@ -9,6 +9,7 @@
 	id: "3F2917C04ABCEE15"
 	images: [{
 		height: 5.5d
+		id: "71EAF25BDF859356"
 		image: "imc:textures/questpics/misc/415433ed1cfafb61eedb49d07c7cccdf.png"
 		rotation: 0.0d
 		width: 4.94d
@@ -61,24 +62,14 @@
 		}
 		{
 			id: "3F1F4C06B481BA91"
-			rewards: [
-				{
-					id: "2408FDB3751E52AA"
-					item: {
-						count: 1
-						id: "minecraft:chorus_fruit"
-					}
-					type: "item"
+			rewards: [{
+				id: "58E1CB709D63E252"
+				item: {
+					count: 1
+					id: "apotheosis:redstone_control_spawner_rune"
 				}
-				{
-					id: "4819EF5DEE857CDD"
-					item: {
-						count: 1
-						id: "minecraft:comparator"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "6406F62511DEC677"
 				item: { count: 1, id: "minecraft:spawner" }
@@ -91,8 +82,8 @@
 			dependencies: ["3F1F4C06B481BA91"]
 			id: "350D5EA90F3639C6"
 			tasks: [{
-				id: "716C34D7BF1B1068"
-				item: { count: 1, id: "minecraft:chorus_fruit" }
+				id: "434C1DFBF0813839"
+				item: { count: 1, id: "apotheosis:no_ai_spawner_rune" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -103,7 +94,7 @@
 			id: "2E8F12B053AE2E27"
 			tasks: [{
 				id: "6F96005FAEFA1FB9"
-				item: { count: 1, id: "minecraft:turtle_egg" }
+				item: { count: 1, id: "apotheosis:youthful_spawner_rune" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -113,23 +104,12 @@
 			dependencies: ["3F1F4C06B481BA91"]
 			id: "01AEA5820292199E"
 			tasks: [{
-				id: "01E8EC1E9F68068B"
-				item: { count: 1, id: "minecraft:piston" }
+				id: "0E27E7955DAC1965"
+				item: { count: 1, id: "apotheosis:spawn_range_spawner_rune" }
 				type: "item"
 			}]
 			x: -2.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["3F1F4C06B481BA91"]
-			id: "1DB6618285541B38"
-			tasks: [{
-				id: "2563F8F1A5D1BC6C"
-				item: { count: 1, id: "minecraft:fermented_spider_eye" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["3F1F4C06B481BA91"]
@@ -137,29 +117,7 @@
 			progression_mode: "linear"
 			tasks: [{
 				id: "2B4FEE0D9B361D5E"
-				item: { count: 1, id: "minecraft:white_wool" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["3F1F4C06B481BA91"]
-			id: "20E19C6A7B9CCA5D"
-			tasks: [{
-				id: "02A576509A25AA4A"
-				item: { count: 1, id: "minecraft:comparator" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["3F1F4C06B481BA91"]
-			id: "6962F31E274B6E64"
-			tasks: [{
-				id: "4C64650335FE4CE8"
-				item: { count: 1, id: "minecraft:prismarine_crystals" }
+				item: { count: 1, id: "apotheosis:silent_spawner_rune" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -167,10 +125,10 @@
 		}
 		{
 			dependencies: ["3F1F4C06B481BA91"]
-			id: "1ED3796F8606FA49"
+			id: "20E19C6A7B9CCA5D"
 			tasks: [{
-				id: "00241ECEBA9C63B4"
-				item: { count: 1, id: "minecraft:sugar" }
+				id: "3D7F49D20929D3D6"
+				item: { count: 1, id: "apotheosis:redstone_control_spawner_rune" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -178,43 +136,21 @@
 		}
 		{
 			dependencies: ["3F1F4C06B481BA91"]
-			id: "0D091F8257B9FB22"
-			tasks: [{
-				id: "24D1824AC2E7CC45"
-				item: { count: 1, id: "minecraft:ghast_tear" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3F1F4C06B481BA91"]
 			id: "3250E775F3DBB028"
 			tasks: [{
 				id: "332F9EA98803A89B"
-				item: { count: 1, id: "minecraft:pointed_dripstone" }
+				item: { count: 1, id: "apotheosis:initial_health_spawner_rune" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3F1F4C06B481BA91"]
-			id: "321FA4883D09057A"
-			tasks: [{
-				id: "651D7C39237742FE"
-				item: { components: { "quark:is_clock_calculated": 1b }, count: 1, id: "minecraft:clock" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 1.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3F1F4C06B481BA91"]
 			id: "470876CC6CAFB75B"
 			tasks: [{
 				id: "5E4BA35965DF87D1"
-				item: { count: 1, id: "minecraft:nether_star" }
+				item: { count: 1, id: "apotheosis:ignore_players_spawner_rune" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -225,7 +161,7 @@
 			id: "40D6777B7FA41969"
 			tasks: [{
 				id: "60A6E6D40468A325"
-				item: { count: 1, id: "minecraft:soul_lantern" }
+				item: { count: 1, id: "apotheosis:ignore_light_spawner_rune" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -236,7 +172,7 @@
 			id: "74EFB9199E266EDF"
 			tasks: [{
 				id: "2061FB1E882C8140"
-				item: { count: 1, id: "minecraft:conduit" }
+				item: { count: 1, id: "apotheosis:ignore_conditions_spawner_rune" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -247,7 +183,7 @@
 			id: "1BDCC38498429A35"
 			tasks: [{
 				id: "65986616B72464FE"
-				item: { count: 1, id: "minecraft:campfire" }
+				item: { count: 1, id: "apotheosis:burning_spawner_rune" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -258,11 +194,11 @@
 			id: "4CB46AF6D536B8F7"
 			tasks: [{
 				id: "09604C477EF64590"
-				item: { count: 1, id: "minecraft:echo_shard" }
+				item: { count: 1, id: "apotheosis:echoing_spawner_rune" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			id: "395340340C5BACFB"
@@ -448,6 +384,50 @@
 			}]
 			x: 9.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["3F1F4C06B481BA91"]
+			id: "5BFE0688E5488C14"
+			tasks: [{
+				id: "77DC6991637A7098"
+				item: { count: 1, id: "apotheosis:frontier_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F1F4C06B481BA91"]
+			id: "1CADA4EC94BF6FE7"
+			tasks: [{
+				id: "58F1874E0E7EC45A"
+				item: { count: 1, id: "apotheosis:ascent_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F1F4C06B481BA91"]
+			id: "0CAFDCEA02129776"
+			tasks: [{
+				id: "02ED0A871F3D714A"
+				item: { count: 1, id: "apotheosis:summit_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F1F4C06B481BA91"]
+			id: "3170362285C29B1F"
+			tasks: [{
+				id: "2424688541F539DE"
+				item: { count: 1, id: "apotheosis:pinnacle_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
 		}
 	]
 }

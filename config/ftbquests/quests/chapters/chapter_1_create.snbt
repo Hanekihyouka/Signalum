@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "506622137A9A2B18"
 			image: "imc:textures/questpics/create/ebed191a9dcfdcaf18c00faf182f4b60.png"
 			rotation: 0.0d
 			width: 3.5743d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 1.0d
+			id: "32DE397F6CEE0E62"
 			image: "imc:textures/questpics/create/fba06b39238acde0526fe2c079feb31c.png"
 			rotation: 0.0d
 			width: 3.5743d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1CCBDDEAC1654100"
 			image: "imc:textures/questpics/create/9fd899696f1ef3c066a6965438e60d43.png"
 			rotation: 0.0d
 			width: 3.5743d
@@ -35,6 +38,7 @@
 		}
 		{
 			height: 1.0d
+			id: "635AE12C1621304A"
 			image: "imc:textures/questpics/create/1b2df03fa7ff54ba3bb84df14459963e.png"
 			rotation: 0.0d
 			width: 1.7838d
@@ -43,6 +47,7 @@
 		}
 		{
 			height: 1.0d
+			id: "22A348CE3C85CBB7"
 			image: "imc:textures/questpics/create/b07166afbf5747e1cdd2ff53351226b0.png"
 			rotation: 0.0d
 			width: 1.7838d
@@ -51,6 +56,7 @@
 		}
 		{
 			height: 1.0d
+			id: "64E279A7523C18F5"
 			image: "imc:textures/questpics/create/7deaa721976e6a743cf132f2c86b543d.png"
 			rotation: 0.0d
 			width: 3.5743d
@@ -59,6 +65,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0662517D5F7D896B"
 			image: "imc:textures/questpics/create/535567f3064b6847627ecd968e5b51a3.png"
 			rotation: 0.0d
 			width: 3.5743d
@@ -67,6 +74,7 @@
 		}
 		{
 			height: 1.5d
+			id: "49EF02D78CC1534D"
 			image: "imc:textures/questpics/create/55dc38b063f58bd9addc23a3a91e54c0.png"
 			rotation: 0.0d
 			width: 6.3576d
@@ -75,6 +83,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4FCCDB63C9DB584D"
 			image: "imc:textures/questpics/create/b076115f787ef88ed834f642fb8b1d98.png"
 			rotation: 0.0d
 			width: 1.7838d
@@ -2638,24 +2647,14 @@
 		{
 			dependencies: ["2C2958E38293717E"]
 			id: "672F9CF5B0E626F1"
-			rewards: [
-				{
-					id: "68E92E63B3552943"
-					item: {
-						count: 1
-						id: "create:packager"
-					}
-					type: "item"
+			rewards: [{
+				id: "68E92E63B3552943"
+				item: {
+					count: 1
+					id: "create:packager"
 				}
-				{
-					id: "060AC68E6549CEEF"
-					item: {
-						count: 1
-						id: "create:repackager"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C863DD10448129C"
 				item: { count: 1, id: "create:packager" }
