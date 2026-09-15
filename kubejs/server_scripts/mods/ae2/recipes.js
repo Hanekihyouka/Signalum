@@ -110,4 +110,26 @@ ServerEvents.recipes(imc => {
             "C":'ae2:annihilation_core'
         }
     )
+    
+    // 物质炮弹药
+    imc.custom({"type": "ae2:matter_cannon",
+        "ammo": {"item": "mekmm:uu_matter"},
+        "weight": 1024
+    })
+    imc.custom({"type": "ae2:matter_cannon",
+        "ammo": {"item": "mekanism:pellet_antimatter"},
+        "weight": 4096
+    })
+    imc.custom({"type": "ae2:matter_cannon",
+        "ammo": {"item": "magic_coins:silver_coin"},
+        "weight": 64
+    })
+    imc.custom({"type": "ae2:matter_cannon",
+        "ammo": {"item": "magic_coins:gold_coin"},
+        "weight": 256
+    })
+    imc.custom({"type": "ae2:matter_cannon",
+        "ammo": {"item": "magic_coins:crystal_coin"},
+        "weight": 1024
+    })
 })
