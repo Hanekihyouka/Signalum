@@ -3,3 +3,6 @@
 
 # Exclude exported Modrinth modpacks
 *.mrpack
+
+# 暴力
+mods/openysm-neoforge-2.6.10.14.jar

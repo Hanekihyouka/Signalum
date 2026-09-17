@@ -5994,9 +5994,8 @@ hash = "00fb150ec4389dbe540bcede8ac3b6e34677f5bf3e3454732d311b7e44569d63"
 metafile = true
 
 [[files]]
-file = "mods/openysm-unofficial-neoforge-port.pw.toml"
-hash = "97fabd9b263b55398378eb3bb5df755fc59d7a64ca85fd6cfcf8fbb3fd275a01"
-metafile = true
+file = "mods/openysm-neoforge-2.6.10.14.jar"
+hash = "7bff1fca313e9e5c887cd5dcce8dcf2b776b9c9014122fbb151b35767b2ec745"
 
 [[files]]
 file = "mods/patchouli.pw.toml"
