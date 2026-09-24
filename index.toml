@@ -5310,12 +5310,12 @@ hash = "ad01443cebf98d8fa8e3bbaf1159760828bd89c0d45833a18a79de0603434a20"
 
 [[files]]
 file = "mods/advanced-core-info.pw.toml"
-hash = "260d28d035348500a3d54830170a0db5250834b7b3ec33d80e084b797b608eba"
+hash = "c8d19e2c305ff8e9c978992c132798be135601f4ea245b0114bfeef60b80b484"
 metafile = true
 
 [[files]]
 file = "mods/advanced-loot-info.pw.toml"
-hash = "8b504bd29dd249ad39ad27177c91e652a4aea8e75db3e98abd23fecd9ae021b6"
+hash = "c78f0837d82e9ae47af79be51a3226152ff93394edc254b930d394a87fcbcb47"
 metafile = true
 
 [[files]]
@@ -5525,7 +5525,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "7a164150e18506d4574474a4479b9c4e22fa9debbf79ac4f0d21c04a5adeee5d"
+hash = "2108ab41dd9a48a7a5ac62b89c4cbe152983f71d6aa406b3dce0dfc0a1be486c"
 metafile = true
 
 [[files]]
@@ -5585,7 +5585,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "52fd907a732fe2539218a44cba0100f2b976d68c3f69100191394fff83fdf5de"
+hash = "e926d31a8a5e87d5f76945e4e42f01f61bbd99d064efddbc601ca7f065d8da87"
 metafile = true
 
 [[files]]
@@ -5680,7 +5680,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "555624620c434a7a24517e67d0317318fc226f49f8bddd820dd22f3442f179bd"
+hash = "6af89fd83988eabd495c74f194915bad8d31806b8ca7e603c38de7dcf9d06ef3"
 metafile = true
 
 [[files]]
@@ -5695,7 +5695,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "65ac18556f91ebb4f303a39731e93e94ffa94ddc690b0fbf35346bdcb3b05919"
+hash = "4cf7eb494f48576e28895ee5f362878f95c6bad65372666106140fdae82d0c4c"
 metafile = true
 
 [[files]]
@@ -5710,7 +5710,7 @@ metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
-hash = "9163b1128300a4a9e8a021276fb16544d7e0e7e85f776dc3f59c1a54ec22e598"
+hash = "b24c97f37ff924391f9beae46b8955eb0475b3b3f74616af2430dff4505d9b49"
 metafile = true
 
 [[files]]
@@ -5730,7 +5730,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-melodies.pw.toml"
-hash = "21126c8c96eed810699e7761c331307bf0624424d98b854e86d34bcc35ffa34c"
+hash = "f76de386f2b3e5bf1435a173f34d457adb9e349819b30136c5fa99382bff37bb"
 metafile = true
 
 [[files]]
@@ -5745,7 +5745,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-api.pw.toml"
-hash = "e3a985ce66f846e861ea6c3f97ce55cbf0fbe5ae1fe9439d65de2cb90712dd77"
+hash = "998a683cb3c418947cbc05d251b4113dbf336ef271a8b3d8ea7d6672cc9eef64"
 metafile = true
 
 [[files]]
@@ -5785,7 +5785,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "adccd909b48fc3867f7b2fa07cca2e4f0a0bac39cbebab652a131ca3b6af94eb"
+hash = "47c701c67e70b60b3a71c9ec4aff707ea0411f033024730b1ca0567b8526a824"
 metafile = true
 
 [[files]]
@@ -5800,7 +5800,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "9c2b73f9c55ebb20374b022fd3f73a306de380360e599cd2252663bd0215c82c"
+hash = "37c2484814ccc1c14c71e1bf1e166d7318cce30d2f559ab919822418d8b63a4d"
 metafile = true
 
 [[files]]
@@ -5825,12 +5825,12 @@ metafile = true
 
 [[files]]
 file = "mods/kaleidoscope-compat.pw.toml"
-hash = "ce0f6ffd967835f7335cdb588b5d9b4df806b516f867eacf301e9bfff8bc0df7"
+hash = "71b8457a5f6316c0c4d089dc91572358ff337d1c8e48f11df2bc885f65894c81"
 metafile = true
 
 [[files]]
 file = "mods/kaleidoscope-cookery.pw.toml"
-hash = "736320078bdd72041452e9bb1c6efd44859e46b0e5d862dbd814cf48ef5b92aa"
+hash = "400603dc25d4726054d1f43be32840b1d2d7ef64414e9afabf156b9a0daa238a"
 metafile = true
 
 [[files]]
@@ -5875,7 +5875,7 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "caf6cf6430150b3eaa292f50f559df9ffe5314dcd9668154954da2748dd39c8f"
+hash = "add65f8e2180439bc7da2c1be05fe509a8205b9da7a36f375e12c1454006448f"
 metafile = true
 
 [[files]]
@@ -5885,7 +5885,7 @@ metafile = true
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
-hash = "b21e4c7a4bbf9d8acadfe5d0e2dc8d250a17740b2516a28a906c30edec0149b0"
+hash = "0f04f325e69159d49ef7ad0593d9fa2caaca3825bc519b3d54c253bfcb0ae435"
 metafile = true
 
 [[files]]
@@ -5900,7 +5900,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "85b032d6fc2208b2ff0c3a247328ea9a89bace96a7cfca30757b566955406ed3"
+hash = "50ba38ecb113e5ca8bc7c39ee2533f29c13501fc952e119af73be05e3e6debd7"
 metafile = true
 
 [[files]]
@@ -5955,7 +5955,7 @@ metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "ba171fa793fd417a83408f9de651caacb45b62477691920e8230178579a6598e"
+hash = "9f49c7407a38c6d066c22d315754378e3d1babb4673d62c1531a1453d74090e9"
 metafile = true
 
 [[files]]
@@ -6028,7 +6028,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "f784b19f703cb6edce79cd1dd46960461831a0f665a518c305362eacbdac6515"
+hash = "50e7e41a1d53a71b6ce78af1a938ca9aecd0d59c4f9e80241b07e35def36638d"
 metafile = true
 
 [[files]]
@@ -6068,7 +6068,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "8532de1bebd0adbaefe89aead1c038e6449e5b7e8f4a8d8663a6f2555954e063"
+hash = "c2b0d7ec55761b479f0d825516a37d66f95811a9c1d464c9e1c584efe9d561fe"
 metafile = true
 
 [[files]]
@@ -6143,7 +6143,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "d50dfa866f719fe606d34bb81b0e466c1e6017878fa6b58b405e419ceaf9ee0d"
+hash = "20c4933aaef50088715abaee847a0dcb67c4863d11264518bfcac2dd7701f58e"
 metafile = true
 
 [[files]]
@@ -6173,7 +6173,7 @@ metafile = true
 
 [[files]]
 file = "mods/torchmaster.pw.toml"
-hash = "f3275e582b2626dcc9ae543154c2eff9aa4b60a571a9103b057db024974b2806"
+hash = "de4baeea541da736247e11bb8a90c66cee56e29e0b999af5ecb9fd82391c166f"
 metafile = true
 
 [[files]]
@@ -6253,7 +6253,7 @@ metafile = true
 
 [[files]]
 file = "mods/yungs-api-neoforge.pw.toml"
-hash = "1e326549d08f0f793d3972da239ec81b40c28498f87cf507a8dc7aa2bbea6550"
+hash = "a7f7162205a99fed65c2191907c00ee6a5f8a8a87cfd661e8d3829ebe346306f"
 metafile = true
 
 [[files]]
