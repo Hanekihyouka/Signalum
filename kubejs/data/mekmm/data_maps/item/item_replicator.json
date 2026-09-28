@@ -1,0 +1,1129 @@
+{
+  "values": {
+    "kaleidoscope_chinesefood:steamed_rice_rolls": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:eggplant": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:liangshan_ice_cone": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:sandwich": {
+      "uu_amount": 1
+    },
+    "create:chocolate_glazed_berries": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:cooked_meatball": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:chopped_golden_carrot": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:experiment_115_skewer": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:dough_drop_soup": {
+      "uu_amount": 1
+    },
+    "artifacts:everlasting_beef": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:cooked_twilight_ghost_tentacle": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_tavern:ice_grape": {
+      "uu_amount": 1
+    },
+    "twilightforest:maze_wafer": {
+      "uu_amount": 1
+    },
+    "minecraft:cooked_mutton": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:beef_with_scrambled_eggs": {
+      "uu_amount": 1
+    },
+    "farmersdelight:ham": {
+      "uu_amount": 1
+    },
+    "minecraft:ominous_bottle": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:crimson_fungus_pot_soup": {
+      "uu_amount": 1
+    },
+    "farmersdelight:bacon": {
+      "uu_amount": 1
+    },
+    "minecraft:pufferfish": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:mooncake": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cooked_chicken_cuts": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:qingtuan": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:dongpo_pork": {
+      "uu_amount": 1
+    },
+    "minecraft:poisonous_potato": {
+      "uu_amount": 1
+    },
+    "farmersdelight:bone_broth": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:tomato": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:witchcraft_bone_soup": {
+      "uu_amount": 1
+    },
+    "farmersdelight:pie_crust": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:twilight_fern": {
+      "uu_amount": 1
+    },
+    "minecraft:tropical_fish": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:glow_mushroom_pot_soup": {
+      "uu_amount": 1
+    },
+    "farmersdelight:steak_and_potatoes": {
+      "uu_amount": 1
+    },
+    "minecraft:apple": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:golden_apple_slices": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:sauerkraut_beef_noodles": {
+      "uu_amount": 1
+    },
+    "farmersdelight:fried_egg": {
+      "uu_amount": 1
+    },
+    "farmersdelight:ratatouille": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:sichuan_boiled_fish": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:sweet_and_sour_pork_rice_bowl": {
+      "uu_amount": 1
+    },
+    "twilightforest:venison_jerky": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:bread_slice": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:enchanted_golden_apple_slices": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:donkey_burger": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:glacier_cake": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:sweet_and_sour_pork": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:nether_style_sashimi": {
+      "uu_amount": 1
+    },
+    "corn_delight:corn": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:big_plate_chicken_noodles": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cooked_mutton_chops": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:seaweed_egg_drop_soup": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:cooked_pork_belly": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:stuffed_puzzle_croissant": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:century_egg_congee": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:pufferfish_soup": {
+      "uu_amount": 1
+    },
+    "twilightforest:pork_jerky": {
+      "uu_amount": 1
+    },
+    "supplementaries:candy": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:egg_fried_rice": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cabbage": {
+      "uu_amount": 1
+    },
+    "twilightforest:stingberry": {
+      "uu_amount": 1
+    },
+    "twilightforest:gelatinous_maze_slime_drop": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:stir_fried_three_fresh_vegetables": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:cooked_rice": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:numbing_spicy_chicken": {
+      "uu_amount": 1
+    },
+    "farmersdelight:pumpkin_soup": {
+      "uu_amount": 1
+    },
+    "minecraft:chicken": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:raw_cow_offal": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:beef_with_scrambled_eggs_rice": {
+      "uu_amount": 1
+    },
+    "farmersdelight:bacon_and_eggs": {
+      "uu_amount": 1
+    },
+    "minecraft:sweet_berries": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:century_egg": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:deer_stew_potato": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:green_chili": {
+      "uu_amount": 1
+    },
+    "farmersdelight:chocolate_pie_slice": {
+      "uu_amount": 1
+    },
+    "minecraft:porkchop": {
+      "uu_amount": 1
+    },
+    "farmersdelight:pasta_with_meatballs": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:scramble_egg_with_tomatoes": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:pork_bone_soup": {
+      "uu_amount": 1
+    },
+    "minecraft:carrot": {
+      "uu_amount": 1
+    },
+    "minecraft:rabbit_stew": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:stuffed_tiger_skin_pepper": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:magic_bean_soup": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:samsa": {
+      "uu_amount": 1
+    },
+    "farmersdelight:roasted_mutton_chops": {
+      "uu_amount": 1
+    },
+    "twilightforest:torchberries": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:raw_meatball": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cooked_salmon_slice": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:sauced_snake_feast": {
+      "uu_amount": 1
+    },
+    "twilightforest:chicken_jerky": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:pochi_pudding": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:meat_pie": {
+      "uu_amount": 1
+    },
+    "farmersdelight:sweet_berry_cookie": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:fried_caterpillar": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:fondant_spider_eye": {
+      "uu_amount": 1
+    },
+    "farmersdelight:honey_glazed_ham": {
+      "uu_amount": 1
+    },
+    "artifacts:eternal_steak": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:salt_baked_naga": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:cooked_cow_offal": {
+      "uu_amount": 1
+    },
+    "twilightforest:raw_venison": {
+      "uu_amount": 1
+    },
+    "farmersdelight:fish_stew": {
+      "uu_amount": 1
+    },
+    "farmersdelight:bacon_sandwich": {
+      "uu_amount": 1
+    },
+    "twilightforest:skyberry": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:sashimi": {
+      "uu_amount": 1
+    },
+    "minecraft:cooked_salmon": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:tomato_slices": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:laba_congee": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:hui_noodle": {
+      "uu_amount": 1
+    },
+    "supplementaries:lumisene_bottle": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:tomato_egg_drop_soup": {
+      "uu_amount": 1
+    },
+    "farmersdelight:chicken_sandwich": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:chopped_beetroot": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:yellow_croaker": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_tavern:gold_grape": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:sichuan_boiled_pork_slices": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:stir_fried_three_fresh_vegetables_rice": {
+      "uu_amount": 1
+    },
+    "twilightforest:maloberry": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:chicken_and_mushroom_stew": {
+      "uu_amount": 1
+    },
+    "farmersdelight:roast_chicken": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cooked_bacon": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:big_plate_chicken": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:udon_noodle": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:oil_splashed_fish": {
+      "uu_amount": 1
+    },
+    "farmersdelight:mixed_salad": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_tavern:grape": {
+      "uu_amount": 1
+    },
+    "minecraft:enchanted_golden_apple": {
+      "uu_amount": 1
+    },
+    "farmersdelight:glow_berry_custard": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:warped_fungus_pot_soup": {
+      "uu_amount": 1
+    },
+    "farmersdelight:onion": {
+      "uu_amount": 1
+    },
+    "farmersdelight:pasta_with_mutton_chop": {
+      "uu_amount": 1
+    },
+    "minecraft:beetroot": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:four_joy_meatballs": {
+      "uu_amount": 1
+    },
+    "farmersdelight:pumpkin_pie_slice": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:chopped_carrot": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:hydra_bolognese": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:minotaur_salad_pasta": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:magic_crispy_corner": {
+      "uu_amount": 1
+    },
+    "twilightforest:tropical_fish_jerky": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:caterpillar": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:cold_style_sashimi": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:red_rice_roll": {
+      "uu_amount": 1
+    },
+    "farmersdelight:apple_cider": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:cooked_cut_small_meats": {
+      "uu_amount": 1
+    },
+    "minecraft:rotten_flesh": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cake_slice": {
+      "uu_amount": 1
+    },
+    "farmersdelight:baked_cod_stew": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:end_style_sashimi": {
+      "uu_amount": 1
+    },
+    "minecraft:melon_slice": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:burger_bun": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:sticky_candy": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:crystal_lamb_chop": {
+      "uu_amount": 1
+    },
+    "farmersdelight:wheat_dough": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:twilight_chicken_mushroom_stew": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:yangzhou_fried_rice": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:braised_beef": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:raw_naga_meat": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cabbage_rolls": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:braised_beef_with_potatoes": {
+      "uu_amount": 1
+    },
+    "minecraft:beetroot_soup": {
+      "uu_amount": 1
+    },
+    "twilightforest:gelatinous_slime_drop": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:rainbow_bun": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:baozi": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:blaze_lamb_chop": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:chorus_fried_egg": {
+      "uu_amount": 1
+    },
+    "farmersdelight:squid_ink_pasta": {
+      "uu_amount": 1
+    },
+    "farmersdelight:tomato": {
+      "uu_amount": 1
+    },
+    "farmersdelight:minced_beef": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:twilight_ghost_pasta": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:fondant_pie": {
+      "uu_amount": 1
+    },
+    "twilightforest:monster_jerky": {
+      "uu_amount": 1
+    },
+    "minecraft:pumpkin_pie": {
+      "uu_amount": 1
+    },
+    "twilightforest:meef_jerky": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:stir_fried_fat_caterpillar_rice_bowl": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:fish_flavored_shredded_pork": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:stir_fried_pork_with_peppers_rice_bowl": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:dry_pot_spare_ribs": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:cooked_lamb_chops": {
+      "uu_amount": 1
+    },
+    "farmersdelight:stuffed_pumpkin": {
+      "uu_amount": 1
+    },
+    "minecraft:cod": {
+      "uu_amount": 1
+    },
+    "farmersdelight:mushroom_rice": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cabbage_leaf": {
+      "uu_amount": 1
+    },
+    "minecraft:cooked_chicken": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:twilight_caterpillar": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:cooked_naga_meat": {
+      "uu_amount": 1
+    },
+    "farmersdelight:dumplings": {
+      "uu_amount": 1
+    },
+    "minecraft:mutton": {
+      "uu_amount": 1
+    },
+    "minecraft:cooked_rabbit": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:bamboo_tube_rice": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:fearsome_thick_soup": {
+      "uu_amount": 1
+    },
+    "twilightforest:moss_soup": {
+      "uu_amount": 1
+    },
+    "twilightforest:experiment_115": {
+      "uu_amount": 1
+    },
+    "quark:cooked_crab_leg": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:braised_beef_rice_bowl": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:burger_bun_top": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:minotaur_roll": {
+      "uu_amount": 1
+    },
+    "minecraft:bread": {
+      "uu_amount": 1
+    },
+    "relics:cooked_meatball": {
+      "uu_amount": 1
+    },
+    "farmersdelight:vegetable_noodles": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:stir_fried_fat_caterpillar": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:maze_stuffed_pancake": {
+      "uu_amount": 1
+    },
+    "minecraft:honey_bottle": {
+      "uu_amount": 1
+    },
+    "farmersdelight:apple_pie_slice": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:shengjian_mantou": {
+      "uu_amount": 1
+    },
+    "farmersdelight:mutton_wrap": {
+      "uu_amount": 1
+    },
+    "farmersdelight:noodle_soup": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cooked_rice": {
+      "uu_amount": 1
+    },
+    "minecraft:cookie": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:sliced_onion": {
+      "uu_amount": 1
+    },
+    "farmersdelight:chicken_cuts": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:tundra_style_sashimi": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:evil_soul_noodle_soup": {
+      "uu_amount": 1
+    },
+    "twilightforest:fugu_jerky": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:torchberry_deer_sandwich": {
+      "uu_amount": 1
+    },
+    "minecraft:spider_eye": {
+      "uu_amount": 1
+    },
+    "minecraft:beef": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:ice_crystal_mousse": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:cold_roasted_meat": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:yellow_croaker_tofu_soup": {
+      "uu_amount": 1
+    },
+    "twilightforest:rabbit_jerky": {
+      "uu_amount": 1
+    },
+    "farmersdelight:melon_popsicle": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:red_mushroom_pot_soup": {
+      "uu_amount": 1
+    },
+    "farmersdelight:pumpkin_slice": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:dumpling": {
+      "uu_amount": 1
+    },
+    "farmersdelight:sweet_berry_cheesecake_slice": {
+      "uu_amount": 1
+    },
+    "twilightforest:cooked_venison": {
+      "uu_amount": 1
+    },
+    "twilightforest:berry_medley": {
+      "uu_amount": 1
+    },
+    "farmersdelight:mutton_chops": {
+      "uu_amount": 1
+    },
+    "twilightforest:raw_meef": {
+      "uu_amount": 1
+    },
+    "farmersdelight:hamburger": {
+      "uu_amount": 1
+    },
+    "minecraft:glow_berries": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_tavern:green_grape": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:raw_pork_belly": {
+      "uu_amount": 1
+    },
+    "twilightforest:blackberry": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:wonton_noodles": {
+      "uu_amount": 1
+    },
+    "farmersdelight:chicken_soup": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:frost_lamb_chop": {
+      "uu_amount": 1
+    },
+    "twilightforest:salmon_jerky": {
+      "uu_amount": 1
+    },
+    "twilightforest:beef_jerky": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:lamb_pilaf": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:braised_pork_ribs": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:raw_cut_small_meats": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:borscht": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:witchcraft_croissant": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:twilight_wellington_steak": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:yellow_croaker_soup": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:deer_stew_potato_rice_bowl": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:phantom_fern_stew": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:raw_burger_bun": {
+      "uu_amount": 1
+    },
+    "farmersdelight:dog_food": {
+      "uu_amount": 1
+    },
+    "cataclysm:amethyst_crab_meat": {
+      "uu_amount": 1
+    },
+    "twilightforest:meef_stroganoff": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:naga_green_tongue": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:lotus_chicken": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:red_chili": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:witchcraft_cake": {
+      "uu_amount": 1
+    },
+    "farmersdelight:fried_rice": {
+      "uu_amount": 1
+    },
+    "farmersdelight:salmon_roll": {
+      "uu_amount": 1
+    },
+    "farmersdelight:salmon_slice": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:stir_fried_yellow_beef_rice": {
+      "uu_amount": 1
+    },
+    "cataclysm:lionfish": {
+      "uu_amount": 1
+    },
+    "minecraft:suspicious_stew": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:fried_spring_roll": {
+      "uu_amount": 1
+    },
+    "minecraft:cooked_porkchop": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:brown_mushroom_pot_soup": {
+      "uu_amount": 1
+    },
+    "minecraft:salmon": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:mantou": {
+      "uu_amount": 1
+    },
+    "farmersdelight:nether_salad": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:wild_mushroom_rabbit_soup": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:torchberry_cookie": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:beef_meatball_soup": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:cold_tossed_fern": {
+      "uu_amount": 1
+    },
+    "minecraft:mushroom_stew": {
+      "uu_amount": 1
+    },
+    "create:bar_of_chocolate": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:spicy_chicken": {
+      "uu_amount": 1
+    },
+    "farmersdelight:barbecue_stick": {
+      "uu_amount": 1
+    },
+    "minecraft:golden_carrot": {
+      "uu_amount": 1
+    },
+    "twilightforest:duskberry": {
+      "uu_amount": 1
+    },
+    "farmersdelight:egg_sandwich": {
+      "uu_amount": 1
+    },
+    "twilightforest:hydra_chop": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:dry_pot_potatoes": {
+      "uu_amount": 1
+    },
+    "farmersdelight:grilled_salmon": {
+      "uu_amount": 1
+    },
+    "yuushya:beef": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:sweet_and_sour_ender_pearls": {
+      "uu_amount": 1
+    },
+    "farmersdelight:raw_pasta": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:twilight_ghost_sashimi": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:slime_ball_meal": {
+      "uu_amount": 1
+    },
+    "farmersdelight:kelp_roll": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:fried_egg": {
+      "uu_amount": 1
+    },
+    "twilightforest:blueberry": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:desert_style_sashimi": {
+      "uu_amount": 1
+    },
+    "create:honeyed_apple": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:dry_pot_chicken": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:tomato_egg_noodles": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:ice_crystal_hydra_steak": {
+      "uu_amount": 1
+    },
+    "create:sweet_roll": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:spicy_rabbit_head": {
+      "uu_amount": 1
+    },
+    "farmersdelight:shepherds_pie": {
+      "uu_amount": 1
+    },
+    "twilightforest:mutton_jerky": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:buddha_jumps_over_the_wall": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:lettuce": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:stir_fried_pork_with_peppers": {
+      "uu_amount": 1
+    },
+    "farmersdelight:beef_patty": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:rainbow_candy": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:twice_cooked_pork": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:apple_slices": {
+      "uu_amount": 1
+    },
+    "farmersdelight:onion_soup": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:maocai": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:lamb_and_radish_soup": {
+      "uu_amount": 1
+    },
+    "twilightforest:shika_senbei": {
+      "uu_amount": 1
+    },
+    "cataclysm:blessed_amethyst_crab_meat": {
+      "uu_amount": 1
+    },
+    "minecraft:golden_apple": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:pumpkin_porridge": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:spicy_blood_stew": {
+      "uu_amount": 1
+    },
+    "farmersdelight:tomato_sauce": {
+      "uu_amount": 1
+    },
+    "farmersdelight:honey_cookie": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:tea_date": {
+      "uu_amount": 1
+    },
+    "minecraft:dried_kelp": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:four_joy_meatball_soup": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:seafood_miso_soup": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:scramble_egg_with_tomatoes_rice_bowl": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:pan_seared_knight_steak": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:burger_bun_bottom": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:chinese_sauerkraut": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:stir_fried_yellow_beef": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:cooked_yeti_meat": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:fish_flavored_shredded_pork_rice_bowl": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:pork_chili_noodles": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:beef_noodle": {
+      "uu_amount": 1
+    },
+    "farmersdelight:fruit_salad": {
+      "uu_amount": 1
+    },
+    "twilightforest:raspberry": {
+      "uu_amount": 1
+    },
+    "quark:ancient_fruit": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:aurora_ice_cream": {
+      "uu_amount": 1
+    },
+    "twilightforest:cod_jerky": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:candied_potato": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:zongzi": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:hot_dry_noodles": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:twice_cooked_pork_rice": {
+      "uu_amount": 1
+    },
+    "relics:raw_meatball": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:kita_stuffed_crisp": {
+      "uu_amount": 1
+    },
+    "minecraft:rabbit": {
+      "uu_amount": 1
+    },
+    "farmersdelight:kelp_roll_slice": {
+      "uu_amount": 1
+    },
+    "someassemblyrequired:toasted_bread_slice": {
+      "uu_amount": 1
+    },
+    "artifacts:onion_ring": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:sticky_rice_cake": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:raw_lamb_chops": {
+      "uu_amount": 1
+    },
+    "minecraft:baked_potato": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:suspicious_stir_fry": {
+      "uu_amount": 1
+    },
+    "supplementaries:soap": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:stargazy_pie": {
+      "uu_amount": 1
+    },
+    "minecraft:chorus_fruit": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:twilight_berry_salad": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cod_slice": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:tomahawk_steak": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cooked_cod_slice": {
+      "uu_amount": 1
+    },
+    "farmersdelight:smoked_ham": {
+      "uu_amount": 1
+    },
+    "farmersdelight:stuffed_potato": {
+      "uu_amount": 1
+    },
+    "create:builders_tea": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:raw_yeti_meat": {
+      "uu_amount": 1
+    },
+    "mob_grinding_utils:solid_xp_baby": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:raw_twilight_ghost_tentacle": {
+      "uu_amount": 1
+    },
+    "farmersdelight:gleaming_salad": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:yangrou_paomo": {
+      "uu_amount": 1
+    },
+    "twilightforest:cooked_meef": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_twilight:frozen_bun": {
+      "uu_amount": 1
+    },
+    "minecraft:cooked_beef": {
+      "uu_amount": 1
+    },
+    "farmersdelight:beef_stew": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:salted_egg": {
+      "uu_amount": 1
+    },
+    "farmersdelight:vegetable_soup": {
+      "uu_amount": 1
+    },
+    "minecraft:potato": {
+      "uu_amount": 1
+    },
+    "minecraft:cooked_cod": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_chinesefood:sichuan_wonton": {
+      "uu_amount": 1
+    },
+    "quark:crab_leg": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:golden_salad": {
+      "uu_amount": 1
+    },
+    "farmersdelight:cod_roll": {
+      "uu_amount": 1
+    },
+    "kaleidoscope_cookery:dark_cuisine": {
+      "uu_amount": 1
+    },
+    "twilightforest:blightberry": {
+      "uu_amount": 1
+    }
+  }
+}

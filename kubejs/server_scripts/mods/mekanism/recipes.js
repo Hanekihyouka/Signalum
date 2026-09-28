@@ -1,5 +1,5 @@
 ServerEvents.recipes(imc => {
-
+    
     imc.remove({ id: 'mekanism:cardboard_box' })
 // casing & frame
     imc.remove({ id: 'mekanism:steel_casing' })
@@ -181,7 +181,7 @@ ServerEvents.recipes(imc => {
     imc.remove({ id: 'mekanism:quantum_entangloporter' })
     imc.remove({ id: 'entangled:block' })
     imc.remove({ id: 'mekmm:large_heat_generator' })
-    
+    imc.remove({ id: 'mekmm:large_wind_generator'})
     imc.shaped(
         Item.of('mekanism:energized_smelter', 1),
         ["ACA","GXG","ACA"],

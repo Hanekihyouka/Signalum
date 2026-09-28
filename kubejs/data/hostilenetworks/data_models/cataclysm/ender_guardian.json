@@ -1,0 +1,26 @@
+{
+    "entity": "cataclysm:ender_guardian",
+    "variants": [],
+    "name_color": "#CC00CC",
+    "display": {
+        "scale": 0.25
+    },
+    "sim_cost": 32768,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:end_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.ender_dragon",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:deepslate_diamond_ore",
+            "count": 4
+        },
+        {
+            "id": "minecraft:diamond_ore",
+            "count": 4
+        }
+    ]
+}

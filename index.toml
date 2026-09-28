@@ -5185,12 +5185,28 @@ file = "kubejs/config/web_server.json"
 hash = "44a90b8df89c2cc949a3acb35ade992fd0ca0e2a41a3d562b21ed6f3ea6f8242"
 
 [[files]]
+file = "kubejs/data/aeronautics/dimension_physics/overworld.json"
+hash = "423c23d4c37d733c3b53215aa395a3f440ab75729f35ba682490012cf2ba69fa"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/ender_guardian.json"
+hash = "db56b7120e5d6d78770cacdac017df5532f8cbbaa4c7045871bb1826d778f239"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/cataclysm/netherite_monstrosity.json"
+hash = "1ffc61a6e034147cdb05d91c8ca89e53046f7d692630fc42e9c143296d9223db"
+
+[[files]]
 file = "kubejs/data/hostilenetworks/data_models/chicken.json"
 hash = "30450154b0a5146b242a6503d79895a05b55d6d2514db5d0c0f406138a71fbf3"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/ender_dragon.json"
 hash = "7d20d58290fa84705d8298778913cc3a36d2455c6a16cbdc802738a2774ff874"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/magma_cube.json"
+hash = "0558ff09c8f0a96123c94cc7991b447d149a9edebc08afcade6b5a6ff98139fd"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/twilightforest/alpha_yeti.json"
@@ -5225,12 +5241,20 @@ file = "kubejs/data/hostilenetworks/data_models/twilightforest/ur_ghast.json"
 hash = "7c1cfb27dc70c5222383f557928dca0b4b7a47fcb38bf21d2e0be6b86da50fdd"
 
 [[files]]
+file = "kubejs/data/hostilenetworks/data_models/twilightforest/wraith.json"
+hash = "d36cdb5ceb8f149152a86599d6b77ef7e520da27abff6c155c60d5409ad00f7b"
+
+[[files]]
 file = "kubejs/data/immersiveengineering/recipe/mineral/crystal.json"
 hash = "d7ff54b4e9084763ede42f4167092af7a3ca9a4d66e29c96cc527a5a0a498645"
 
 [[files]]
 file = "kubejs/data/immersiveengineering/recipe/mineral/hematite.json"
 hash = "d4d8038ba2ee736d58dd678a4b558184d590dc6b5772e82374c23fa3bd1b3557"
+
+[[files]]
+file = "kubejs/data/mekmm/data_maps/item/item_replicator.json"
+hash = "7637bdb513932d562885fb33d22e8c06bea011c06688422baadd98c7aa8afbdd"
 
 [[files]]
 file = "kubejs/data/minecraft/advancement/nyaa.json"
@@ -5243,6 +5267,10 @@ hash = "29e9f73a4c03f58b6d16bc96e6aa1e21df606ab10c63e5f1c72354b8c93b107f"
 [[files]]
 file = "kubejs/data/minecraft/dimension_type/overworld_caves.json"
 hash = "fecec4981d6f748e676e148629b7b4932d99485e8f8b1f5c4aa3d4246bf766af"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/block/dragon_immune.json"
+hash = "86c6821ae43ea4ab1e41a49c4ab0ebaa6f56b934aeb01e4b57d11143e0644f9e"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/block/enderman_holdable.json"
@@ -5274,7 +5302,7 @@ hash = "26f84884c488c895ab976325c0dc71ace9e5f1dacf79f96399587478237becc4"
 
 [[files]]
 file = "kubejs/server_scripts/mods/mekanism/recipes.js"
-hash = "36a9a1d5db100ce2688f807862974468a5d3c7ff2fa23f44327d0a417d12d8d7"
+hash = "1cafc930c50b7756a6dd2921d6a29a99d61b155fd4fc265ceb1a4f9eb1ef83a0"
 
 [[files]]
 file = "kubejs/server_scripts/mods/mob_grinding_utils/recipes.js"
@@ -5290,7 +5318,7 @@ hash = "f95105710f90ea2e7abada054db007454f1cba2f3d113b2ecfe401f504f98b9d"
 
 [[files]]
 file = "kubejs/server_scripts/utils/common.js"
-hash = "878bac3c4ab583e74aa150e4e5e48d2f39a8e44dc53ca6b115e0107135f1daa5"
+hash = "62f83d1c4a6ea2bbace326a2ae3c0daff841af639ac483969221c422b50076aa"
 
 [[files]]
 file = "kubejs/server_scripts/utils/conflicts.js"
@@ -5345,7 +5373,7 @@ metafile = true
 
 [[files]]
 file = "mods/apotheosis.pw.toml"
-hash = "6f606f19c073ea9a45fde58115a2ba5f9f45c8bcb0934372347be90c88cc7f8b"
+hash = "b2e1d98c6778c0c4fcbff4afad1a5c944478d56b24326c8c549b0e484f89a803"
 metafile = true
 
 [[files]]
@@ -5375,7 +5403,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "afa4f499d946514c51f41f8f2202ac0946052b012570a210ebb31f0d0d627672"
+hash = "4b78352cbccdb3400530955a3e1271b2a60aec604e26e2ecdbf840faf0457d47"
 metafile = true
 
 [[files]]
@@ -5400,12 +5428,12 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "7dba9a4a9894a6bbab3a8c7edcc718499297412247fc0e8ccebf75b760c85140"
+hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
 file = "mods/bandwidthoptimizer.pw.toml"
-hash = "fe57fc3200a3a6a3a40543479d6f7566f879907d21cd6bfab3aa0a5376e22d22"
+hash = "3356df6e95df0fe26edb05c97075fa4cae4c3d4b3f72608f1a0c2a40c322e284"
 metafile = true
 
 [[files]]
@@ -5510,7 +5538,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-lazytick.pw.toml"
-hash = "9cbc1dbf7374cd3bc9ba7ca44fcf791686a5b0a14d3af4532c5ce431e4e7dc1f"
+hash = "dcbd5a1746f22a46123749b809eb38087b7be1afcd2f8e2ad7a7328457bd5be7"
 metafile = true
 
 [[files]]
@@ -5525,7 +5553,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "2108ab41dd9a48a7a5ac62b89c4cbe152983f71d6aa406b3dce0dfc0a1be486c"
+hash = "30cb84b864534e520ce67d07a7898b71f03d6f346afd54f33d9cb967f4859c54"
 metafile = true
 
 [[files]]
@@ -5735,7 +5763,7 @@ metafile = true
 
 [[files]]
 file = "mods/in-game-account-switcher.pw.toml"
-hash = "aad375973b8960c43f5597bd29f517ac5182cb654ef0a2a017febbe65e8ccbd4"
+hash = "15fc3e915a4a4804d86fdc8671009207218e9a94ee317098fbbb95fd1903a857"
 metafile = true
 
 [[files]]
@@ -5845,7 +5873,7 @@ metafile = true
 
 [[files]]
 file = "mods/kaleidoscope-twilight.pw.toml"
-hash = "689d1ddebd649813a208bddf378e17f1594109a4636d4bbcd3d3d279ff533003"
+hash = "c9551afb66025984a5cc56b9240335bd855ba7dfed9547ab76edc5065a881732"
 metafile = true
 
 [[files]]
@@ -5900,7 +5928,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "50ba38ecb113e5ca8bc7c39ee2533f29c13501fc952e119af73be05e3e6debd7"
+hash = "ff152357ebb175e8e8c58ecda4f9814d398c5668f3311b0ad6a4afcb1dc26d13"
 metafile = true
 
 [[files]]
@@ -6068,7 +6096,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "c2b0d7ec55761b479f0d825516a37d66f95811a9c1d464c9e1c584efe9d561fe"
+hash = "d99554cf4022a273d2cc8108ed590c39965d244e3177316397f6cacc72cd2eb0"
 metafile = true
 
 [[files]]
@@ -6108,17 +6136,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d089be7d1b39541c418ea6a6a4d3797eb5afcc68ad511dbd606de66d5397d59d"
+hash = "bcdd9de050d7efbc77ffc3ce177905bf099301e3fd48993606402fc70537bc18"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "2f0c858e1e303aba06718a27c1628134418d53825bd46e3c44cabe1b442636c7"
+hash = "5d4e493a74a7deb175d278274e6990f92d1a3910fae5d4866a1520bbca9acce2"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "2d45e747634f18813476b01a13507fa99e01e330334f11c3ed8b6a074faf3b5f"
+hash = "aea57e9f582f669231634b1d311c68a2d7d26f26d53865e00839e211d3059074"
 metafile = true
 
 [[files]]
@@ -6193,7 +6221,7 @@ metafile = true
 
 [[files]]
 file = "mods/trash-cans.pw.toml"
-hash = "3cd7280f90ef9e2754cf2b6f45b749d1054c6348873a61044ce808dfe977c15a"
+hash = "565ec8138372853c5d32dffbf78d48c4673248eeb84847e9544df772fb0c227b"
 metafile = true
 
 [[files]]
@@ -6208,7 +6236,7 @@ metafile = true
 
 [[files]]
 file = "mods/viscriptshop.pw.toml"
-hash = "304ce5ee297ac2e97041055cfb48cdf22cc5d7abbbb371bd25b1c5e6f7571c0d"
+hash = "f8820a7fa6f7b00f172ebbeb344f1e2e12a825e37dc81039067dace746c23454"
 metafile = true
 
 [[files]]
@@ -6223,7 +6251,7 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "42b53ca74c99b3d0edb2ef4e07896b269fd058e049e44e8503d8fd921342eee8"
+hash = "cfc3d0abc9c387a708d246bef5f90481cd62adee3b6ed7e0932042de2bdbcc3e"
 metafile = true
 
 [[files]]
