@@ -6022,8 +6022,8 @@ hash = "00fb150ec4389dbe540bcede8ac3b6e34677f5bf3e3454732d311b7e44569d63"
 metafile = true
 
 [[files]]
-file = "mods/openysm-neoforge-2.6.10.14.jar"
-hash = "7bff1fca313e9e5c887cd5dcce8dcf2b776b9c9014122fbb151b35767b2ec745"
+file = "mods/openysm-neoforge-2.6.10.17.jar"
+hash = "0bc7875e600d6630d7cd31bfbe9bb201d42fffb0eea85582ad60b67d21dcca15"
 
 [[files]]
 file = "mods/patchouli.pw.toml"
