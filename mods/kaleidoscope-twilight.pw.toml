@@ -1,13 +1,13 @@
 name = "Kaleidoscope Twilight"
-filename = "kaleidoscope_twilight-1.1.5-neoforge+mc1.21.1.jar"
+filename = "kaleidoscope_twilight-1.2.0-neoforge+mc1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c3219f2260cf8f00c0187d7d62f8f0a72e6c4175"
+hash = "e70d2391122101fd9ce33a9a87e5eaeb07087395"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8970814
+file-id = 9028413
 project-id = 1525243

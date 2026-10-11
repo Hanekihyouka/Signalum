@@ -1,13 +1,13 @@
 name = "Kaleidoscope Compat"
-filename = "kaleidoscope_compat-2.9.7-neoforge+mc1.21.1-Patch.jar"
+filename = "kaleidoscope_compat-2.9.7-neoforge+mc1.21.1-Patch.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9eec6a3c9c01b022cba3708706b679d8bd6a5cf4"
+hash = "3a3c849e5629a604c90b36741ab379a0a2e5f871"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8920105
+file-id = 9118946
 project-id = 1580791

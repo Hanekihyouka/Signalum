@@ -1,13 +1,13 @@
 name = "KaleidoscopeChineseFood"
-filename = "kaleidoscope_chinesefood-1.1.13-neoforge+1.21.1.jar"
+filename = "kaleidoscope_chinesefood-1.1.14-neoforge+1.21.1-feature.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/cuIIkdlx/versions/DAwZBnDN/kaleidoscope_chinesefood-1.1.13-neoforge%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/cuIIkdlx/versions/yyn9XqgV/kaleidoscope_chinesefood-1.1.14-neoforge%2B1.21.1-feature.jar"
 hash-format = "sha512"
-hash = "916d0c5ba73da893b25c6a8285a0794cb5b80988003cc33300691ce5ded82a154b0a4fa35f49e4828c2167fbc975d4713886953cd3643c24fe7d33791ef1073b"
+hash = "8f0dc2133927f78feb6898fe87a55ad7c07624a9cf283da698679a66822010a928cffd8a6a414655b4e4b75bfffe5d2308b6e9d6e99552c4cc8b40b656db1351"
 
 [update]
 [update.modrinth]
 mod-id = "cuIIkdlx"
-version = "DAwZBnDN"
+version = "yyn9XqgV"
