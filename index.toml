@@ -5542,6 +5542,11 @@ hash = "dcbd5a1746f22a46123749b809eb38087b7be1afcd2f8e2ad7a7328457bd5be7"
 metafile = true
 
 [[files]]
+file = "mods/create-train-track-rail-grinding.pw.toml"
+hash = "a49ff84536a1e1ce08f7f1fb6d2443a9ad030b86f57aefbded614c74a47822c5"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
 metafile = true
