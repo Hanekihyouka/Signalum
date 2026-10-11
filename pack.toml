@@ -1,6 +1,6 @@
 name = "imc-12th"
 author = "haneki"
-version = "1.9.29"
+version = "1.10.12"
 pack-format = "packwiz:1.1.0"
 
 [index]
