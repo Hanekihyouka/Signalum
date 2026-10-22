@@ -5433,7 +5433,7 @@ metafile = true
 
 [[files]]
 file = "mods/bandwidthoptimizer.pw.toml"
-hash = "be8c480bd4f2158d565974b1769419ef2bcc94ea3b26cfa53553a3249002ca66"
+hash = "3848e5290854e04c4a1b902f390420bb8b523a164f461b5d0def9d4b9ad5227f"
 metafile = true
 
 [[files]]
@@ -5538,7 +5538,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-lazytick.pw.toml"
-hash = "dcbd5a1746f22a46123749b809eb38087b7be1afcd2f8e2ad7a7328457bd5be7"
+hash = "3b5979dbcd1e5eae692f0f8f022e5132e9494b3eb4d25503be506fae275199b3"
 metafile = true
 
 [[files]]
@@ -5704,6 +5704,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
 hash = "3529bc9c3a7b54933869be1d1d84a948d091c3d6064bbb6b17874d7c153b4dca"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "96b8df58491c7190b35bf1c5115f029df6464ec276244557becad1613c5f5125"
 metafile = true
 
 [[files]]
@@ -6076,7 +6081,7 @@ metafile = true
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "a63a24d0d6357d1ca0f72dc60351ff2c18d708be6ee1f6f8f9dcfd5f25983ceb"
+hash = "e94fd40ce5d026f23bd729e02b8ff9bdfbd77bdafa6ad7e3b7eb327633a401cb"
 metafile = true
 
 [[files]]
