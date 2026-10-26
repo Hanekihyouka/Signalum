@@ -5462,6 +5462,11 @@ hash = "66f64dd86c6a39c69d0feca05c79f58f30ebffcd6d4851628b671acb6eb8be18"
 metafile = true
 
 [[files]]
+file = "mods/brute-force-culling-revamped.pw.toml"
+hash = "f2af7e8352d5a70487382102cee4daaf931ff5b18ccefa79d8251da4721c10d1"
+metafile = true
+
+[[files]]
 file = "mods/building-gadgets.pw.toml"
 hash = "88908286eebea979713b5626891f634317fcc4c5a5bd4ec0c9444a33863a4518"
 metafile = true
@@ -6277,6 +6282,11 @@ metafile = true
 [[files]]
 file = "mods/xibaoxx.pw.toml"
 hash = "e1a005e340153d2070e4f21c2f4283e8c73dcd5924d75bc1f36eadab3e1fc9c4"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
 metafile = true
 
 [[files]]
