@@ -1,13 +1,13 @@
 name = "Create:LazyTick"
-filename = "CreateLazyTick-2.7.31-6.0.10-neoforge-1.21.1.jar"
+filename = "CreateLazyTick-2.7.32-6.0.10-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3dbc7895d8bffa3253ab158126251f6efd04a749"
+hash = "d7214dcb0edf99f2137b316ffad2b6c14b4ab577"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9188038
+file-id = 9298663
 project-id = 1409401
