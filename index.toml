@@ -6071,7 +6071,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "e9ae31ca87412a2a03b00a13e0c73ac122cad510c8cb9b93511345cc15d91ee1"
+hash = "50e7e41a1d53a71b6ce78af1a938ca9aecd0d59c4f9e80241b07e35def36638d"
 metafile = true
 
 [[files]]
@@ -6256,12 +6256,12 @@ metafile = true
 
 [[files]]
 file = "mods/waterframes.pw.toml"
-hash = "469f0f969b971d3a7165fd64d6bf06aa689512f39a308c7c8f10b12cb8fe9338"
+hash = "5d5b144eb42a6a6d505c720a3f04c6b84be39165ccf08c3f1a01dabf0e75b2ac"
 metafile = true
 
 [[files]]
 file = "mods/watermedia.pw.toml"
-hash = "b71d026ca97c10d2ce4a4ab584629f9e26d5a6b136287c9c82beee948b5e46fb"
+hash = "0528731743be7df4ba5a8952264861920f90475ed333f914fddea75473cd6012"
 metafile = true
 
 [[files]]
