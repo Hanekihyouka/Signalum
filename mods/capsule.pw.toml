@@ -1,13 +1,13 @@
 name = "Capsule"
-filename = "Capsule-1.21.1-9.0.117.jar"
+filename = "Capsule-neoforge-1.21.1-9.1.248.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "14159591022a0b737981792403a172f65a445aaf"
+hash = "79b7a11c2586f01146fd6913c950ce3028eaf9a1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7803731
+file-id = 9546639
 project-id = 235338

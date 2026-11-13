@@ -1,13 +1,13 @@
 name = "FTB Echoes"
-filename = "ftb-echoes-21.1.10.jar"
+filename = "ftb-echoes-21.1.12.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b1dcfda946e5615a803fe306678373da7120f659"
+hash = "ffe535bd4ea6b3b17cf7a40398d6b3fbfd31c3f0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8443093
+file-id = 9533096
 project-id = 1369870

@@ -1,13 +1,13 @@
 name = "Magic Coins"
-filename = "magic_coins-1.2.0.jar"
+filename = "magic_coins-1.2.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5a5b0fe39bcaec545438d0adcc6514547d501d12"
+hash = "b295597886d788f121bd40d6569176d8d86a19d8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8719268
+file-id = 9413043
 project-id = 597281
