@@ -5587,6 +5587,11 @@ hash = "657a415947ae7c99600b9e76cfadd72edca3f67482e99de7c03528e2b0e4c6e5"
 metafile = true
 
 [[files]]
+file = "mods/efficient-hashing.pw.toml"
+hash = "0b7ba35e6c8cb93a4181a7169c1e8ff09f2eb5f3506bfa5bb09846d9cd9c84d7"
+metafile = true
+
+[[files]]
 file = "mods/emi-loot.pw.toml"
 hash = "35758c0b3e04476d1ff8fb30a46d5beb2ad0634c062f753cfb02531c684c9134"
 metafile = true
@@ -5924,6 +5929,11 @@ metafile = true
 [[files]]
 file = "mods/leaderboards.pw.toml"
 hash = "36556dec4313e74c6f87c027a958ed63d9f106b9554c6ddf2638d51e6c347d16"
+metafile = true
+
+[[files]]
+file = "mods/lean-object.pw.toml"
+hash = "5520338b9315cbb1891d08143ba45a945e067f6b2023440db40cdd9a26130872"
 metafile = true
 
 [[files]]

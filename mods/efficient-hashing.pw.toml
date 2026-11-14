@@ -1,0 +1,13 @@
+name = "EfficientHashing"
+filename = "efficient_hashing-neoforge-1.0.2+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "55ef5f13f9a5ffb232497cd6ae1ef6a826540de1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9096892
+project-id = 1393802

@@ -1,0 +1,13 @@
+name = "Lean Object"
+filename = "leanobject-1.21.1-26.11.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dd3f6be58132bfe58f062ff2851c83ed4d07a7f4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9457255
+project-id = 1703183
