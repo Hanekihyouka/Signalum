@@ -1,0 +1,17 @@
+{
+  "icon": [
+    "ftbquests:textures/gui/shop.png"
+  ],
+  "sort_index": 10,
+  "click": [
+    "command:/vss_market open"
+  ],
+  "required_mods": [
+    "vss_market"
+  ],
+  "tooltip": [
+    {
+      "translate": "sidebar_button.ftblibrary.vss_market.open"
+    }
+  ]
+}

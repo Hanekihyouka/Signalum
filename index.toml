@@ -3013,6 +3013,14 @@ file = "kubejs/assets/forbidden_arcanus/lang/zh_cn.json"
 hash = "0fea16e69056ecd99f3bacb64d961151b49975e10ba42c8502d238a2f5f86208"
 
 [[files]]
+file = "kubejs/assets/ftblibrary/sidebar_buttons/viscript_shop.json"
+hash = "5611c6f936b8530a6af1a8a52570e05ef6b8c49854dffa7e9766cea3090051de"
+
+[[files]]
+file = "kubejs/assets/ftblibrary/sidebar_buttons/vss_market.json"
+hash = "89b3fff12178af99cc60a3beec1a1846ee5be86c6f9fa438255fa04b170425a6"
+
+[[files]]
 file = "kubejs/assets/ftbmaterials/lang/zh_cn.json"
 hash = "25c731fffd0e83991a07c00ee3151efe9541c50a74f1cfd125aaa904ce925be5"
 
@@ -3119,6 +3127,14 @@ hash = "791b687d43f654b0f29d6a1a583e6bd7c1ebbbfc3d56ea5f3d25e058d75a056e"
 [[files]]
 file = "kubejs/assets/iafjei/lang/zh_cn.json"
 hash = "0b4bdb8c2efea4930a5f8cf1bea3720d24e0602afd4454ae965b745b8b9fc7ab"
+
+[[files]]
+file = "kubejs/assets/imc/lang/en_us.json"
+hash = "21479ddd48c16be14c4c03f10f583b119681106a54003ea261d64d37ededb3db"
+
+[[files]]
+file = "kubejs/assets/imc/lang/zh_cn.json"
+hash = "7c3a9e7b5dc8e1e93277d54c94254d228f4092b5aa32cae138af63039cc97bcc"
 
 [[files]]
 file = "kubejs/assets/imc/textures/questpics/ae2/12dda1d74f53a5715c6c1e261c25b6a2.png"

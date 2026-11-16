@@ -1,0 +1,17 @@
+{
+  "icon": [
+    "viscript_shop:icons/shop"
+  ],
+  "sort_index": 10,
+  "click": [
+    "command:/viscript_shop open"
+  ],
+  "required_mods": [
+    "viscript_shop"
+  ],
+  "tooltip": [
+    {
+      "translate": "sidebar_button.ftblibrary.viscript_shop.open"
+    }
+  ]
+}
